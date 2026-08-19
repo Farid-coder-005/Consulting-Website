@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { Routes, Route, useLocation, Link } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -70,14 +70,6 @@ export default function App() {
         </AnimatePresence>
       </main>
       <Footer />
-
-      {/* Vertical "Contact Us" tab */}
-      <Link
-        to="/iletisim"
-        className="fixed right-0 top-1/2 -translate-y-1/2 z-40 bg-[#0062E0] text-white font-medium text-xs tracking-wider px-2 py-4 rounded-l-md [writing-mode:vertical-rl] rotate-180 hover:bg-[#0050b3] transition shadow-lg"
-      >
-        Contact Us
-      </Link>
 
       {/* Floating bottom-right contact widgets */}
       <FloatingWidgets />
