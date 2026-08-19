@@ -559,11 +559,11 @@ export default function Header() {
       {/* Main navigation */}
       <header className="sticky top-0 z-40 bg-white shadow-[0_2px_5px_rgba(0,0,0,0.05)]">
         <div className="max-w-[1400px] mx-auto px-[50px] w-full flex items-center justify-between h-[85px]">
-          <Link to="/" className="shrink-0">
+          <Link to="/" className="shrink-0 flex items-center">
             <img
               src={LOGO_URL}
               alt="KeyStone Quality Partners"
-              className="h-16 w-auto mr-10 object-contain"
+              className="h-20 w-auto mr-10 object-contain"
             />
           </Link>
 
