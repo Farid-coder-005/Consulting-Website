@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+/* ============================================================
+   Brand tokens — mirror the static clone's Tailwind config so
+   utilities like `bg-brand`, `text-accent`, `font-heading` work.
+   ============================================================ */
+@theme {
+  --color-brand: #122352;
+  --color-brand-dark: #0d1a3d;
+  --color-brand-light: #1a2f63;
+  --color-accent: #2079be;
+  --color-accent-light: #6fa6d4;
+  --color-success: #58a81e;
+  --color-alert: #dd3333;
+  --color-whatsapp: #25d366;
+
+  --font-heading: "Raleway", ui-sans-serif, system-ui, sans-serif;
+  --font-body: "Open Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-title: "Playfair Display", Georgia, "Times New Roman", serif;
+  --font-display: "Cantata One", ui-serif, Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Hide native details marker — we use a custom chevron */
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Hero carousel slide fade */
+@keyframes heroFade {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.hero-fade {
+  animation: heroFade 0.5s ease both;
+}

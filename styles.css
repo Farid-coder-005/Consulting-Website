@@ -1,0 +1,51 @@
+/* ============================================================
+   styles.css — minimal custom styles for elements that are
+   awkward to express with utility classes alone.
+   The bulk of styling is handled by Tailwind utilities in index.html.
+   ============================================================ */
+
+:root {
+  --brand: #122352;
+  --accent: #2079be;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Sticky header shadow on scroll (toggled via JS) */
+#site-header.is-scrolled {
+  box-shadow: 0 4px 20px rgba(18, 35, 82, 0.08);
+}
+
+/* Hide native details marker — we use custom chevron */
+details > summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Accordion: animate open state smoothly */
+[data-accordion-item] summary {
+  user-select: none;
+}
+
+[data-accordion-item] p {
+  animation: fadeIn 0.25s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-4px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
