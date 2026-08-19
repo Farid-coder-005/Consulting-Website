@@ -1,6 +1,7 @@
 {
   "name": "consulting-service-api",
   "version": "1.0.0",
+  "type": "commonjs",
   "description": "Production-ready RESTful API for consulting services",
   "main": "dist/app.js",
   "scripts": {

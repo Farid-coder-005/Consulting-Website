@@ -8,7 +8,6 @@ import routes from "./routes";
 import { errorHandler, notFoundHandler } from "./middlewares/error";
 
 const app = express();
-const __dirname = path.resolve();
 
 app.use(helmet());
 app.use(cors({ origin: config.corsOrigin, credentials: true }));
@@ -34,7 +33,7 @@ app.use("/api/v1", routes);
 const frontendDist = path.join(__dirname, "frontend", "dist");
 app.use(express.static(frontendDist));
 
-app.get("*", (_req, res) => {
+app.get("/{*splat}", (_req, res) => {
   res.sendFile(path.join(frontendDist, "index.html"));
 });
 
