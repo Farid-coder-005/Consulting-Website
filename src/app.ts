@@ -9,7 +9,31 @@ import { errorHandler, notFoundHandler } from "./middlewares/error";
 
 const app = express();
 
-app.use(helmet());
+app.use(
+  helmet({
+    contentSecurityPolicy: {
+      directives: {
+        defaultSrc: ["'self'"],
+        imgSrc: [
+          "'self'",
+          "data:",
+          "https://gurcanpartners.com",
+          "https://images.unsplash.com",
+          "https://flagcdn.com",
+          "https://picsum.photos",
+          "https://www.google.com",
+          "https://maps.google.com",
+          "https://www.youtube.com",
+          "https://img.youtube.com",
+        ],
+        scriptSrc: ["'self'", "'unsafe-inline'", "'unsafe-eval'"],
+        styleSrc: ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"],
+        fontSrc: ["'self'", "https://fonts.gstatic.com"],
+        frameSrc: ["'self'", "https://www.google.com", "https://www.youtube.com"],
+      },
+    },
+  })
+);
 app.use(cors({ origin: config.corsOrigin, credentials: true }));
 app.use(express.json({ limit: "10kb" }));
 app.use(express.urlencoded({ extended: true }));
