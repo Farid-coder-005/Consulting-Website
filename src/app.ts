@@ -1,3 +1,4 @@
+import path from "path";
 import express from "express";
 import cors from "cors";
 import helmet from "helmet";
@@ -7,6 +8,7 @@ import routes from "./routes";
 import { errorHandler, notFoundHandler } from "./middlewares/error";
 
 const app = express();
+const __dirname = path.resolve();
 
 app.use(helmet());
 app.use(cors({ origin: config.corsOrigin, credentials: true }));
@@ -28,6 +30,13 @@ app.get("/health", (_req, res) => {
 });
 
 app.use("/api/v1", routes);
+
+const frontendDist = path.join(__dirname, "frontend", "dist");
+app.use(express.static(frontendDist));
+
+app.get("*", (_req, res) => {
+  res.sendFile(path.join(frontendDist, "index.html"));
+});
 
 app.use(notFoundHandler);
 app.use(errorHandler);
