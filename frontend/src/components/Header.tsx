@@ -563,7 +563,7 @@ export default function Header() {
             <img
               src={LOGO_URL}
               alt="KeyStone Quality Partners"
-              className="w-[180px] h-auto mr-10 object-contain"
+              className="h-16 w-auto mr-10 object-contain"
             />
           </Link>
 
