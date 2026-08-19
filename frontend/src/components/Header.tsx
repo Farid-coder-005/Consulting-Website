@@ -562,7 +562,7 @@ export default function Header() {
           <Link to="/" className="shrink-0">
             <img
               src={LOGO_URL}
-              alt="Gurcan Partners"
+              alt="KeyStone Quality Partners"
               className="w-[180px] h-auto mr-10 object-contain"
             />
           </Link>

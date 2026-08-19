@@ -1,4 +1,4 @@
-export const LOGO_URL = "https://gurcanpartners.com/wp-content/uploads/gurcan-logo.png";
+export const LOGO_URL = "/logo.png";
 
 export const HERO_BG =
   "https://gurcanpartners.com/wp-content/uploads/gurcan-partners-faaliyet-alanlarimiz.jpg";
