@@ -30,7 +30,7 @@ app.get("/health", (_req, res) => {
 
 app.use("/api/v1", routes);
 
-const frontendDist = path.join(__dirname, "frontend", "dist");
+const frontendDist = path.join(process.cwd(), "frontend", "dist");
 app.use(express.static(frontendDist));
 
 app.get("/{*splat}", (_req, res) => {
