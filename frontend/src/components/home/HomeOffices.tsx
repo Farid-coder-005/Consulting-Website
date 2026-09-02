@@ -20,7 +20,7 @@ export default function HomeOffices() {
             className="group relative max-w-3xl w-full h-80 md:h-96 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-500"
           >
             <img
-              src="https://images.unsplash.com/photo-1584465144198-0146a1b67039?w=1200&q=80"
+              src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=1200&auto=format&fit=crop"
               alt="Malta Valletta"
               className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
             />
