@@ -16,10 +16,10 @@ export default function HomeInitiatives() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* GURCAN AI */}
+          {/* KEYSTONE AI */}
           <div className="rounded-2xl overflow-hidden shadow-sm border border-slate-100">
             <div className="text-center py-6 px-6">
-              <h3 className="font-title text-3xl font-bold text-brand tracking-wider">GURCAN AI</h3>
+              <h3 className="font-title text-3xl font-bold text-brand tracking-wider">KEYSTONE AI</h3>
             </div>
             <div className="relative h-64 overflow-hidden bg-slate-200">
               <img

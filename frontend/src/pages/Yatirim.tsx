@@ -124,11 +124,11 @@ export default function Yatirim() {
             />
             <div className="text-center lg:text-left">
               <h2 className="font-title font-bold text-2xl md:text-3xl text-[#0c2044] leading-snug mb-8">
-                GAYRİMENKUL HAYALİNİZİ GURCAN INVEST İLE GERÇEĞE DÖNÜŞTÜRÜN
+                GAYRİMENKUL HAYALİNİZİ KEYSTONE INVEST İLE GERÇEĞE DÖNÜŞTÜRÜN
               </h2>
               <div className="flex justify-center lg:justify-start">
                 <Img
-                  src={UP + "G-blue-gold111.jpg"}
+                  src="/logo2.png"
                   alt="Keystone Invest Logo"
                   className="w-40 h-auto"
                 />
