@@ -52,7 +52,7 @@ export default function Footer() {
           </p>
           <div className="text-slate-300 text-sm leading-relaxed space-y-4">
             <p>
-              Gurcan Partners olarak; entegre hukuk, vergi ve kurumsal danışmanlık
+              Keystone Partners olarak; entegre hukuk, vergi ve kurumsal danışmanlık
               hizmetlerimiz aracılığıyla girişimcilerin, yatırımcıların ve şirketlerin
               uluslararası alanda kurulmalarına ve büyümelerine yardımcı oluyoruz.
             </p>
@@ -76,7 +76,7 @@ export default function Footer() {
 
       <div className="max-w-7xl mx-auto px-4 mt-12 pt-6 border-t border-blue-900/40">
         <div className="text-center text-xs text-white/50">
-          Gurcan Partners - 2026 |{" "}
+          Keystone Partners - 2026 |{" "}
           <a href="#" className="hover:text-white/80 transition">
             Gizlilik Politikası
           </a>

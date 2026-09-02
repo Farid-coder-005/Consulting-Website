@@ -5,7 +5,7 @@ const reviews = [
     initials: "YB",
     name: "Yunus Başürün",
     time: "5 Ay Önce",
-    text: "Gurcan Consultancy ekibi ilk günden itibaren sorularıma büyük bir özenle yaklaştı ve her zaman çözüm odaklı bir performans sergiledi. Özellikle Sayın Gürcan'ın ufak det...",
+    text: "Keystone Consultancy ekibi ilk günden itibaren sorularıma büyük bir özenle yaklaştı ve her zaman çözüm odaklı bir performans sergiledi. Özellikle Sayın Keystone'ın ufak det...",
     color: "bg-[#1a5276]",
   },
   {

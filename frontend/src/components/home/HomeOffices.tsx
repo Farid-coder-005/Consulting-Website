@@ -9,10 +9,10 @@ export default function HomeOffices() {
         <div className="text-center mb-10">
           <h2 className="font-title text-3xl md:text-[40px] text-brand leading-snug max-w-4xl mx-auto">
             Yerel Varlık. Uluslararası Erişim.{" "}
-            <span className="text-accent">Gurcan Partners</span> Ofisleri
+            <span className="text-accent">Keystone Partners</span> Ofisleri
           </h2>
           <p className="text-slate-600 mt-5 max-w-4xl mx-auto text-base leading-relaxed">
-            Çok uluslu ve çok dilli bir ekibe sahip olan Gurcan Partners; entegre hukuk, vergi, uyum ve kurumsal danışmanlık çözümleri aracılığıyla farklı hukuki yetki alanlarındaki girişimcileri, yatırımcıları ve şirketleri desteklemektedir.
+            Çok uluslu ve çok dilli bir ekibe sahip olan Keystone Partners; entegre hukuk, vergi, uyum ve kurumsal danışmanlık çözümleri aracılığıyla farklı hukuki yetki alanlarındaki girişimcileri, yatırımcıları ve şirketleri desteklemektedir.
           </p>
         </div>
 

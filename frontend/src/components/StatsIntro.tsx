@@ -52,14 +52,14 @@ export default function StatsIntro() {
     <section className="py-16 md:py-24 bg-white">
       <Reveal className="max-w-5xl mx-auto px-4 text-center">
         <h2 className="font-title font-bold text-2xl md:text-3xl text-brand uppercase leading-snug">
-          Gurcan Partners Uluslararası Hukuk ve Danışmanlık Ofisi
+          Keystone Partners Uluslararası Hukuk ve Danışmanlık Ofisi
         </h2>
         <p className="text-slate-600 mt-4 max-w-2xl mx-auto">
           Şirket Kuruluşu, Uluslararası Şirketleşme, Uluslararası Vergi
           Danışmanlığı ve Daha Fazlası
         </p>
         <blockquote className="font-title italic text-xl md:text-2xl text-brand mt-8 max-w-3xl mx-auto">
-          “Gurcan Partners uluslararası, inovatif bir Uluslararası hukuk ve
+          “Keystone Partners uluslararası, inovatif bir Uluslararası hukuk ve
           danışmanlık şirketidir.”
         </blockquote>
         <div className="grid grid-cols-3 gap-6 mt-12 max-w-2xl mx-auto">

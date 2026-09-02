@@ -122,7 +122,7 @@ export default function ContactFormSection() {
 
           {/* Socials (1/3) */}
           <div className="rounded-2xl border border-slate-200 bg-[#0F2B5C] p-8 text-white">
-            <h3 className="font-title text-2xl font-bold">Gurcan Partners</h3>
+            <h3 className="font-title text-2xl font-bold">Keystone Partners</h3>
             <p className="mt-3 text-sm text-white/70">
               Sosyal medya hesaplarımızdan da bize ulaşabilirsiniz.
             </p>

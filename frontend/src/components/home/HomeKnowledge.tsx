@@ -26,14 +26,14 @@ export default function HomeKnowledge() {
           Bilgi <span className="text-accent">Merkezi</span>
         </h2>
 
-        {/* Gurcan Journal */}
+        {/* Keystone Journal */}
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
           <div>
             <h3 className="font-title text-2xl text-brand mb-4">
-              Gurcan <span className="text-accent">Journal</span>
+              Keystone <span className="text-accent">Journal</span>
             </h3>
             <p className="text-slate-600 text-sm leading-relaxed mb-6 max-w-md">
-              Gurcan Journal; 10 ülkede yasal, vergi ve yatırım fırsatları hakkında 13 dilde yayın yapan ücretsiz bir platformdur.
+              Keystone Journal; 10 ülkede yasal, vergi ve yatırım fırsatları hakkında 13 dilde yayın yapan ücretsiz bir platformdur.
             </p>
             <Link
               to="/blog"

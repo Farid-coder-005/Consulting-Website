@@ -55,7 +55,7 @@ export default function HomeStatsIntro() {
         <div className="flex items-center gap-6 mb-6">
           <span className="flex-1 h-[1px] bg-slate-300" />
           <h2 className="font-title font-bold text-2xl md:text-3xl text-brand uppercase tracking-wide shrink-0">
-            Gurcan Partners Global Hukuk Bürosu
+            Keystone Partners Global Hukuk Bürosu
           </h2>
           <span className="flex-1 h-[1px] bg-slate-300" />
         </div>
@@ -80,7 +80,7 @@ export default function HomeStatsIntro() {
             href="#process"
             className="inline-block border-2 border-brand text-brand hover:bg-brand hover:text-white font-heading font-semibold px-8 py-3 rounded-full transition text-sm tracking-wide"
           >
-            İşletmeler Neden Gurcan Partners'ı Tercih Ediyor?
+            İşletmeler Neden Keystone Partners'ı Tercih Ediyor?
           </a>
         </div>
       </Reveal>

@@ -381,6 +381,6 @@ export const footerServices = [
   "Uluslararası Vergi Danışmanlığı",
   "Avrupa'da Marka Tescili",
   "Avrupa'da Şirket Kuruluşu",
-  "Gurcan Yapay Zeka",
+  "Keystone Yapay Zeka",
   "Dubai'de Şirket Kuruluşu",
 ];

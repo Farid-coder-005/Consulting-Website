@@ -14,7 +14,7 @@ const slides: Slide[] = [
   {
     subtitle: "Uluslararası Hukuk ve Danışmanlık Ofisi",
     title:
-      "Gurcan Partners, multi-milyon dolarlık uluslararası projelere stratejik uzmanlığıyla rehberlik etme ve destekleme konusunda uzmandır.",
+      "Keystone Partners, multi-milyon dolarlık uluslararası projelere stratejik uzmanlığıyla rehberlik etme ve destekleme konusunda uzmandır.",
     buttons: [
       { label: "Hizmet Noktalarımız", to: "/#offices" },
       { label: "İletişim", to: "/#contact" },

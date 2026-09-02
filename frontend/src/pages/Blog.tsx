@@ -104,8 +104,8 @@ export default function Blog() {
   return (
     <PageTransition>
       <InnerHero
-        eyebrow="Gurcan Journal"
-        title="Gurcan Journal"
+        eyebrow="Keystone Journal"
+        title="Keystone Journal"
         subtitle="We Believe In Collaboration, Future and Innovation"
       />
 

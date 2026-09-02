@@ -12,7 +12,7 @@ const features = [
   },
   {
     title: "Profesyonel Takım",
-    desc: "Gurcan Partners'ın deneyimli ekibi işbirliğiyle",
+    desc: "Keystone Partners'ın deneyimli ekibi işbirliğiyle",
     icon: UP + "2-4.png",
   },
   {
@@ -58,7 +58,7 @@ export default function Yatirim() {
         <div className="absolute inset-0 bg-gradient-to-r from-[#0A192F]/90 via-[#0c2044]/75 to-[#0c2044]/60" />
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full text-center">
           <h1 className="font-title text-4xl md:text-6xl font-bold text-white mb-4">
-            Gurcan Invest
+            Keystone Invest
           </h1>
           <p className="text-slate-200 text-lg md:text-xl max-w-2xl mx-auto">
             Avrupa'da Gayrimenkul Yatırımını Kolaylaştırıyoruz
@@ -70,10 +70,10 @@ export default function Yatirim() {
       <section className="py-12 md:py-16 bg-white">
         <Reveal className="max-w-6xl mx-auto text-center px-6 py-8">
           <p className="text-xl md:text-2xl font-semibold text-center text-[#B5A056] max-w-5xl mx-auto leading-relaxed mb-6">
-            Gurcan Invest olarak Avrupa'da uygun fiyata mülk sahibi olmak isteyenlerin hayallerini gerçekleştirmek için profesyonel partnerlerimizle çalışıyoruz.
+            Keystone Invest olarak Avrupa'da uygun fiyata mülk sahibi olmak isteyenlerin hayallerini gerçekleştirmek için profesyonel partnerlerimizle çalışıyoruz.
           </p>
           <p className="text-base md:text-lg text-center text-gray-700 max-w-5xl mx-auto leading-relaxed mt-4 mb-6">
-            Avrupa'nın kalbinde, yasal olarak sorunsuz ve yabancılar için uygun olan en uygun gayrimenkulü seçmenize yardımcı oluyoruz. Tüm hukuki işlemleri (Gurcan Partners Uluslararası Hukuk Bürosu ile işbirliği yaparak) sizin adınıza gerçekleştiriyoruz.
+            Avrupa'nın kalbinde, yasal olarak sorunsuz ve yabancılar için uygun olan en uygun gayrimenkulü seçmenize yardımcı oluyoruz. Tüm hukuki işlemleri (Keystone Partners Uluslararası Hukuk Bürosu ile işbirliği yaparak) sizin adınıza gerçekleştiriyoruz.
           </p>
           <a
             href="https://gurcanpartners.com/tr/iletisim/"
@@ -119,7 +119,7 @@ export default function Yatirim() {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <Img
               src={UP + "projects-48.jpg"}
-              alt="Gurcan Invest Process"
+              alt="Keystone Invest Process"
               className="w-full rounded-lg shadow-md"
             />
             <div className="text-center lg:text-left">
@@ -129,7 +129,7 @@ export default function Yatirim() {
               <div className="flex justify-center lg:justify-start">
                 <Img
                   src={UP + "G-blue-gold111.jpg"}
-                  alt="Gurcan Invest Logo"
+                  alt="Keystone Invest Logo"
                   className="w-40 h-auto"
                 />
               </div>
@@ -179,10 +179,10 @@ export default function Yatirim() {
             {/* Right Text Block */}
             <div className="space-y-6">
               <p className="text-slate-700 leading-relaxed">
-                Gurcan Invest, <strong>uluslararası yatırımcılara ve gayrimenkul arayanlara</strong> Macaristan ve Dubai'de yasalara uygun ve yabancılara dost gayrimenkul alımlarında uzman rehberlik sunmaktadır.
+                Keystone Invest, <strong>uluslararası yatırımcılara ve gayrimenkul arayanlara</strong> Macaristan ve Dubai'de yasalara uygun ve yabancılara dost gayrimenkul alımlarında uzman rehberlik sunmaktadır.
               </p>
               <p className="text-slate-700 leading-relaxed">
-                <strong>Gurcan Partners Uluslararası Hukuk Bürosu</strong> ile iş birliği içinde tüm yasal süreçleri yöneterek, sorunsuz ve hızlı bir işlem deneyimi sağlamaktayız.
+                <strong>Keystone Partners Uluslararası Hukuk Bürosu</strong> ile iş birliği içinde tüm yasal süreçleri yöneterek, sorunsuz ve hızlı bir işlem deneyimi sağlamaktayız.
               </p>
               <p className="text-slate-700 leading-relaxed">
                 İster <strong>Dubai'de stratejik bir yatırım</strong>, ister <strong>Macaristan'da konut</strong> arıyor olun, ekibimiz güvenli ve başarılı bir gayrimenkul alımı için kapsamlı destek sunmaktadır.

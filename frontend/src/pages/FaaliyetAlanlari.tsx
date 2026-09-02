@@ -10,7 +10,7 @@ const HERO_BG =
 const practiceAreas = [
   {
     title: "BT & Blockchain Hukuku",
-    desc: "Blockchain Law Lab, Gürcan Partners'ın ana şirketidir. Bir blok zinciri şirketi için yasal hizmet sağlayıcılarının öncüsüyüz. Çok uluslu ekibimiz, dünya çapında blockchain ve diğer BT Şirketlerine danışmanlık yapmaktadır.",
+    desc: "Blockchain Law Lab, Keystone Partners'ın ana şirketidir. Bir blok zinciri şirketi için yasal hizmet sağlayıcılarının öncüsüyüz. Çok uluslu ekibimiz, dünya çapında blockchain ve diğer BT Şirketlerine danışmanlık yapmaktadır.",
     icon: (
       <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
         <rect x="14" y="14" width="20" height="20" rx="2" />
@@ -27,7 +27,7 @@ const practiceAreas = [
   },
   {
     title: "Uluslararası Ticaret Hukuku ve Sözleşmeler",
-    desc: "Gürcan Partners dünya çapında 400'den fazla uluslararası şirketi temsil etmektedir. Çok uluslu ekibimiz, uluslararası ticarette yasal uyum ve risk yönetimi konularında kayda değer bir deneyime sahiptir.",
+    desc: "Keystone Partners dünya çapında 400'den fazla uluslararası şirketi temsil etmektedir. Çok uluslu ekibimiz, uluslararası ticarette yasal uyum ve risk yönetimi konularında kayda değer bir deneyime sahiptir.",
     icon: (
       <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
         <path d="M8 28c0 0 4-8 16-8s16 8 16 8" />
@@ -39,7 +39,7 @@ const practiceAreas = [
   },
   {
     title: "Şirket Birleşmeleri ve Satın Almalar",
-    desc: "Gürcan Partners, 10 ülkede birleşme ve satın alma süreçlerinde önemli bir deneyime sahiptir.",
+    desc: "Keystone Partners, 10 ülkede birleşme ve satın alma süreçlerinde önemli bir deneyime sahiptir.",
     icon: (
       <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
         <rect x="4" y="12" width="14" height="24" rx="1" />
@@ -52,7 +52,7 @@ const practiceAreas = [
   },
   {
     title: "Uluslararası Şirketleşme & Kuruluş",
-    desc: "Gürcan Partners, 10'dan fazla ülkede şirket kuruluşu, vergi danışmanlığı ve hukuki hizmetler sunarak müşterilerinin uluslararası büyümesini destekler.",
+    desc: "Keystone Partners, 10'dan fazla ülkede şirket kuruluşu, vergi danışmanlığı ve hukuki hizmetler sunarak müşterilerinin uluslararası büyümesini destekler.",
     icon: (
       <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
         <circle cx="24" cy="24" r="16" />
@@ -75,7 +75,7 @@ const practiceAreas = [
   },
   {
     title: "Kurumsal Hizmetler",
-    desc: "Gürcan Partners'ın ana şirketi olan Gürcan Danışmanlık ile muhasebe, defter tutma, raporlama ve vergi uyumu hizmetleri sunuyoruz.",
+    desc: "Keystone Partners'ın ana şirketi olan Keystone Danışmanlık ile muhasebe, defter tutma, raporlama ve vergi uyumu hizmetleri sunuyoruz.",
     icon: (
       <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
         <circle cx="24" cy="12" r="5" />
@@ -183,7 +183,7 @@ export default function FaaliyetAlanlari() {
             Faaliyet Alanlarımız
           </h1>
           <p className="text-slate-300 text-lg md:text-xl max-w-2xl mx-auto">
-            Şirket Kurulumu & Hukuk Hizmetleri Gürcan Ortakları Çalışma Alanları
+            Şirket Kurulumu & Hukuk Hizmetleri Keystone Ortakları Çalışma Alanları
           </p>
         </div>
       </section>
@@ -280,7 +280,7 @@ export default function FaaliyetAlanlari() {
             Şirket Kuruluşu Hakkında SSS
           </h2>
           <p className="text-slate-600 text-center mb-10 max-w-3xl mx-auto">
-            Gürcan Partners, müşterilerine 10 ülkede ve 13 dilde kapsamlı Şirket Kurma
+            Keystone Partners, müşterilerine 10 ülkede ve 13 dilde kapsamlı Şirket Kurma
             hizmetleri sunmaktadır ve aşağıda uygulama alanlarımızın tüm yönleriyle ilgili
             SSS&apos;leri bulacaksınız.
           </p>

@@ -24,12 +24,12 @@ export default function HomeInitiatives() {
             <div className="relative h-64 overflow-hidden bg-slate-200">
               <img
                 src="https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80"
-                alt="Gurcan AI"
+                alt="Keystone AI"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
               <div className="absolute inset-0 flex items-center justify-center">
-                <span className="font-title text-2xl font-bold text-white drop-shadow-lg">Gurcan AI</span>
+                <span className="font-title text-2xl font-bold text-white drop-shadow-lg">Keystone AI</span>
               </div>
             </div>
             <div className="p-6">
@@ -40,7 +40,7 @@ export default function HomeInitiatives() {
                 YAPAY ZEKA HUKUK MASASI HİZMETLERİMİZİ KEŞFEDİN
               </a>
               <p className="text-slate-600 text-sm leading-relaxed text-center mb-3">
-                Gurcan Partners'ın yeni bir markası olan Gurcan AI, müşterilerimizin gelişen ihtiyaçlarını karşılamak için yenilikçi Yapay Zeka Hukuk Masası hizmetleri sunmaktadır.
+                Keystone Partners'ın yeni bir markası olan Keystone AI, müşterilerimizin gelişen ihtiyaçlarını karşılamak için yenilikçi Yapay Zeka Hukuk Masası hizmetleri sunmaktadır.
               </p>
               <p className="text-slate-600 text-sm leading-relaxed text-center">
                 Uzman Hukuk ve teknoloji ekiplerimiz; karmaşık davalar, mevzuata uyum ve stratejik iş kararları için yenilikçi çözümler sunmak üzere birlikte çalışır. Hızla gelişen bir dünyada rekabet gücü ve uyum sağlayan yapay zeka destekli araçlarımızla hukuk stratejinizi güçlendirin.
@@ -72,7 +72,7 @@ export default function HomeInitiatives() {
                 BLOCKCHAIN LAW LAB HİZMETLERİMİZİ KEŞFEDİN
               </a>
               <p className="text-slate-600 text-sm leading-relaxed text-center mb-3">
-                Gurcan Partners'ın bir alt markası olan Blockchain Law Lab, karmaşık hukuki ihtiyaçları karşılamak için en ileri blockchain teknolojisinden yararlanarak işletmeleri güçlendirir.
+                Keystone Partners'ın bir alt markası olan Blockchain Law Lab, karmaşık hukuki ihtiyaçları karşılamak için en ileri blockchain teknolojisinden yararlanarak işletmeleri güçlendirir.
               </p>
               <p className="text-slate-600 text-sm leading-relaxed text-center">
                 Uzman hukuk ve teknoloji ekiplerimiz; blockchain uyumu, mevzuat danışmanlığı ve stratejik büyüme alanlarında yenilikçi çözümler sunmak için iş birliği yapar. Gelişen dijital dünyada güvenlik, uyum ve rekabet avantajı sağlayan blockchain odaklı öngörülerimizle iş stratejinizi güçlendirin.

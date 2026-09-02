@@ -10,8 +10,8 @@ export default function HomeBlog() {
       <Reveal className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
         <div>
           <SectionHeading
-            eyebrow="Gurcan Journal"
-            title="Gurcan Journal"
+            eyebrow="Keystone Journal"
+            title="Keystone Journal"
             light={false}
           />
           <p className="text-slate-600 leading-relaxed mb-8 max-w-md text-left">

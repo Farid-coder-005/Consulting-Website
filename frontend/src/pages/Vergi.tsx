@@ -31,7 +31,7 @@ export default function Vergi() {
             Vergi ve Daha Fazlası
           </p>
           <h1 className="font-heading text-3xl md:text-5xl font-bold text-white max-w-2xl mx-auto leading-tight">
-            Gurcan Consultancy Vergi ve Danışmanlık
+            Keystone Consultancy Vergi ve Danışmanlık
           </h1>
         </div>
       </section>
@@ -43,15 +43,15 @@ export default function Vergi() {
             <div className="lg:col-span-4 flex justify-center lg:justify-start">
               <img
                 src={LOGO_URL}
-                alt="Gurcan Consultancy"
+                alt="Keystone Consultancy"
                 className="w-48 md:w-56 lg:w-64 h-auto"
               />
             </div>
             <div className="lg:col-span-8">
               <p className="text-slate-600 leading-relaxed">
                 Almanya, Macaristan, Polonya, Çek Cumhuriyeti, Türkiye, Sırbistan, BAE ve
-                Estonya'da faaliyet gösteren profesyonel bir danışmanlık firmasıdır. Gurcan
-                Consultancy, uluslararası hukuk firması Gurcan Partners ile ortaklık
+                Estonya'da faaliyet gösteren profesyonel bir danışmanlık firmasıdır. Keystone
+                Consultancy, uluslararası hukuk firması Keystone Partners ile ortaklık
                 yapmaktadır. Kurumsal muhasebeden vergi beyannamelerine kadar büyüme
                 ortağınız olmak için kapsamlı danışmanlık hizmetleri sunuyoruz.
               </p>
@@ -75,11 +75,11 @@ export default function Vergi() {
         </Reveal>
       </section>
 
-      {/* Neden Gurcan Consultancy */}
+      {/* Neden Keystone Consultancy */}
       <section className="py-16 md:py-24 bg-[#f4f7fa]">
         <Reveal className="max-w-6xl mx-auto px-4">
           <h2 className="font-title text-3xl md:text-4xl text-[#0c2044] text-center mb-10">
-            Neden Gurcan Consultancy?
+            Neden Keystone Consultancy?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-0">
             {whyItems.map((item, i) => (
@@ -149,7 +149,7 @@ export default function Vergi() {
 
       <CtaBand
         title="Yurt Dışında ve Avrupa'da Şirket Kurma Hizmetlerimizle İşinizi Globalleştirin"
-        text="Gurcan Partners olarak, yurtdışında şirket kurma konusunda uzmanlaşmış bir danışmanlık firmasıyız. Avrupa'da ve Dubai'de şirket kurma sürecini hızlandıran ve kolaylaştıran çözümler sunuyoruz. Hedefiniz, Avrupa'da veya Dubai'de bir iş kurmaksa, size en uygun seçenekleri ve hukuki desteği sağlayarak başarılı bir girişim için sağlam bir temel oluşturmanıza yardımcı oluyoruz."
+        text="Keystone Partners olarak, yurtdışında şirket kurma konusunda uzmanlaşmış bir danışmanlık firmasıyız. Avrupa'da ve Dubai'de şirket kurma sürecini hızlandıran ve kolaylaştıran çözümler sunuyoruz. Hedefiniz, Avrupa'da veya Dubai'de bir iş kurmaksa, size en uygun seçenekleri ve hukuki desteği sağlayarak başarılı bir girişim için sağlam bir temel oluşturmanıza yardımcı oluyoruz."
       />
     </PageTransition>
   );

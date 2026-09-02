@@ -25,7 +25,7 @@ export default function Hakkimizda() {
             Hakkımızda
           </p>
           <h1 className="font-title text-3xl md:text-5xl text-white max-w-2xl mx-auto leading-tight font-medium">
-            Gurcan Partners Uluslararası Hukuk ve Danışmanlık
+            Keystone Partners Uluslararası Hukuk ve Danışmanlık
           </h1>
         </div>
       </section>
@@ -39,7 +39,7 @@ export default function Hakkimizda() {
             <div className="lg:col-span-4 flex justify-center lg:justify-start">
               <img
                 src={LOGO_URL}
-                alt="Gurcan Partners"
+                alt="Keystone Partners"
                 className="w-48 md:w-56 lg:w-64 h-auto"
               />
             </div>
@@ -49,7 +49,7 @@ export default function Hakkimizda() {
               </h2>
               <p className="text-slate-600 leading-relaxed">
                 Küresel hukuk ve danışmanlık hizmetlerinde yenilikçi ortağınız
-                Gürcan Partners'a hoş geldiniz. ABD, Macaristan, Türkiye, Polonya,
+                Keystone Partners'a hoş geldiniz. ABD, Macaristan, Türkiye, Polonya,
                 Çek Cumhuriyeti, Sırbistan, Almanya, Arap ülkeleri, Malezya ve
                 Estonya'dan çeşitli avukatlardan oluşan bir ekiple, 10 ülkede
                 karmaşık yasal konuları ele alma sanatında ustalaştık.{" "}
@@ -69,10 +69,10 @@ export default function Hakkimizda() {
           {/* Block 2: İnovasyon */}
           <div>
             <h2 className="font-title text-2xl md:text-3xl text-gray-900 font-bold mb-4">
-              Geleceğe İnanıyoruz – İnovasyon, Teknoloji ve Uzmanlık: Gürcan Sözü
+              Geleceğe İnanıyoruz – İnovasyon, Teknoloji ve Uzmanlık: Keystone Sözü
             </h2>
             <p className="text-slate-600 leading-relaxed">
-              Gürcan Partners olarak bir hukuk bürosundan çok daha fazlasıyız;
+              Keystone Partners olarak bir hukuk bürosundan çok daha fazlasıyız;
               hukuk teknolojisi ve danışmanlığı alanında yenilikçiyiz ve
               işletmenizin hızla gelişen dijital dünyada bir adım önde olmasını
               sağlıyoruz. İnovasyon ve teknolojiye olan bağlılığımız, karmaşık
@@ -91,21 +91,21 @@ export default function Hakkimizda() {
               Görevimiz geleneksel hukuki hizmetlerin ötesine geçerek küresel
               genişlemede stratejik ortağınız olmayı hedefliyoruz. 400'den fazla
               şirketin işlerini uluslararası alana taşımalarına yardımcı olarak,
-              küresel pazara girişin ve operasyonun nüanslarını anlıyoruz. Gürcan
-              Partners, yan şirketimiz Gürcan Danışmanlık ile birlikte 8
+              küresel pazara girişin ve operasyonun nüanslarını anlıyoruz. Keystone
+              Partners, yan şirketimiz Keystone Danışmanlık ile birlikte 8
               ülkede kapsamlı vergi ve muhasebe hizmetleri sunarak yeni
               pazarlara sorunsuz bir geçiş sağlıyor.
             </p>
             <p className="text-slate-600 leading-relaxed mb-6">
               Yeniliğe İnanıyoruz – Yeniliğe değer veren, teknolojiyi kucaklayan
-              ve küresel başarınıza öncelik veren bir ortaklık için Gürcan
+              ve küresel başarınıza öncelik veren bir ortaklık için Keystone
               Partners'ı seçin. Uzman hukuk ve danışmanlık hizmetlerimizle
               uluslararası genişlemenin karmaşıklıklarında size rehberlik
-              edelim. Gürcan Partners ile küresel iş sadece bir seçenek değil;
+              edelim. Keystone Partners ile küresel iş sadece bir seçenek değil;
               sizin geleceğinizdir.
             </p>
             <p className="font-bold text-gray-900">
-              Gürcan farkını keşfedin. Güvenle global olarak büyüyün.
+              Keystone farkını keşfedin. Güvenle global olarak büyüyün.
             </p>
           </div>
 
@@ -157,7 +157,7 @@ export default function Hakkimizda() {
 
       <CtaBand
         title="Yurt Dışında ve Avrupa'da Şirket Kurma Hizmetlerimizle İşinizi Globalleştirin"
-        text="Gurcan Partners olarak, yurtdışında şirket kurma konusunda uzmanlaşmış bir danışmanlık firmasıyız. Avrupa’da ve Dubai’de şirket kurma sürecini hızlandıran ve kolaylaştıran çözümler sunuyoruz. Hedefiniz, Avrupa’da veya Dubai’de bir iş kurmaksa, size en uygun seçenekleri ve hukuki desteği sağlayarak başarılı bir girişim için sağlam bir temel oluşturmanıza yardımcı oluyoruz."
+        text="Keystone Partners olarak, yurtdışında şirket kurma konusunda uzmanlaşmış bir danışmanlık firmasıyız. Avrupa’da ve Dubai’de şirket kurma sürecini hızlandıran ve kolaylaştıran çözümler sunuyoruz. Hedefiniz, Avrupa’da veya Dubai’de bir iş kurmaksa, size en uygun seçenekleri ve hukuki desteği sağlayarak başarılı bir girişim için sağlam bir temel oluşturmanıza yardımcı oluyoruz."
       />
     </PageTransition>
   );

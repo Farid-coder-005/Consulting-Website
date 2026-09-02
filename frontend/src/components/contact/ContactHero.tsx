@@ -9,10 +9,10 @@ export default function ContactHero() {
           Bize Ulaşın
         </h1>
         <p className="mt-3 text-lg md:text-xl text-[#0F2B5C]/70 font-medium">
-          Gurcan Partners&apos;te Görüşme Randevuları
+          Keystone Partners&apos;te Görüşme Randevuları
         </p>
         <p className="mt-6 max-w-3xl mx-auto text-slate-600 leading-relaxed">
-          Gurcan Partners olarak hem yüz yüze hem de online görüşmeler
+          Keystone Partners olarak hem yüz yüze hem de online görüşmeler
           gerçekleştirebilirsiniz. Sorularınız ve danışmanlık talepleriniz için
           bizimle{" "}
           <a

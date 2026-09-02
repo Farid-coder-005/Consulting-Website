@@ -4,7 +4,7 @@ const growthCards = [
   {
     title: "Uluslararası Şirket Kuruluşu ve İş Genişletme / Büyütme",
     image: "https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?w=600&q=80",
-    desc: "Entegre hukuk, vergi, muhasebe ve kurumsal danışmanlık hizmetleriyle işinizi güvenle büyütün. Gurcan Partners; Avrupa Birliği, CEE Bölgesi (Merkez ve Doğu Avrupa), Balkanlar, Orta Doğu, Asya ve Amerika Birleşik Devletleri genelinde uluslararası şirket kuruluşu, şirket tescili, pazara giriş desteği sunuyoruz.",
+    desc: "Entegre hukuk, vergi, muhasebe ve kurumsal danışmanlık hizmetleriyle işinizi güvenle büyütün. Keystone Partners; Avrupa Birliği, CEE Bölgesi (Merkez ve Doğu Avrupa), Balkanlar, Orta Doğu, Asya ve Amerika Birleşik Devletleri genelinde uluslararası şirket kuruluşu, şirket tescili, pazara giriş desteği sunuyoruz.",
   },
   {
     title: "Avrupa'da Şirket Kuruluşu",
