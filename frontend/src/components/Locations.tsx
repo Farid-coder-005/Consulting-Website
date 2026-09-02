@@ -24,7 +24,7 @@ export default function Locations() {
             className="group relative max-w-3xl w-full h-[480px] rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500"
           >
             <img
-              src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=1200&auto=format&fit=crop"
+              src="/Malta.jpg"
               alt="Malta Valletta"
               className="absolute inset-0 w-full h-full object-cover bg-cover bg-center group-hover:scale-105 transition-transform duration-700"
             />
