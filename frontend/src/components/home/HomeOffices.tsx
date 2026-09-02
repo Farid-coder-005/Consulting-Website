@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-import { offices } from "../../content";
 import { Reveal } from "../motion";
 
 export default function HomeOffices() {
@@ -16,33 +14,26 @@ export default function HomeOffices() {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-5">
-          {offices.map((office) => (
-            <Link
-              key={`${office.country}-${office.city}`}
-              to="/iletisim"
-              className="group relative aspect-[3/4] rounded-2xl overflow-hidden shadow-md"
-            >
-              <img
-                src={office.image}
-                alt={office.city}
-                className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
-              <div className="absolute inset-0 flex flex-col items-center justify-end p-4 text-center">
-                <img
-                  src={office.flag}
-                  alt=""
-                  className="w-8 h-6 object-cover rounded-sm mb-2"
-                />
-                <h3 className="font-heading font-bold text-white text-sm">{office.country}</h3>
-                <p className="text-white/70 text-xs mb-3">{office.city}</p>
-                <span className="border border-white text-white text-xs px-5 py-2 rounded-full hover:bg-white hover:text-brand transition">
-                  İletişim
-                </span>
-              </div>
-            </Link>
-          ))}
+        <div className="flex justify-center">
+          <a
+            href="/contact"
+            className="group relative max-w-3xl w-full h-80 md:h-96 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-500"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1584465144198-0146a1b67039?w=1200&q=80"
+              alt="Malta Valletta"
+              className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
+            <div className="absolute inset-0 flex flex-col items-center justify-end p-8 text-center">
+              <span className="text-5xl mb-3">🇲🇹</span>
+              <h3 className="font-heading font-bold text-white text-2xl md:text-3xl">Malta</h3>
+              <p className="text-white/70 text-base mb-5">Valletta</p>
+              <span className="border border-white text-white text-sm px-8 py-3 rounded-full group-hover:bg-white group-hover:text-brand transition-colors duration-300">
+                İletişim
+              </span>
+            </div>
+          </a>
         </div>
       </Reveal>
     </section>
