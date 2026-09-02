@@ -126,7 +126,7 @@ export default function FloatingWidgets() {
       {/* Vertical "Contact Us" side tab */}
       <button
         onClick={() => setIsContactOpen(true)}
-        className="fixed right-0 z-50 bg-[#1d70b8] hover:bg-[#1a63a0] transition text-white font-semibold text-[11px] tracking-wider px-[6px] py-4 shadow-md cursor-pointer"
+        className="fixed right-0 z-50 bg-[#1d70b8] hover:bg-[#1a63a0] transition text-white font-bold text-sm tracking-wider px-3 py-5 shadow-md cursor-pointer"
         style={{ writingMode: "vertical-rl", top: "60%" }}
         aria-label="Contact Us"
       >
@@ -139,9 +139,9 @@ export default function FloatingWidgets() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="WhatsApp"
-        className="fixed bottom-5 right-5 z-50 flex h-[52px] w-[52px] items-center justify-center rounded-full bg-[#25D366] shadow-lg transition hover:scale-105"
+        className="fixed bottom-8 right-5 z-50 flex h-16 w-16 items-center justify-center rounded-full bg-[#25D366] shadow-lg transition hover:scale-105"
       >
-        <WhatsAppSvg className="h-7 w-7 text-white" />
+        <WhatsAppSvg className="h-9 w-9 text-white" />
       </a>
     </>
   );
