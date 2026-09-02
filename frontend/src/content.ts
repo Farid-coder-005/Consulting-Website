@@ -169,8 +169,7 @@ export const stats = [
 
 export const featuredPost = {
   title: "Yazılım Şirketi Nasıl Kurulur? Maliyet ve Gerekli Belgeler",
-  image:
-    "https://gurcanpartners.com/wp-content/uploads/what-is-a-benefit-corporation-1.jpg",
+  image: "/Blog.jpg",
   url: "/blog",
   excerpt:
     "Yazılım şirketi kurmak isteyen girişimciler için gereken yasal süreçler, kuruluş maliyetleri ve hazırlanması gereken belgeler hakkında kapsamlı rehber.",
