@@ -228,7 +228,7 @@ export default function FaaliyetAlanlari() {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
               <div className="absolute inset-0 flex flex-col items-center justify-end p-8 text-center">
-                <span className="text-5xl mb-3">🇲🇹</span>
+                <img src="/MaltaFlag.jpg" alt="Malta Flag" className="h-8 w-auto object-contain mb-3" />
                 <h3 className="font-heading font-bold text-white text-2xl md:text-3xl">Malta</h3>
                 <p className="text-white/70 text-base mb-5">Valletta</p>
                 <span className="bg-[#0f2042] text-white text-sm font-semibold uppercase tracking-wide px-8 py-3 rounded-full group-hover:bg-[#1a3260] transition-colors duration-300">
