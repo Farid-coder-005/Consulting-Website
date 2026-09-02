@@ -123,11 +123,11 @@ export default function FloatingWidgets() {
       {/* Contact Form Modal */}
       <ContactModal open={isContactOpen} onClose={() => setIsContactOpen(false)} />
 
-      {/* Vertical "Contact Us" side tab — lowered to avoid hero arrow overlap */}
+      {/* Vertical "Contact Us" side tab */}
       <button
         onClick={() => setIsContactOpen(true)}
-        className="fixed right-0 z-50 bg-[#1d70b8] hover:bg-[#1a63a0] transition text-white font-semibold text-xs tracking-wider px-2 py-5 rounded-l-lg shadow-lg cursor-pointer"
-        style={{ writingMode: "vertical-rl", top: "65%" }}
+        className="fixed right-0 z-50 bg-[#1d70b8] hover:bg-[#1a63a0] transition text-white font-semibold text-[11px] tracking-wider px-[6px] py-4 shadow-md cursor-pointer"
+        style={{ writingMode: "vertical-rl", top: "60%" }}
         aria-label="Contact Us"
       >
         Contact Us
@@ -139,9 +139,9 @@ export default function FloatingWidgets() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="WhatsApp"
-        className="fixed bottom-6 right-6 z-50 flex h-[60px] w-[60px] items-center justify-center rounded-full bg-[#25D366] shadow-lg transition hover:scale-105"
+        className="fixed bottom-5 right-5 z-50 flex h-[52px] w-[52px] items-center justify-center rounded-full bg-[#25D366] shadow-lg transition hover:scale-105"
       >
-        <WhatsAppSvg className="h-8 w-8 text-white" />
+        <WhatsAppSvg className="h-7 w-7 text-white" />
       </a>
     </>
   );
