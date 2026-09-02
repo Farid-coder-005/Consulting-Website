@@ -76,7 +76,7 @@ export default function Yatirim() {
             Avrupa'nın kalbinde, yasal olarak sorunsuz ve yabancılar için uygun olan en uygun gayrimenkulü seçmenize yardımcı oluyoruz. Tüm hukuki işlemleri (Keystone Partners Uluslararası Hukuk Bürosu ile işbirliği yaparak) sizin adınıza gerçekleştiriyoruz.
           </p>
           <a
-            href="https://gurcanpartners.com/tr/iletisim/"
+            href="/contact"
             target="_blank"
             rel="noopener noreferrer"
             className="block w-fit px-10 py-3.5 bg-[#0B1E3D] hover:bg-[#162d54] text-white font-heading font-semibold rounded-full mx-auto mt-6 shadow-md transition text-sm tracking-wider text-center"
@@ -166,7 +166,7 @@ export default function Yatirim() {
                   ))}
                 </ul>
                 <a
-                  href="https://gurcanpartners.com/tr/simdi-planla/"
+                   href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block bg-white text-[#0c2044] font-heading font-semibold px-7 py-3 rounded-full transition hover:bg-slate-100 text-sm"

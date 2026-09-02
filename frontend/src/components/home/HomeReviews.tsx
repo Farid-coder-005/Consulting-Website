@@ -78,7 +78,7 @@ export default function HomeReviews() {
 
         <div className="text-center mt-10">
           <a
-            href="https://gurcanpartners.com/tr/"
+             href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 border-2 border-white/30 text-white hover:bg-white hover:text-[#0B1A30] font-heading font-semibold px-8 py-3 rounded-full transition text-sm"

@@ -140,7 +140,7 @@ export function CtaBand({
         </h2>
         <div className="flex flex-wrap items-center gap-3 shrink-0">
           <a
-            href="https://gurcanpartners.com/tr/simdi-planla/"
+             href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[#1D72B8] text-white px-6 py-3 rounded-md text-sm font-semibold hover:bg-blue-800 transition whitespace-nowrap"

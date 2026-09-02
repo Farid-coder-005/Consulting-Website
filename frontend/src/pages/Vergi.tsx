@@ -95,7 +95,7 @@ export default function Vergi() {
           </div>
           <div className="text-center mt-10">
             <a
-              href="https://gurcanpartners.com/tr/simdi-planla/"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-white border border-[#0c2044] text-[#0c2044] rounded-full px-8 py-3 text-sm font-medium hover:bg-[#0c2044] hover:text-white transition shadow-sm"
