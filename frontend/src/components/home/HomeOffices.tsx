@@ -17,20 +17,20 @@ export default function HomeOffices() {
         <div className="flex justify-center">
           <a
             href="/contact"
-            className="group relative max-w-3xl w-full h-80 md:h-96 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-500"
+            className="group relative max-w-md w-full h-80 md:h-96 rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500"
           >
             <img
               src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=1200&auto=format&fit=crop"
               alt="Malta Valletta"
-              className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+              className="absolute inset-0 w-full h-full object-cover bg-cover bg-center group-hover:scale-105 transition-transform duration-700"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
             <div className="absolute inset-0 flex flex-col items-center justify-end p-8 text-center">
               <span className="text-5xl mb-3">🇲🇹</span>
               <h3 className="font-heading font-bold text-white text-2xl md:text-3xl">Malta</h3>
               <p className="text-white/70 text-base mb-5">Valletta</p>
-              <span className="border border-white text-white text-sm px-8 py-3 rounded-full group-hover:bg-white group-hover:text-brand transition-colors duration-300">
-                İletişim
+              <span className="bg-[#0f2042] text-white text-sm font-semibold uppercase tracking-wide px-8 py-3 rounded-full group-hover:bg-[#1a3260] transition-colors duration-300">
+                İLETİŞİM
               </span>
             </div>
           </a>
