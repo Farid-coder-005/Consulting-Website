@@ -5,15 +5,15 @@ export const HERO_BG =
 
 export const WHATSAPP_URL = "https://wa.me/36705758590";
 export const WHATSAPP_NUMBER = "+36 70 575 8590";
-export const EMAIL = "info@gurcanpartners.com";
+export const EMAIL = "info@keystonepartners.com";
 
 export const socials = [
-  { label: "Facebook", href: "https://www.facebook.com/gurcanpartners/", icon: "facebook" },
-  { label: "Instagram", href: "https://www.instagram.com/gurcanpartners/", icon: "instagram" },
-  { label: "Twitter", href: "https://twitter.com/gurcanpartners", icon: "twitter" },
-  { label: "E-posta", href: "mailto:info@gurcanpartners.com", icon: "mail" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/company/gurcanpartners/", icon: "linkedin" },
-  { label: "YouTube", href: "https://www.youtube.com/@gurcanpartners", icon: "youtube" },
+  { label: "Facebook", href: "#", icon: "facebook" },
+  { label: "Instagram", href: "#", icon: "instagram" },
+  { label: "Twitter", href: "#", icon: "twitter" },
+  { label: "E-posta", href: "mailto:info@keystonepartners.com", icon: "mail" },
+  { label: "LinkedIn", href: "#", icon: "linkedin" },
+  { label: "YouTube", href: "#", icon: "youtube" },
 ] as const;
 
 export type LanguageOption = {

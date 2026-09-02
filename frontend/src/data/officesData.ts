@@ -25,7 +25,7 @@ export const officesData: Office[] = [
     address: "14 GARDENIA BLK A FL 2 TRIQ L-ISPANJULETT KAPPARA, SAN GWANN, SGN 4042, Malta",
     phone: "+356 7960 1628",
     turkishPhoneInfo: "",
-    email: "info@keystonegp.com",
+    email: "info@keystonepartners.com",
     workingHours: "09:00 - 18:00 (Pazartesi - Cuma)",
     mapEmbedUrl:
       "https://maps.google.com/maps?q=San+Gwann,+Malta&t=&z=13&ie=UTF8&iwloc=&output=embed",

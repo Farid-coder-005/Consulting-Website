@@ -9,10 +9,10 @@ import {
 } from "./SocialIcons";
 
 const socials = [
-  { label: "Facebook", href: "https://www.facebook.com/gurcanpartners/", Icon: FacebookIcon },
-  { label: "Instagram", href: "https://www.instagram.com/gurcanpartners/", Icon: InstagramIcon },
-  { label: "Twitter", href: "https://twitter.com/gurcanpartners", Icon: TwitterIcon },
-  { label: "LinkedIn", href: "https://www.linkedin.com/company/gurcanpartners/", Icon: LinkedInIcon },
+  { label: "Facebook", href: "#", Icon: FacebookIcon },
+  { label: "Instagram", href: "#", Icon: InstagramIcon },
+  { label: "Twitter", href: "#", Icon: TwitterIcon },
+  { label: "LinkedIn", href: "#", Icon: LinkedInIcon },
 ];
 
 export default function ContactFormSection() {
