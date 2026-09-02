@@ -21,7 +21,7 @@ export default function Locations() {
         <div className="flex justify-center">
           <a
             href="/contact"
-            className="group relative max-w-md w-full h-[480px] rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500"
+            className="group relative max-w-3xl w-full h-[480px] rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500"
           >
             <img
               src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=1200&auto=format&fit=crop"
