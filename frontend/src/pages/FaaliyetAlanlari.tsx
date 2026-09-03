@@ -92,15 +92,15 @@ const practiceAreas = [
 ];
 
 const faaliyetReferanslari = [
-  { src: "https://gurcanpartners.com/wp-content/uploads/dogus.png", alt: "Doğuş Group" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/gedik.png", alt: "Gedik" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/turk-telekom.png", alt: "Türk Telekom" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/satelo.png", alt: "SATTELO" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/thomson-reuters-foundation.png", alt: "Thomson Reuters Foundation" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/kibar.jpg", alt: "Kibar" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/und-logo.png", alt: "UND" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/leaf-logistic-mail.png", alt: "Leaf Logistic" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/liv-hospital-mail.png", alt: "LIV Hospital" },
+  { src: "/Partner.jpg", alt: "Doğuş Group" },
+  { src: "/Partner.jpg", alt: "Gedik" },
+  { src: "/Partner.jpg", alt: "Türk Telekom" },
+  { src: "/Partner.jpg", alt: "SATTELO" },
+  { src: "/Partner.jpg", alt: "Thomson Reuters Foundation" },
+  { src: "/Partner.jpg", alt: "Kibar" },
+  { src: "/Partner.jpg", alt: "UND" },
+  { src: "/Partner.jpg", alt: "Leaf Logistic" },
+  { src: "/Partner.jpg", alt: "LIV Hospital" },
 ];
 
 const faaliyetFaqItems = [

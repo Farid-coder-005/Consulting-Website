@@ -303,41 +303,41 @@ export const faqs: FaqItem[] = [
 ];
 
 export const referenceLogos = [
-  { src: "https://gurcanpartners.com/wp-content/uploads/dogus-mail.png", alt: "Doğuş" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/gedik-mail.png", alt: "Gedik" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/turk-telekom-mail.png", alt: "Türk Telekom" },
+  { src: "/Partner.jpg", alt: "Doğuş" },
+  { src: "/Partner.jpg", alt: "Gedik" },
+  { src: "/Partner.jpg", alt: "Türk Telekom" },
 ];
 
 export const vergiReferences = [
-  { src: "https://gurcanpartners.com/wp-content/uploads/dogus.png", alt: "Doğuş" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/gedik.png", alt: "Gedik" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/insider.png", alt: "Insider" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/satelo.png", alt: "Satelo" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/turk-telekom.png", alt: "Türk Telekom" },
+  { src: "/Partner.jpg", alt: "Doğuş" },
+  { src: "/Partner.jpg", alt: "Gedik" },
+  { src: "/Partner.jpg", alt: "Insider" },
+  { src: "/Partner.jpg", alt: "Satelo" },
+  { src: "/Partner.jpg", alt: "Türk Telekom" },
 ];
 
 export const yatirimReferences = [
-  { src: "https://gurcanpartners.com/wp-content/uploads/dogus.png", alt: "Doğuş Group" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/gedik.png", alt: "Gedik" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/turk-telekom.png", alt: "Türk Telekom" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/satelo.png", alt: "SATTELO" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/Adsiz-tasarim-2.png", alt: "empa:::electronics" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/kibar.jpg", alt: "Kibar" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/und-logo.png", alt: "UND" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/cropped-firstmed-logo1-1.png", alt: "FIRSTMED" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/liv-hospital-mail.png", alt: "LIV Hospital" },
+  { src: "/Partner.jpg", alt: "Doğuş Group" },
+  { src: "/Partner.jpg", alt: "Gedik" },
+  { src: "/Partner.jpg", alt: "Türk Telekom" },
+  { src: "/Partner.jpg", alt: "SATTELO" },
+  { src: "/Partner.jpg", alt: "empa:::electronics" },
+  { src: "/Partner.jpg", alt: "Kibar" },
+  { src: "/Partner.jpg", alt: "UND" },
+  { src: "/Partner.jpg", alt: "FIRSTMED" },
+  { src: "/Partner.jpg", alt: "LIV Hospital" },
 ];
 
 export const hakkimizdaReferences = [
-  { src: "https://gurcanpartners.com/wp-content/uploads/dogus-mail.png", alt: "Doğuş" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/gedik-mail.png", alt: "Gedik" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/turk-telekom-mail.png", alt: "Türk Telekom" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/satelo-mail.png", alt: "Satelo" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/kibar-mail.png", alt: "Kibar" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/und-mail.png", alt: "UND" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/leaf-logistic-mail.png", alt: "Leaf Logistic" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/THOMSON-REUTERS-FOUNDATION-MAIL.png", alt: "Thomson Reuters Foundation" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/liv-hospital-mail.png", alt: "Liv Hospital" },
+  { src: "/Partner.jpg", alt: "Doğuş" },
+  { src: "/Partner.jpg", alt: "Gedik" },
+  { src: "/Partner.jpg", alt: "Türk Telekom" },
+  { src: "/Partner.jpg", alt: "Satelo" },
+  { src: "/Partner.jpg", alt: "Kibar" },
+  { src: "/Partner.jpg", alt: "UND" },
+  { src: "/Partner.jpg", alt: "Leaf Logistic" },
+  { src: "/Partner.jpg", alt: "Thomson Reuters Foundation" },
+  { src: "/Partner.jpg", alt: "Liv Hospital" },
 ];
 
 export const countries = [

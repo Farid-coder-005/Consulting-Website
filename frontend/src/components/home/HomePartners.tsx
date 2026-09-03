@@ -2,15 +2,15 @@ import { Reveal } from "../motion";
 import Img from "../Img";
 
 const partnerLogos = [
-  { src: "https://gurcanpartners.com/wp-content/uploads/dogus.png", alt: "Doğuş Group" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/gedik.png", alt: "Gedik" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/turk-telekom.png", alt: "Türk Telekom" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/satelo.png", alt: "SATTELO" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/Adsiz-tasarim-2.png", alt: "empa:::electronics" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/kibar.jpg", alt: "Kibar" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/und-logo.png", alt: "UND" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/cropped-firstmed-logo1-1.png", alt: "FIRSTMED" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/liv-hospital-mail.png", alt: "LIV Hospital" },
+  { src: "/Partner.jpg", alt: "Doğuş Group" },
+  { src: "/Partner.jpg", alt: "Gedik" },
+  { src: "/Partner.jpg", alt: "Türk Telekom" },
+  { src: "/Partner.jpg", alt: "SATTELO" },
+  { src: "/Partner.jpg", alt: "empa:::electronics" },
+  { src: "/Partner.jpg", alt: "Kibar" },
+  { src: "/Partner.jpg", alt: "UND" },
+  { src: "/Partner.jpg", alt: "FIRSTMED" },
+  { src: "/Partner.jpg", alt: "LIV Hospital" },
 ];
 
 export default function HomePartners() {
