@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { companyFormationFeatures } from "../content";
@@ -6,10 +7,12 @@ import Img from "./Img";
 import { SectionHeading } from "./inner";
 
 export default function CompanyFormationFeature() {
+  const { t } = useTranslation();
+
   return (
     <section className="py-16 md:py-24 bg-white">
       <Reveal className="max-w-7xl mx-auto px-4">
-        <SectionHeading eyebrow="Şirket Kuruluşu" title="Şirket Kuruluşu" />
+        <SectionHeading eyebrow={t("company_formation.eyebrow")} title={t("company_formation.title")} />
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {companyFormationFeatures.map((f) => (
             <motion.article

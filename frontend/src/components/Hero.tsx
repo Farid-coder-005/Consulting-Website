@@ -114,7 +114,7 @@ export default function Hero() {
       <button
         type="button"
         onClick={() => setIdx((i) => (i - 1 + slides.length) % slides.length)}
-        aria-label="Önceki slide"
+        aria-label={t("hero.prev_slide")}
         className="absolute left-4 top-1/2 -translate-y-1/2 z-10 border border-white/50 rounded-full p-2.5 text-white hover:bg-white/20 transition"
       >
         <ChevronLeft className="w-5 h-5" />
@@ -124,7 +124,7 @@ export default function Hero() {
       <button
         type="button"
         onClick={() => setIdx((i) => (i + 1) % slides.length)}
-        aria-label="Sonraki slide"
+        aria-label={t("hero.next_slide")}
         className="absolute right-4 top-1/2 -translate-y-1/2 z-10 border border-white/50 rounded-full p-2.5 text-white hover:bg-white/20 transition"
       >
         <ChevronRight className="w-5 h-5" />

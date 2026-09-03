@@ -1,27 +1,28 @@
+import { useTranslation } from "react-i18next";
 import { Mail, Video, MessageSquare } from "lucide-react";
 import { WHATSAPP_URL, EMAIL } from "../../content";
 
 export default function ContactHero() {
+  const { t } = useTranslation();
+
   return (
     <section className="bg-[#F8FAFC] py-16 md:py-20">
       <div className="max-w-7xl mx-auto px-4 text-center">
         <h1 className="font-title font-bold text-4xl md:text-5xl text-[#0F2B5C]">
-          Bize Ulaşın
+          {t("contact.hero_title")}
         </h1>
         <p className="mt-3 text-lg md:text-xl text-[#0F2B5C]/70 font-medium">
-          Keystone Partners&apos;te Görüşme Randevuları
+          {t("contact.hero_subtitle")}
         </p>
         <p className="mt-6 max-w-3xl mx-auto text-slate-600 leading-relaxed">
-          Keystone Partners olarak hem yüz yüze hem de online görüşmeler
-          gerçekleştirebilirsiniz. Sorularınız ve danışmanlık talepleriniz için
-          bizimle{" "}
+          {t("contact.hero_desc")}{" "}
           <a
             href={`mailto:${EMAIL}`}
             className="text-[#0F2B5C] font-semibold underline underline-offset-2 hover:text-[#5B9BD5]"
           >
             {EMAIL}
           </a>{" "}
-          adresinden dilediğiniz zaman iletişime geçebilirsiniz.
+          {t("contact.hero_desc_end")}
         </p>
 
         {/* Quick contact cards */}
@@ -35,7 +36,7 @@ export default function ContactHero() {
             </span>
             <span>
               <span className="block font-semibold text-[#0F2B5C]">
-                Hemen Bize Bir Mail Gönderin
+                {t("contact.card_email_title")}
               </span>
               <span className="mt-1 block text-sm text-slate-500">
                 {EMAIL}
@@ -52,10 +53,10 @@ export default function ContactHero() {
             </span>
             <span>
               <span className="block font-semibold text-[#0F2B5C]">
-                15 Dakikalık Ücretsiz Görüşme Planlayın
+                {t("contact.card_video_title")}
               </span>
               <span className="mt-1 block text-sm text-slate-500">
-                Online video görüşmesi
+                {t("contact.card_video_desc")}
               </span>
             </span>
           </a>
@@ -71,10 +72,10 @@ export default function ContactHero() {
             </span>
             <span>
               <span className="block font-semibold text-[#0F2B5C]">
-                Hemen Bize Bir Mesaj Gönderin
+                {t("contact.card_whatsapp_title")}
               </span>
               <span className="mt-1 block text-sm text-slate-500">
-                WhatsApp üzerinden
+                {t("contact.card_whatsapp_desc")}
               </span>
             </span>
           </a>

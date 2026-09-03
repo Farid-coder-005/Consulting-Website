@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { PageTransition, Reveal } from "../components/motion";
 import { InnerHero, SectionHeading } from "../components/inner";
 import Img from "../components/Img";
@@ -99,6 +100,8 @@ const mostPopular = [
 ];
 
 export default function Blog() {
+  const { t } = useTranslation();
+
   return (
     <PageTransition>
       <InnerHero
@@ -109,7 +112,7 @@ export default function Blog() {
 
       <section className="py-16 md:py-24 bg-white">
         <Reveal className="max-w-7xl mx-auto px-4">
-          <SectionHeading eyebrow="Blog" title="Son Yazılar" />
+          <SectionHeading eyebrow="Blog" title={t("blog.latest_posts")} />
           <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             {posts.map((p) => (
               <a
@@ -138,7 +141,7 @@ export default function Blog() {
                     </p>
                   )}
                   <span className="inline-block mt-3 text-accent font-semibold text-sm">
-                    Devamını oku →
+                    {t("blog.read_more")}
                   </span>
                 </div>
               </a>
@@ -149,7 +152,7 @@ export default function Blog() {
 
       <section className="py-16 md:py-24 bg-slate-50">
         <Reveal className="max-w-4xl mx-auto px-4">
-          <SectionHeading eyebrow="En Çok Okunanlar" title="Most Popular" />
+          <SectionHeading eyebrow={t("blog.most_popular_eyebrow")} title={t("blog.most_popular_title")} />
           <div className="divide-y divide-slate-200 border border-slate-200 rounded-lg bg-white">
             {mostPopular.map((m) => (
               <a

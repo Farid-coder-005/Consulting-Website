@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import Header from "./components/Header";
@@ -40,6 +41,7 @@ function ScrollManager() {
 }
 
 export default function App() {
+  const { t } = useTranslation();
   const location = useLocation();
   const [showTop, setShowTop] = useState(false);
 
@@ -78,7 +80,7 @@ export default function App() {
       <button
         type="button"
         onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-        aria-label="Yukarı çık"
+        aria-label={t("common.back_to_top")}
         className={`fixed bottom-6 left-6 z-40 bg-accent text-white w-12 h-12 rounded-full shadow-lg hover:bg-brand transition flex items-center justify-center ${
           showTop ? "opacity-100" : "opacity-0 pointer-events-none"
         }`}

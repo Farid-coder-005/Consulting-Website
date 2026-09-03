@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Send } from "lucide-react";
 import { officesData } from "../../data/officesData";
 import {
@@ -16,6 +17,7 @@ const socials = [
 ];
 
 export default function ContactFormSection() {
+  const { t } = useTranslation();
   const countries = officesData.map((o) => o.country);
   const [sent, setSent] = useState(false);
 
@@ -26,14 +28,12 @@ export default function ContactFormSection() {
           {/* Form (2/3) */}
           <div className="lg:col-span-2 rounded-2xl border border-slate-200 bg-[#F8FAFC] p-6 md:p-10">
             <h2 className="font-title text-2xl font-bold text-[#0F2B5C]">
-              Lütfen aşağıdaki formu doldurunuz. Size 24 saat içerisinde dönüş
-              yapılacaktır.
+              {t("contact.form_title")}
             </h2>
 
             {sent ? (
               <div className="mt-8 rounded-lg border border-green-200 bg-green-50 p-6 text-green-700">
-                Mesajınız alınmıştır. Ekibimiz en kısa sürede sizinle iletişime
-                geçecektir.
+                {t("contact.form_success")}
               </div>
             ) : (
               <form
@@ -46,18 +46,18 @@ export default function ContactFormSection() {
                 <div className="grid gap-5 sm:grid-cols-2">
                   <div>
                     <label className="mb-1 block text-sm font-medium text-slate-700">
-                      İsim
+                      {t("contact.form_name")}
                     </label>
                     <input
                       type="text"
                       required
                       className="w-full rounded-lg border border-slate-300 px-4 py-3 focus:border-[#0F2B5C] focus:outline-none focus:ring-2 focus:ring-[#0F2B5C]/20"
-                      placeholder="Adınız Soyadınız"
+                      placeholder={t("contact.form_name_placeholder")}
                     />
                   </div>
                   <div>
                     <label className="mb-1 block text-sm font-medium text-slate-700">
-                      Telefon
+                      {t("contact.form_phone")}
                     </label>
                     <input
                       type="tel"
@@ -67,7 +67,7 @@ export default function ContactFormSection() {
                   </div>
                   <div>
                     <label className="mb-1 block text-sm font-medium text-slate-700">
-                      Ülke
+                      {t("contact.form_country")}
                     </label>
                     <select
                       defaultValue="Macaristan"
@@ -82,7 +82,7 @@ export default function ContactFormSection() {
                   </div>
                   <div>
                     <label className="mb-1 block text-sm font-medium text-slate-700">
-                      e-Mail
+                      {t("contact.form_email")}
                     </label>
                     <input
                       type="email"
@@ -95,12 +95,12 @@ export default function ContactFormSection() {
 
                 <div>
                   <label className="mb-1 block text-sm font-medium text-slate-700">
-                    Mesaj
+                    {t("contact.form_message")}
                   </label>
                   <textarea
                     rows={5}
                     className="w-full rounded-lg border border-slate-300 px-4 py-3 focus:border-[#0F2B5C] focus:outline-none focus:ring-2 focus:ring-[#0F2B5C]/20"
-                    placeholder="Talebinizi detaylandırın..."
+                    placeholder={t("contact.form_message_placeholder")}
                   />
                 </div>
 
@@ -114,7 +114,7 @@ export default function ContactFormSection() {
                   className="inline-flex items-center gap-2 rounded-lg bg-[#0F2B5C] px-8 py-3 font-semibold uppercase tracking-wide text-white transition hover:bg-[#0d234d]"
                 >
                   <Send className="h-4 w-4" />
-                  Gönder
+                  {t("contact.form_submit")}
                 </button>
               </form>
             )}
@@ -124,7 +124,7 @@ export default function ContactFormSection() {
           <div className="rounded-2xl border border-slate-200 bg-[#0F2B5C] p-8 text-white">
             <h3 className="font-title text-2xl font-bold">Keystone Partners</h3>
             <p className="mt-3 text-sm text-white/70">
-              Sosyal medya hesaplarımızdan da bize ulaşabilirsiniz.
+              {t("contact.form_social_desc")}
             </p>
             <div className="mt-6 flex gap-3">
               {socials.map(({ label, href, Icon }) => (

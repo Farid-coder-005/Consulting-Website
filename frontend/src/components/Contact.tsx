@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import {
   referenceLogos,
   hakkimizdaReferences,
@@ -15,6 +16,8 @@ export default function Contact({
   experiences = false,
   logos = referenceLogos,
 }: Props) {
+  const { t } = useTranslation();
+
   return (
     <section id="contact" className="scroll-mt-28 py-16 md:py-24 bg-slate-50">
       <Reveal className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12">
@@ -23,15 +26,13 @@ export default function Contact({
           {experiences ? (
             <>
               <p className="text-accent font-heading font-semibold tracking-widest uppercase text-sm">
-                Deneyimlerimiz
+                {t("contact_form.experiences_eyebrow")}
               </p>
               <h2 className="font-title font-bold text-3xl text-brand mt-2 mb-4">
-                Deneyimlerimiz
+                {t("contact_form.experiences_title")}
               </h2>
               <p className="text-slate-600 mb-8 leading-relaxed">
-                Global ölçekte kurumsal müvekkillerimize sunduğumuz
-                hizmetlerle güvenin adresi olmaya devam ediyoruz. Çeşitli
-                sektörlerden saygın markaların çözüm ortağıyız.
+                {t("contact_form.experiences_desc")}
               </p>
               <div className="grid grid-cols-3 gap-4 items-center opacity-80">
                 {hakkimizdaReferences.map((l) => (
@@ -47,10 +48,10 @@ export default function Contact({
           ) : (
             <>
               <p className="text-accent font-heading font-semibold tracking-widest uppercase text-sm">
-                Güvenilir Çözüm Ortağı
+                {t("contact_form.references_eyebrow")}
               </p>
               <h2 className="font-title font-bold text-3xl text-brand mt-2 mb-6">
-                Referanslarımız
+                {t("contact_form.references_title")}
               </h2>
               <div className="grid grid-cols-3 gap-4 items-center opacity-70">
                 {logos.map((l) => (
@@ -72,10 +73,10 @@ export default function Contact({
           className="scroll-mt-28 bg-white rounded-lg shadow-sm p-8"
         >
           <h2 className="font-title font-bold text-2xl text-brand mb-1">
-            Lütfen Formu Doldurun
+            {t("contact_form.title")}
           </h2>
           <p className="text-slate-500 mb-6">
-            24 Saat İçinde Size Geri Dönüş Yapacağız
+            {t("contact_form.subtitle")}
           </p>
           <form className="space-y-4" noValidate>
             <div className="grid sm:grid-cols-2 gap-4">
@@ -84,7 +85,7 @@ export default function Contact({
                   className="block text-sm font-semibold text-brand mb-1"
                   htmlFor="name"
                 >
-                  İsim
+                  {t("contact_form.name")}
                 </label>
                 <input
                   id="name"
@@ -97,7 +98,7 @@ export default function Contact({
                   className="block text-sm font-semibold text-brand mb-1"
                   htmlFor="phone"
                 >
-                  Telefon
+                  {t("contact_form.phone")}
                 </label>
                 <input
                   id="phone"
@@ -111,7 +112,7 @@ export default function Contact({
                 className="block text-sm font-semibold text-brand mb-1"
                 htmlFor="country"
               >
-                Ülke
+                {t("contact_form.country")}
               </label>
               <select
                 id="country"
@@ -127,7 +128,7 @@ export default function Contact({
                 className="block text-sm font-semibold text-brand mb-1"
                 htmlFor="email"
               >
-                e-Mail
+                {t("contact_form.email")}
               </label>
               <input
                 id="email"
@@ -140,7 +141,7 @@ export default function Contact({
                 className="block text-sm font-semibold text-brand mb-1"
                 htmlFor="message"
               >
-                Mesaj
+                {t("contact_form.message")}
               </label>
               <textarea
                 id="message"
@@ -160,7 +161,7 @@ export default function Contact({
                 htmlFor="recaptcha"
                 className="text-sm text-slate-600 flex-1 select-none"
               >
-                Ben robot değilim
+                {t("contact_form.recaptcha")}
               </label>
               <span className="flex items-center gap-1 text-[11px] text-slate-400">
                 <span className="w-5 h-5 rounded-full border border-slate-300 bg-white flex items-center justify-center">
@@ -174,11 +175,10 @@ export default function Contact({
               type="submit"
               className="w-full bg-brand hover:bg-brand-dark text-white font-heading font-semibold px-6 py-3 rounded transition"
             >
-              GÖNDER
+              {t("contact_form.submit")}
             </button>
             <p className="text-xs text-slate-400">
-              Form bilgileriniz gizli tutulur ve yalnızca talebinizi
-              yanıtlamak için kullanılır.
+              {t("contact_form.privacy")}
             </p>
           </form>
         </div>

@@ -1,20 +1,22 @@
+import { useTranslation } from "react-i18next";
 import { Reveal } from "./motion";
 
 export default function Locations() {
+  const { t } = useTranslation();
+
   return (
     <section id="offices" className="scroll-mt-28 py-16 md:py-24 bg-white">
       <Reveal className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-14">
           <p className="text-accent font-heading font-semibold tracking-widest uppercase text-sm">
-            Global Ağ
+            {t("home.locations_eyebrow")}
           </p>
           <h2 className="font-title font-bold text-3xl md:text-4xl text-brand mt-2">
-            Uluslararası Hukuk ve Danışmanlık Hizmet Noktalarımız
+            {t("home.locations_title")}
           </h2>
           <div className="w-20 h-1 bg-accent mx-auto mt-4" />
           <p className="text-slate-600 mt-6 max-w-3xl mx-auto">
-            On ülkede yer alan ofislerimizle uluslararası müvekkillerimize
-            yerel uzmanlıkla hizmet veriyoruz.
+            {t("home.locations_desc")}
           </p>
         </div>
 
@@ -31,10 +33,10 @@ export default function Locations() {
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/30 to-transparent" />
             <div className="absolute inset-0 flex flex-col items-center justify-end p-8 text-center">
               <img src="/MaltaFlag.jpg" alt="Malta Flag" className="h-8 w-auto object-contain mb-3" />
-              <h3 className="font-heading font-bold text-white text-2xl md:text-3xl">Malta</h3>
-              <p className="text-white/70 text-base mb-5">Valletta</p>
+              <h3 className="font-heading font-bold text-white text-2xl md:text-3xl">{t("offices.malta")}</h3>
+              <p className="text-white/70 text-base mb-5">{t("offices.valletta")}</p>
               <span className="bg-[#0f2042] text-white text-sm font-semibold uppercase tracking-wide px-8 py-3 rounded-full group-hover:bg-[#1a3260] transition-colors duration-300">
-                İLETİŞİM
+                {t("offices.contact")}
               </span>
             </div>
           </a>

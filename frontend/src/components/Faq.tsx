@@ -1,9 +1,11 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { ChevronDownIcon } from "./icons";
 import { faqs } from "../content";
 import { Reveal } from "./motion";
 
 export default function Faq() {
+  const { t } = useTranslation();
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
@@ -11,10 +13,10 @@ export default function Faq() {
       <Reveal className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-12">
           <p className="text-accent font-heading font-semibold tracking-widest uppercase text-sm">
-            Sıkça Sorulan Sorular
+            {t("faq.eyebrow")}
           </p>
           <h2 className="font-heading font-extrabold text-3xl md:text-4xl text-brand mt-2">
-            Şirket Kuruluşu Hakkında SSS
+            {t("faq.title")}
           </h2>
         </div>
 

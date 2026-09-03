@@ -700,14 +700,14 @@ export default function Header() {
               <form className="flex gap-2" role="search">
                 <input
                   type="search"
-                  placeholder="Aramak istediğiniz kelimeyi yazın…"
+                  placeholder={t("common.search_placeholder")}
                   className="flex-1 border border-slate-300 rounded px-4 py-2 focus:outline-none focus:ring-2 focus:ring-accent"
                 />
                 <button
                   type="submit"
                   className="bg-accent text-white px-5 rounded hover:bg-brand transition"
                 >
-                  Ara
+                  {t("common.search")}
                 </button>
               </form>
             </div>
@@ -724,7 +724,7 @@ export default function Header() {
           />
           <aside className="absolute right-0 top-0 h-full w-80 max-w-[85%] bg-white shadow-xl flex flex-col">
             <div className="flex items-center justify-between px-4 h-16 border-b">
-              <span className="font-sans font-bold text-brand">Menü</span>
+              <span className="font-sans font-bold text-brand">{t("common.menu")}</span>
               <button
                 type="button"
                 className="text-brand"

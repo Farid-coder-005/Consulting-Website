@@ -1,10 +1,13 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { featuredPost } from "../content";
 import { Reveal } from "./motion";
 import Img from "./Img";
 import { SectionHeading } from "./inner";
 
 export default function HomeBlog() {
+  const { t } = useTranslation();
+
   return (
     <section className="py-16 md:py-24 bg-slate-50">
       <Reveal className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
@@ -15,15 +18,13 @@ export default function HomeBlog() {
             light={false}
           />
           <p className="text-slate-600 leading-relaxed mb-8 max-w-md text-left">
-            Uluslararası şirketleşme, vergi ve hukuk dünyasından en güncel
-            makaleler, rehberler ve uzman görüşleriyle bilgiye bir adım
-            önde olun.
+            {t("home.blog_desc")}
           </p>
           <Link
             to="/blog"
             className="inline-block border-2 border-accent text-accent hover:bg-accent hover:text-white font-heading font-semibold px-7 py-3 rounded-full uppercase tracking-wide transition"
           >
-            Tüm Blogları Keşfet
+            {t("home.blog_btn")}
           </Link>
         </div>
 
@@ -44,7 +45,7 @@ export default function HomeBlog() {
                 to={featuredPost.url}
                 className="inline-flex items-center gap-1 text-accent font-heading font-semibold uppercase tracking-wide text-sm group-hover:gap-2 transition"
               >
-                Devamını Oku ›
+                {t("common.read_more")}
               </Link>
             </div>
           </article>

@@ -1,13 +1,16 @@
+import { useTranslation } from "react-i18next";
 import { MapPin, Phone, Mail, Clock, ExternalLink } from "lucide-react";
 import { officesData } from "../../data/officesData";
 
 export default function OfficesSection() {
+  const { t } = useTranslation();
+
   return (
     <section className="bg-[#F8FAFC] py-16 md:py-20">
       <div className="max-w-7xl mx-auto px-4">
         <div className="mb-12 text-center">
           <h2 className="font-title text-3xl font-bold text-[#0F2B5C] md:text-4xl">
-            Hizmet Verdiğimiz Noktalar
+            {t("offices.service_points")}
           </h2>
           <div className="mx-auto mt-4 h-1 w-24 rounded bg-[#5B9BD5]" />
         </div>
@@ -79,7 +82,7 @@ export default function OfficesSection() {
               <div className="flex flex-col">
                 <div className="h-48 overflow-hidden rounded-xl border border-slate-200 md:flex-1">
                   <iframe
-                    title={`${office.city} harita`}
+                    title={`${office.city} map`}
                     src={office.mapEmbedUrl}
                     loading="lazy"
                     className="h-full w-full"
@@ -91,7 +94,7 @@ export default function OfficesSection() {
                   rel="noopener noreferrer"
                   className="mt-3 inline-flex items-center justify-center gap-2 rounded-lg border border-[#0F2B5C] px-4 py-2 text-sm font-semibold text-[#0F2B5C] transition hover:bg-[#0F2B5C] hover:text-white"
                 >
-                  Haritalar&apos;da aç
+                  {t("offices.open_in_maps")}
                   <ExternalLink className="h-4 w-4" />
                 </a>
               </div>

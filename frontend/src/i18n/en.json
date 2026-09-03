@@ -13,22 +13,39 @@
     "title": "Keystone Partners specializes in guiding and supporting multi-million dollar international projects with strategic expertise.",
     "subtitle": "International Law and Consulting Office",
     "cta": "Contact Us",
-    "locations_btn": "Our Locations"
+    "locations_btn": "Our Locations",
+    "prev_slide": "Previous slide",
+    "next_slide": "Next slide"
   },
   "footer": {
     "locations": "Our Locations",
     "services": "Our Services",
     "description": "At Keystone Partners, we help entrepreneurs, investors, and companies establish and grow internationally through integrated legal, tax, and corporate consulting services.",
-    "copyright": "Keystone Partners - 2026 | All Rights Reserved."
+    "copyright": "Keystone Partners - 2026 | All Rights Reserved.",
+    "privacy": "Privacy Policy"
   },
   "home": {
     "offices_title": "Local Presence. International Access. Keystone Partners Offices",
-    "offices_desc": "With a multinational and multilingual team, Keystone Partners supports entrepreneurs, investors, and companies across different legal jurisdictions through integrated legal, tax, compliance, and corporate consulting solutions."
+    "offices_desc": "With a multinational and multilingual team, Keystone Partners supports entrepreneurs, investors, and companies across different legal jurisdictions through integrated legal, tax, compliance, and corporate consulting solutions.",
+    "stats_title": "Keystone Partners International Law and Consulting Office",
+    "stats_subtitle": "Company Formation, International Company Formation, International Tax Consulting and More",
+    "stats_quote": "Keystone Partners is an innovative international law and consulting company.",
+    "services_eyebrow": "Our Services",
+    "services_title": "International Law and Consulting Office - Our Services",
+    "services_desc": "We grow your business globally with end-to-end services in international law, tax, and consulting.",
+    "blog_desc": "Stay ahead with the latest articles, guides, and expert insights from the world of international company formation, tax, and law.",
+    "blog_btn": "Explore All Blogs",
+    "memberships_desc": "Our trusted solution partners worldwide and international organizations we are members of.",
+    "locations_eyebrow": "Global Network",
+    "locations_title": "International Law and Consulting Service Points",
+    "locations_desc": "We serve our international clients with local expertise through our offices in ten countries."
   },
   "offices": {
     "malta": "Malta",
     "valletta": "Valletta",
-    "contact": "CONTACT"
+    "contact": "CONTACT",
+    "service_points": "Our Service Points",
+    "open_in_maps": "Open in Maps"
   },
   "mega": {
     "intl": {
@@ -130,12 +147,97 @@
     "i5": "News",
     "i6": "Career"
   },
+  "contact": {
+    "hero_title": "Contact Us",
+    "hero_subtitle": "Appointment Scheduling at Keystone Partners",
+    "hero_desc": "At Keystone Partners, we offer both in-person and online consultations. For your questions and consulting requests, you can reach us anytime at",
+    "hero_desc_end": ".",
+    "card_email_title": "Send Us an Email Now",
+    "card_video_title": "Schedule a Free 15-Minute Consultation",
+    "card_video_desc": "Online video meeting",
+    "card_whatsapp_title": "Send Us a Message Now",
+    "card_whatsapp_desc": "Via WhatsApp",
+    "cta_title": "Let's Get Started - Request a free preliminary consultation!",
+    "cta_btn": "Schedule Now ›",
+    "form_title": "Please fill out the form below. We will get back to you within 24 hours.",
+    "form_success": "Your message has been received. Our team will contact you as soon as possible.",
+    "form_name": "Name",
+    "form_name_placeholder": "Your Full Name",
+    "form_phone": "Phone",
+    "form_country": "Country",
+    "form_email": "Email",
+    "form_message": "Message",
+    "form_message_placeholder": "Describe your request in detail...",
+    "form_submit": "Submit",
+    "form_social_desc": "You can also reach us through our social media accounts."
+  },
+  "contact_form": {
+    "title": "Please Fill Out the Form",
+    "subtitle": "We Will Get Back to You Within 24 Hours",
+    "name": "Name",
+    "phone": "Phone",
+    "country": "Country",
+    "email": "Email",
+    "message": "Message",
+    "recaptcha": "I'm not a robot",
+    "submit": "SUBMIT",
+    "privacy": "Your form information is kept confidential and used only to respond to your request.",
+    "experiences_eyebrow": "Our Experiences",
+    "experiences_title": "Our Experiences",
+    "experiences_desc": "We continue to be the address of trust with the services we offer to our corporate clients on a global scale. We are the solution partner of respected brands from various sectors.",
+    "references_eyebrow": "Trusted Solution Partner",
+    "references_title": "Our References"
+  },
+  "faq": {
+    "eyebrow": "Frequently Asked Questions",
+    "title": "FAQ About Company Formation"
+  },
+  "blog": {
+    "latest_posts": "Latest Posts",
+    "most_popular_eyebrow": "Most Popular",
+    "most_popular_title": "Most Popular",
+    "read_more": "Read more →"
+  },
+  "services": {
+    "eyebrow": "Our Services",
+    "title": "International Law and Consulting Office - Our Services",
+    "desc": "We grow your business globally with end-to-end services in international law, tax, and consulting."
+  },
+  "memberships": {
+    "desc": "Our trusted solution partners worldwide and international organizations we are members of."
+  },
+  "company_formation": {
+    "eyebrow": "Company Formation",
+    "title": "Company Formation",
+    "coming_soon": "services will be detailed soon.",
+    "coming_soon_default": "Our international company formation services will be live soon."
+  },
+  "inner": {
+    "references_eyebrow": "Trusted Solution Partner",
+    "references_title": "Our References",
+    "cta_title": "Let's Get Started - Request a free preliminary consultation!",
+    "cta_plan": "SCHEDULE NOW ›",
+    "cta_whatsapp": "CONTACT VIA WHATSAPP ›"
+  },
+  "not_found": {
+    "subtitle": "The page you were looking for could not be found."
+  },
+  "common": {
+    "read_more": "Read More →",
+    "contact_us": "Contact",
+    "menu": "Menu",
+    "close": "Close",
+    "search_placeholder": "Type the word you want to search…",
+    "search": "Search",
+    "back_to_top": "Back to top",
+    "open_maps": "Open in Maps"
+  },
   "yatirim": {
     "hero_title": "Keystone Invest",
     "hero_subtitle": "Simplifying Real Estate Investment in Europe"
   },
-  "common": {
-    "read_more": "Read More →",
-    "contact_us": "Contact"
+  "floating": {
+    "contact_us": "Contact Us",
+    "recaptcha": "I'm not a robot"
   }
 }

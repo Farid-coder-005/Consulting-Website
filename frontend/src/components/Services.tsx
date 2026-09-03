@@ -1,23 +1,25 @@
+import { useTranslation } from "react-i18next";
 import { motion } from "framer-motion";
 import { services } from "../content";
 import { Reveal } from "./motion";
 import Img from "./Img";
 
 export default function Services() {
+  const { t } = useTranslation();
+
   return (
     <section id="services" className="scroll-mt-28 py-16 md:py-24 bg-slate-50">
       <Reveal className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-14">
           <p className="text-accent font-heading font-semibold tracking-widest uppercase text-sm">
-            Faaliyet Alanlarımız
+            {t("services.eyebrow")}
           </p>
           <h2 className="font-title font-bold text-3xl md:text-4xl text-brand mt-2">
-            Uluslararası Hukuk ve Danışmanlık Bürosu Faaliyet Alanlarımız
+            {t("services.title")}
           </h2>
           <div className="w-20 h-1 bg-accent mx-auto mt-4" />
           <p className="text-slate-600 mt-6 max-w-3xl mx-auto">
-            Uluslararası hukuk, vergi ve danışmanlık alanında uçtan uca
-            hizmetlerle işinizi global ölçekte büyütüyoruz.
+            {t("services.desc")}
           </p>
         </div>
 

@@ -13,22 +13,39 @@
     "title": "Keystone Partners ist spezialisiert auf die Begleitung und Unterstützung internationaler Projekte mit strategischer Expertise.",
     "subtitle": "Internationale Rechts- und Beratungskanzlei",
     "cta": "Kontaktieren Sie uns",
-    "locations_btn": "Unsere Standorte"
+    "locations_btn": "Unsere Standorte",
+    "prev_slide": "Vorherige Folie",
+    "next_slide": "Nächste Folie"
   },
   "footer": {
     "locations": "Unsere Standorte",
     "services": "Unsere Leistungen",
     "description": "Bei Keystone Partners helfen wir Unternehmern, Investoren und Unternehmen, sich international zu etablieren und zu wachsen, durch integrierte Rechts-, Steuer- und Unternehmensberatungsleistungen.",
-    "copyright": "Keystone Partners - 2026 | Alle Rechte vorbehalten."
+    "copyright": "Keystone Partners - 2026 | Alle Rechte vorbehalten.",
+    "privacy": "Datenschutzrichtlinie"
   },
   "home": {
     "offices_title": "Lokale Präsenz. Internationaler Zugang. Keystone Partners Büros",
-    "offices_desc": "Mit einem mehrsprachigen und internationalen Team unterstützt Keystone Partners Unternehmer, Investoren und Unternehmen in verschiedenen Rechtsgebieten durch integrierte Rechts-, Steuer- und Unternehmensberatungslösungen."
+    "offices_desc": "Mit einem mehrsprachigen und internationalen Team unterstützt Keystone Partners Unternehmer, Investoren und Unternehmen in verschiedenen Rechtsgebieten durch integrierte Rechts-, Steuer- und Unternehmensberatungslösungen.",
+    "stats_title": "Keystone Partners Internationale Rechts- und Beratungskanzlei",
+    "stats_subtitle": "Unternehmensgründung, Internationale Unternehmensgründung, Internationale Steuerberatung und mehr",
+    "stats_quote": "Keystone Partners ist eine innovative internationale Rechts- und Beratungsgesellschaft.",
+    "services_eyebrow": "Unsere Leistungen",
+    "services_title": "Internationale Rechts- und Beratungskanzlei - Unsere Leistungen",
+    "services_desc": "Wir entwickeln Ihr Geschäft global mit End-to-End-Leistungen im internationalen Recht, Steuerwesen und Consulting.",
+    "blog_desc": "Bleiben Sie auf dem Laufenden mit den neuesten Artikeln, Leitfäden und Experteneinblicken aus der Welt der internationalen Unternehmensgründung, Steuern und des Rechts.",
+    "blog_btn": "Alle Blogs entdecken",
+    "memberships_desc": "Unsere vertrauenswürdigen Lösungspartner weltweit und internationale Organisationen, denen wir angehören.",
+    "locations_eyebrow": "Globales Netzwerk",
+    "locations_title": "Internationale Rechts- und Beratungsstandorte",
+    "locations_desc": "Wir betreuen unsere internationalen Kunden mit lokaler Expertise durch unsere Büros in zehn Ländern."
   },
   "offices": {
     "malta": "Malta",
     "valletta": "Valletta",
-    "contact": "KONTAKT"
+    "contact": "KONTAKT",
+    "service_points": "Unsere Servicepunkte",
+    "open_in_maps": "In Karten öffnen"
   },
   "mega": {
     "intl": {
@@ -130,12 +147,97 @@
     "i5": "Neuigkeiten",
     "i6": "Karriere"
   },
+  "contact": {
+    "hero_title": "Kontaktieren Sie uns",
+    "hero_subtitle": "Terminvereinbarung bei Keystone Partners",
+    "hero_desc": "Bei Keystone Partners bieten wir sowohl persönliche als auch Online-Beratungen an. Für Ihre Fragen und Beratungsanfragen können Sie uns jederzeit erreichen unter",
+    "hero_desc_end": ".",
+    "card_email_title": "Senden Sie uns jetzt eine E-Mail",
+    "card_video_title": "Vereinbaren Sie eine kostenlose 15-minütige Beratung",
+    "card_video_desc": "Online-Videobesprechung",
+    "card_whatsapp_title": "Senden Sie uns jetzt eine Nachricht",
+    "card_whatsapp_desc": "Über WhatsApp",
+    "cta_title": "Lassen Sie uns anfangen - Fordern Sie eine kostenlose Vorgespräch an!",
+    "cta_btn": "Jetzt planen ›",
+    "form_title": "Bitte füllen Sie das untenstehende Formular aus. Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+    "form_success": "Ihre Nachricht wurde erhalten. Unser Team wird sich so bald wie möglich mit Ihnen in Verbindung setzen.",
+    "form_name": "Name",
+    "form_name_placeholder": "Ihr vollständiger Name",
+    "form_phone": "Telefon",
+    "form_country": "Land",
+    "form_email": "E-Mail",
+    "form_message": "Nachricht",
+    "form_message_placeholder": "Beschreiben Sie Ihre Anfrage detailliert...",
+    "form_submit": "Absenden",
+    "form_social_desc": "Sie können uns auch über unsere Social-Media-Kontakte erreichen."
+  },
+  "contact_form": {
+    "title": "Bitte füllen Sie das Formular aus",
+    "subtitle": "Wir melden uns innerhalb von 24 Stunden bei Ihnen",
+    "name": "Name",
+    "phone": "Telefon",
+    "country": "Land",
+    "email": "E-Mail",
+    "message": "Nachricht",
+    "recaptcha": "Ich bin kein Roboter",
+    "submit": "ABSENDEN",
+    "privacy": "Ihre Formularinformationen werden vertraulich behandelt und nur zur Beantwortung Ihrer Anfrage verwendet.",
+    "experiences_eyebrow": "Unsere Erfahrungen",
+    "experiences_title": "Unsere Erfahrungen",
+    "experiences_desc": "Wir sind weiterhin die Adresse des Vertrauens mit den Dienstleistungen, die wir unseren Firmenkunden weltweit anbieten. Wir sind der Lösungspartner renommierter Marken aus verschiedenen Branchen.",
+    "references_eyebrow": "Vertrauenswürdiger Lösungspartner",
+    "references_title": "Unsere Referenzen"
+  },
+  "faq": {
+    "eyebrow": "Häufig gestellte Fragen",
+    "title": "FAQ zur Unternehmensgründung"
+  },
+  "blog": {
+    "latest_posts": "Neueste Beiträge",
+    "most_popular_eyebrow": "Beliebteste",
+    "most_popular_title": "Beliebteste",
+    "read_more": "Weiterlesen →"
+  },
+  "services": {
+    "eyebrow": "Unsere Leistungen",
+    "title": "Internationale Rechts- und Beratungskanzlei - Unsere Leistungen",
+    "desc": "Wir entwickeln Ihr Geschäft global mit End-to-End-Leistungen im internationalen Recht, Steuerwesen und Consulting."
+  },
+  "memberships": {
+    "desc": "Unsere vertrauenswürdigen Lösungspartner weltweit und internationale Organisationen, denen wir angehören."
+  },
+  "company_formation": {
+    "eyebrow": "Unternehmensgründung",
+    "title": "Unternehmensgründung",
+    "coming_soon": "Dienstleistungen werden bald detailliert.",
+    "coming_soon_default": "Unsere internationalen Unternehmensgründungsdienstleistungen werden bald verfügbar sein."
+  },
+  "inner": {
+    "references_eyebrow": "Vertrauenswürdiger Lösungspartner",
+    "references_title": "Unsere Referenzen",
+    "cta_title": "Lassen Sie uns anfangen - Fordern Sie eine kostenlose Vorgespräch an!",
+    "cta_plan": "JETZT PLANEN ›",
+    "cta_whatsapp": "ÜBER WHATSAPP KONTAKTIEREN ›"
+  },
+  "not_found": {
+    "subtitle": "Die gesuchte Seite konnte nicht gefunden werden."
+  },
+  "common": {
+    "read_more": "Weiterlesen →",
+    "contact_us": "Kontakt",
+    "menu": "Menü",
+    "close": "Schließen",
+    "search_placeholder": "Geben Sie das Wort ein, das Sie suchen…",
+    "search": "Suchen",
+    "back_to_top": "Nach oben",
+    "open_maps": "In Karten öffnen"
+  },
   "yatirim": {
     "hero_title": "Keystone Invest",
     "hero_subtitle": "Immobilieninvestitionen in Europa vereinfachen"
   },
-  "common": {
-    "read_more": "Weiterlesen →",
-    "contact_us": "Kontakt"
+  "floating": {
+    "contact_us": "Kontaktieren Sie uns",
+    "recaptcha": "Ich bin kein Roboter"
   }
 }

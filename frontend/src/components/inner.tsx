@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import type { ReactNode } from "react";
 import { motion } from "framer-motion";
 import Img from "./Img";
@@ -99,15 +100,17 @@ export function References({
 }: {
   logos: { src: string; alt: string }[];
 }) {
+  const { t } = useTranslation();
+
   return (
     <section className="py-14 bg-white border-y border-slate-100">
       <Reveal className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-10">
           <p className="text-accent font-heading font-semibold tracking-widest uppercase text-sm">
-            Güvenilir Çözüm Ortağı
+            {t("inner.references_eyebrow")}
           </p>
           <h2 className="font-heading font-extrabold text-2xl md:text-3xl text-brand mt-2">
-            Referanslarımız
+            {t("inner.references_title")}
           </h2>
         </div>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 items-center opacity-70">
@@ -126,17 +129,20 @@ export function References({
 }
 
 export function CtaBand({
-  title = "Hadi Başlayalım - Ücretsiz bir ön görüşme talep edin!",
+  title,
 }: {
   title?: string;
   text?: string;
   children?: ReactNode;
 }) {
+  const { t } = useTranslation();
+  const displayTitle = title ?? t("inner.cta_title");
+
   return (
     <div className="max-w-6xl mx-auto px-4 -mb-12 relative z-10">
       <div className="bg-[#5A9BD5] rounded-xl p-8 shadow-lg flex flex-col md:flex-row items-center justify-between gap-6">
         <h2 className="text-white text-xl md:text-2xl font-medium text-left">
-          {title}
+          {displayTitle}
         </h2>
         <div className="flex flex-wrap items-center gap-3 shrink-0">
           <a
@@ -145,7 +151,7 @@ export function CtaBand({
             rel="noopener noreferrer"
             className="bg-[#1D72B8] text-white px-6 py-3 rounded-md text-sm font-semibold hover:bg-blue-800 transition whitespace-nowrap"
           >
-            ŞİMDİ PLANLA ›
+            {t("inner.cta_plan")}
           </a>
           <a
             href={WHATSAPP_URL}
@@ -153,7 +159,7 @@ export function CtaBand({
             rel="noopener noreferrer"
             className="bg-[#5CB85C] text-white px-6 py-3 rounded-md text-sm font-semibold hover:bg-green-600 transition whitespace-nowrap"
           >
-            WHATSAPP'TAN ULAŞIN ›
+            {t("inner.cta_whatsapp")}
           </a>
         </div>
       </div>

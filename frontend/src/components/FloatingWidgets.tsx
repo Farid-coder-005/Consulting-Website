@@ -1,3 +1,4 @@
+import { useTranslation } from "react-i18next";
 import { useState, useEffect, useRef } from "react";
 import { WHATSAPP_URL, countries } from "../content";
 
@@ -23,6 +24,7 @@ function CloseIcon({ className }: { className?: string }) {
 /* ── Contact Form Modal ───────────────────────────────── */
 
 function ContactModal({ open, onClose }: { open: boolean; onClose: () => void }) {
+  const { t } = useTranslation();
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -42,7 +44,7 @@ function ContactModal({ open, onClose }: { open: boolean; onClose: () => void })
         className="relative bg-white rounded-lg shadow-2xl w-full max-w-2xl mx-4 max-h-[90vh] overflow-y-auto"
       >
         {/* Close button */}
-        <button onClick={onClose} className="absolute top-4 right-4 z-10 text-gray-500 hover:text-gray-800 transition" aria-label="Kapat">
+        <button onClick={onClose} className="absolute top-4 right-4 z-10 text-gray-500 hover:text-gray-800 transition" aria-label={t("common.close")}>
           <CloseIcon className="w-6 h-6" />
         </button>
 
@@ -51,25 +53,25 @@ function ContactModal({ open, onClose }: { open: boolean; onClose: () => void })
             {/* First / Last Name */}
             <div className="grid sm:grid-cols-2 gap-5">
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor="c-first">First Name</label>
+                <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor="c-first">{t("contact_form.name")}</label>
                 <input id="c-first" type="text" className="w-full border border-gray-300 rounded px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-[#0062E0]" />
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor="c-last">Last Name</label>
+                <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor="c-last">{t("contact_form.name")}</label>
                 <input id="c-last" type="text" className="w-full border border-gray-300 rounded px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-[#0062E0]" />
               </div>
             </div>
 
             {/* Phone */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor="c-phone">Phone</label>
+              <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor="c-phone">{t("contact_form.phone")}</label>
               <input id="c-phone" type="tel" className="w-full border border-gray-300 rounded px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-[#0062E0]" />
             </div>
 
             {/* Country / Email */}
             <div className="grid sm:grid-cols-2 gap-5">
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor="c-country">Country:</label>
+                <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor="c-country">{t("contact_form.country")}:</label>
                 <select id="c-country" className="w-full border border-gray-300 rounded px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-[#0062E0]" defaultValue="Hungary">
                   {countries.map((c) => (
                     <option key={c}>{c}</option>
@@ -77,21 +79,21 @@ function ContactModal({ open, onClose }: { open: boolean; onClose: () => void })
                 </select>
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor="c-email">e-Mail</label>
+                <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor="c-email">{t("contact_form.email")}</label>
                 <input id="c-email" type="email" className="w-full border border-gray-300 rounded px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-[#0062E0]" />
               </div>
             </div>
 
             {/* Message */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor="c-message">Message</label>
+              <label className="block text-sm font-medium text-gray-700 mb-1" htmlFor="c-message">{t("contact_form.message")}</label>
               <textarea id="c-message" rows={5} className="w-full border border-gray-300 rounded px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-[#0062E0]" />
             </div>
 
             {/* reCAPTCHA placeholder */}
             <div className="flex items-center gap-3 border border-gray-300 rounded px-3 py-3 bg-[#f9f9f9] max-w-sm">
               <input type="checkbox" id="c-recaptcha" className="w-5 h-5 accent-[#0062E0]" />
-              <label htmlFor="c-recaptcha" className="text-sm text-gray-600 flex-1 select-none">Ben robot değilim</label>
+              <label htmlFor="c-recaptcha" className="text-sm text-gray-600 flex-1 select-none">{t("floating.recaptcha")}</label>
               <span className="flex items-center gap-1 text-[11px] text-gray-400">
                 <span className="w-5 h-5 rounded-full border border-gray-300 bg-white flex items-center justify-center">↻</span>
                 reCAPTCHA
@@ -100,7 +102,7 @@ function ContactModal({ open, onClose }: { open: boolean; onClose: () => void })
 
             {/* Submit */}
             <button type="submit" className="w-full bg-[#0f2042] hover:bg-[#162d54] text-white font-semibold py-3.5 rounded transition text-sm tracking-wide">
-              SUBMIT
+              {t("contact_form.submit")}
             </button>
           </form>
 
@@ -116,6 +118,7 @@ function ContactModal({ open, onClose }: { open: boolean; onClose: () => void })
 /* ── Main Floating Widgets ────────────────────────────── */
 
 export default function FloatingWidgets() {
+  const { t } = useTranslation();
   const [isContactOpen, setIsContactOpen] = useState(false);
 
   return (
@@ -128,9 +131,9 @@ export default function FloatingWidgets() {
         onClick={() => setIsContactOpen(true)}
         className="fixed right-0 z-50 bg-[#1d70b8] hover:bg-[#1a63a0] transition text-white font-bold text-sm tracking-wider px-3 py-5 shadow-md cursor-pointer"
         style={{ writingMode: "vertical-rl", top: "60%" }}
-        aria-label="Contact Us"
+        aria-label={t("floating.contact_us")}
       >
-        Contact Us
+        {t("floating.contact_us")}
       </button>
 
       {/* WhatsApp floating button */}

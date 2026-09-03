@@ -13,22 +13,39 @@
     "title": "Keystone Partners, multi-milyon dolarlık uluslararası projelere stratejik uzmanlığıyla rehberlik etme ve destekleme konusunda uzmandır.",
     "subtitle": "Uluslararası Hukuk ve Danışmanlık Ofisi",
     "cta": "İletişim",
-    "locations_btn": "Hizmet Noktalarımız"
+    "locations_btn": "Hizmet Noktalarımız",
+    "prev_slide": "Önceki slide",
+    "next_slide": "Sonraki slide"
   },
   "footer": {
     "locations": "Hizmet Noktalarımız",
     "services": "Faaliyet Alanlarımız",
     "description": "Keystone Partners olarak; entegre hukuk, vergi ve kurumsal danışmanlık hizmetlerimiz aracılığıyla girişimcilerin, yatırımcıların ve şirketlerin uluslararası alanda kurulmalarına ve büyümelerine yardımcı oluyoruz.",
-    "copyright": "Keystone Partners - 2026 | Tüm Hakları Saklıdır."
+    "copyright": "Keystone Partners - 2026 | Tüm Hakları Saklıdır.",
+    "privacy": "Gizlilik Politikası"
   },
   "home": {
     "offices_title": "Yerel Varlık. Uluslararası Erişim. Keystone Partners Ofisleri",
-    "offices_desc": "Çok uluslu ve çok dilli bir ekibe sahip olan Keystone Partners; entegre hukuk, vergi, uyum ve kurumsal danışmanlık çözümleri aracılığıyla farklı hukuki yetki alanlarındaki girişimcileri, yatırımcıları ve şirketleri desteklemektedir."
+    "offices_desc": "Çok uluslu ve çok dilli bir ekibe sahip olan Keystone Partners; entegre hukuk, vergi, uyum ve kurumsal danışmanlık çözümleri aracılığıyla farklı hukuki yetki alanlarındaki girişimcileri, yatırımcıları ve şirketleri desteklemektedir.",
+    "stats_title": "Keystone Partners Uluslararası Hukuk ve Danışmanlık Ofisi",
+    "stats_subtitle": "Şirket Kuruluşu, Uluslararası Şirketleşme, Uluslararası Vergi Danışmanlığı ve Daha Fazlası",
+    "stats_quote": "Keystone Partners uluslararası, inovatif bir Uluslararası hukuk ve danışmanlık şirketidir.",
+    "services_eyebrow": "Faaliyet Alanlarımız",
+    "services_title": "Uluslararası Hukuk ve Danışmanlık Bürosu Faaliyet Alanlarımız",
+    "services_desc": "Uluslararası hukuk, vergi ve danışmanlık alanında uçtan uca hizmetlerle işinizi global ölçekte büyütüyoruz.",
+    "blog_desc": "Uluslararası şirketleşme, vergi ve hukuk dünyasından en güncel makaleler, rehberler ve uzman görüşleriyle bilgiye bir adım önde olun.",
+    "blog_btn": "Tüm Blogları Keşfet",
+    "memberships_desc": "Global ölçekte güvenilir çözüm ortaklarımız ve üye olduğumuz uluslararası kuruluşlar.",
+    "locations_eyebrow": "Global Ağ",
+    "locations_title": "Uluslararası Hukuk ve Danışmanlık Hizmet Noktalarımız",
+    "locations_desc": "On ülkede yer alan ofislerimizle uluslararası müvekkillerimize yerel uzmanlıkla hizmet veriyoruz."
   },
   "offices": {
     "malta": "Malta",
     "valletta": "Valletta",
-    "contact": "İLETİŞİM"
+    "contact": "İLETİŞİM",
+    "service_points": "Hizmet Verdiğimiz Noktalar",
+    "open_in_maps": "Haritalar'da aç"
   },
   "mega": {
     "intl": {
@@ -130,12 +147,97 @@
     "i5": "Haberler",
     "i6": "Kariyer"
   },
+  "contact": {
+    "hero_title": "Bize Ulaşın",
+    "hero_subtitle": "Keystone Partners'te Görüşme Randevuları",
+    "hero_desc": "Keystone Partners olarak hem yüz yüze hem de online görüşmeler gerçekleştirebilirsiniz. Sorularınız ve danışmanlık talepleriniz için bizimle",
+    "hero_desc_end": "adresinden dilediğiniz zaman iletişime geçebilirsiniz.",
+    "card_email_title": "Hemen Bize Bir Mail Gönderin",
+    "card_video_title": "15 Dakikalık Ücretsiz Görüşme Planlayın",
+    "card_video_desc": "Online video görüşmesi",
+    "card_whatsapp_title": "Hemen Bize Bir Mesaj Gönderin",
+    "card_whatsapp_desc": "WhatsApp üzerinden",
+    "cta_title": "Hadi Başlayalım - Ücretsiz bir ön görüşme talep edin!",
+    "cta_btn": "Şimdi Planla ›",
+    "form_title": "Lütfen aşağıdaki formu doldurunuz. Size 24 saat içerisinde dönüş yapılacaktır.",
+    "form_success": "Mesajınız alınmıştır. Ekibimiz en kısa sürede sizinle iletişime geçecektir.",
+    "form_name": "İsim",
+    "form_name_placeholder": "Adınız Soyadınız",
+    "form_phone": "Telefon",
+    "form_country": "Ülke",
+    "form_email": "e-Mail",
+    "form_message": "Mesaj",
+    "form_message_placeholder": "Talebinizi detaylandırın...",
+    "form_submit": "Gönder",
+    "form_social_desc": "Sosyal medya hesaplarımızdan da bize ulaşabilirsiniz."
+  },
+  "contact_form": {
+    "title": "Lütfen Formu Doldurun",
+    "subtitle": "24 Saat İçinde Size Geri Dönüş Yapacağız",
+    "name": "İsim",
+    "phone": "Telefon",
+    "country": "Ülke",
+    "email": "e-Mail",
+    "message": "Mesaj",
+    "recaptcha": "Ben robot değilim",
+    "submit": "GÖNDER",
+    "privacy": "Form bilgileriniz gizli tutulur ve yalnızca talebinizi yanıtlamak için kullanılır.",
+    "experiences_eyebrow": "Deneyimlerimiz",
+    "experiences_title": "Deneyimlerimiz",
+    "experiences_desc": "Global ölçekte kurumsal müvekkillerimize sunduğumuz hizmetlerle güvenin adresi olmaya devam ediyoruz. Çeşitli sektörlerden saygın markaların çözüm ortağıyız.",
+    "references_eyebrow": "Güvenilir Çözüm Ortağı",
+    "references_title": "Referanslarımız"
+  },
+  "faq": {
+    "eyebrow": "Sıkça Sorulan Sorular",
+    "title": "Şirket Kuruluşu Hakkında SSS"
+  },
+  "blog": {
+    "latest_posts": "Son Yazılar",
+    "most_popular_eyebrow": "En Çok Okunanlar",
+    "most_popular_title": "Most Popular",
+    "read_more": "Devamını oku →"
+  },
+  "services": {
+    "eyebrow": "Faaliyet Alanlarımız",
+    "title": "Uluslararası Hukuk ve Danışmanlık Bürosu Faaliyet Alanlarımız",
+    "desc": "Uluslararası hukuk, vergi ve danışmanlık alanında uçtan uca hizmetlerle işinizi global ölçekte büyütüyoruz."
+  },
+  "memberships": {
+    "desc": "Global ölçekte güvenilir çözüm ortaklarımız ve üye olduğumuz uluslararası kuruluşlar."
+  },
+  "company_formation": {
+    "eyebrow": "Şirket Kuruluşu",
+    "title": "Şirket Kuruluşu",
+    "coming_soon": "hizmetleri yakında detaylandırılacaktır.",
+    "coming_soon_default": "Uluslararası şirket kuruluşu hizmetlerimiz yakında yayına alınacaktır."
+  },
+  "inner": {
+    "references_eyebrow": "Güvenilir Çözüm Ortağı",
+    "references_title": "Referanslarımız",
+    "cta_title": "Hadi Başlayalım - Ücretsiz bir ön görüşme talep edin!",
+    "cta_plan": "ŞİMDİ PLANLA ›",
+    "cta_whatsapp": "WHATSAPP'TAN ULAŞIN ›"
+  },
+  "not_found": {
+    "subtitle": "Aradığınız sayfa bulunamadı."
+  },
+  "common": {
+    "read_more": "Devamını Oku →",
+    "contact_us": "İletişim",
+    "menu": "Menü",
+    "close": "Kapat",
+    "search_placeholder": "Aramak istediğiniz kelimeyi yazın…",
+    "search": "Ara",
+    "back_to_top": "Yukarı çık",
+    "open_maps": "Haritalar'da aç"
+  },
   "yatirim": {
     "hero_title": "Keystone Invest",
     "hero_subtitle": "Simplifying Real Estate Investment in Europe"
   },
-  "common": {
-    "read_more": "Devamını Oku →",
-    "contact_us": "İletişim"
+  "floating": {
+    "contact_us": "Contact Us",
+    "recaptcha": "Ben robot değilim"
   }
 }
