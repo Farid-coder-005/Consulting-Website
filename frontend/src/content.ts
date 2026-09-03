@@ -3,7 +3,7 @@ export const LOGO_URL = "/logo2.png";
 export const HERO_BG =
   "https://gurcanpartners.com/wp-content/uploads/gurcan-partners-faaliyet-alanlarimiz.jpg";
 
-export const WHATSAPP_URL = "https://wa.me/36705758590";
+export const WHATSAPP_URL = "https://wa.me/35679601628";
 export const WHATSAPP_NUMBER = "+36 70 575 8590";
 export const EMAIL = "info@keystonepartners.com";
 
