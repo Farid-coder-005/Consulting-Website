@@ -2,58 +2,140 @@
   "nav": {
     "home": "HOME",
     "company_formation": "COMPANY FORMATION",
-    "consultancy": "CONSULTANCY",
+    "services": "SERVICES",
+    "tax": "TAX & CONSULTING",
     "investment": "INVESTMENT",
     "blog": "BLOG",
     "about": "ABOUT US",
-    "contact": "CONTACT",
-    "services": "SERVICES",
-    "locations": "OUR LOCATIONS"
+    "contact": "CONTACT"
   },
   "hero": {
-    "title": "Empowering Your Business Internationally",
+    "title": "Keystone Partners specializes in guiding and supporting multi-million dollar international projects with strategic expertise.",
     "subtitle": "International Law and Consulting Office",
-    "cta": "Contact Us Now",
+    "cta": "Contact Us",
     "locations_btn": "Our Locations"
   },
   "footer": {
-    "copyright": "Keystone Partners - 2026 | All Rights Reserved.",
-    "description": "At Keystone Partners, we provide integrated legal, tax, and corporate consulting services.",
-    "services": "Services",
-    "pages": "Pages",
-    "contact_info": "Contact Information",
-    "follow_us": "Follow Us"
+    "locations": "Our Locations",
+    "services": "Our Services",
+    "description": "At Keystone Partners, we help entrepreneurs, investors, and companies establish and grow internationally through integrated legal, tax, and corporate consulting services.",
+    "copyright": "Keystone Partners - 2026 | All Rights Reserved."
   },
   "home": {
-    "stats_intro_title": "Keystone Partners International Law and Consulting Office",
-    "process_title": "Our Process",
     "offices_title": "Local Presence. International Access. Keystone Partners Offices",
-    "offices_desc": "With a multinational and multilingual team, Keystone Partners supports entrepreneurs, investors, and companies across different legal jurisdictions through integrated legal, tax, compliance, and corporate consulting solutions.",
-    "reviews_title": "What Our Clients Say",
-    "partners_title": "Explore Our Experience",
-    "partners_btn": "Explore Our Experience",
-    "contact_title": "Our Experience",
-    "cta_band_title": "Global Growth with Keystone Partners",
-    "cta_band_text": "At Keystone Partners, we are a consulting firm specialized in company formation abroad."
+    "offices_desc": "With a multinational and multilingual team, Keystone Partners supports entrepreneurs, investors, and companies across different legal jurisdictions through integrated legal, tax, compliance, and corporate consulting solutions."
   },
   "offices": {
     "malta": "Malta",
     "valletta": "Valletta",
     "contact": "CONTACT"
   },
+  "mega": {
+    "intl": {
+      "header": "INTERNATIONAL COMPANY FORMATION",
+      "label": "International Company Formation",
+      "i1": "First Steps in International Company Formation",
+      "i2": "Which Country Should You Choose?",
+      "i3": "Legal Processes for Foreign Investors",
+      "i4": "Tax Treaties and Double Taxation",
+      "i5": "Opening an International Bank Account"
+    },
+    "europe": {
+      "header": "COMPANY FORMATION IN EUROPE",
+      "label": "Company Formation in Europe",
+      "i1": "Advantages of Company Formation in Europe",
+      "i2": "Company Formation Guide in EU Member States",
+      "i3": "European Tax Rates and Incentives",
+      "i4": "European Bank Account Opening Processes",
+      "i5": "EU Residence and Work Permits"
+    },
+    "germany": {
+      "header": "COMPANY FORMATION IN GERMANY",
+      "label": "Company Formation in Germany",
+      "i1": "Required Documents for Company Formation in Germany",
+      "i2": "Germany GmbH Company Formation",
+      "i3": "Opening a Bank Account in Germany",
+      "i4": "Germany Virtual Office and Address Services",
+      "i5": "Germany Residence Permit"
+    },
+    "serbia": {
+      "header": "COMPANY FORMATION IN SERBIA",
+      "label": "Company Formation in Serbia",
+      "i1": "Advantages of Company Formation in Serbia",
+      "i2": "Serbia Bank Account Opening",
+      "i3": "Serbia Tax System and Exemptions",
+      "i4": "Serbia Residence and Work Permit"
+    },
+    "poland": {
+      "header": "COMPANY FORMATION IN POLAND",
+      "label": "Company Formation in Poland",
+      "i1": "Required Documents for Company Formation in Poland",
+      "i2": "Poland Sp. z o.o. Company Type",
+      "i3": "Opening a Bank Account in Poland",
+      "i4": "Poland Tax System and VAT Registration",
+      "i5": "Poland Residence Permit"
+    },
+    "czech": {
+      "header": "COMPANY FORMATION IN CZECH REPUBLIC",
+      "label": "Company Formation in Czech Republic",
+      "i1": "Company Formation Stages in Czech Republic",
+      "i2": "Opening a Bank Account in Czech Republic",
+      "i3": "Czech Republic Tax Advantages",
+      "i4": "Prague Virtual Office Services"
+    },
+    "estonia": {
+      "header": "COMPANY FORMATION IN ESTONIA",
+      "label": "Company Formation in Estonia",
+      "i1": "Company Formation in Estonia with E-Residency",
+      "i2": "Estonia Company Formation Cost",
+      "i3": "Estonia Tax Exemptions (0% Corporate Tax)",
+      "i4": "Estonia Online Bank Account Opening"
+    },
+    "hungary": {
+      "header": "COMPANY FORMATION IN HUNGARY",
+      "label": "Company Formation in Hungary",
+      "i1": "Advantages of Company Formation in Hungary (9% Tax)",
+      "i2": "Hungary Kft Company Formation",
+      "i3": "Opening a Bank Account in Hungary",
+      "i4": "Hungary EU VAT Number"
+    },
+    "dubai": {
+      "header": "COMPANY FORMATION IN DUBAI",
+      "label": "Company Formation in Dubai",
+      "i1": "Required Documents for Company Formation in Dubai",
+      "i2": "Dubai Free Zone Advantages",
+      "i3": "Dubai Free Zone List",
+      "i4": "Opening a Bank Account in Dubai",
+      "i5": "Company Types in Dubai"
+    }
+  },
+  "faaliyet": {
+    "header": "OUR SERVICES",
+    "i1": "Information Technology Law",
+    "i2": "Mergers & Acquisitions",
+    "i3": "Blockchain Law",
+    "i4": "Intellectual Property Law",
+    "i5": "Real Estate Law",
+    "i6": "Immigration Law",
+    "i7": "Company Migration",
+    "i8": "Trade & Corporate Law",
+    "i9": "International Tax Consulting"
+  },
+  "about_menu": {
+    "header": "ABOUT US",
+    "i1": "About Us",
+    "i2": "Our Locations",
+    "i3": "Our Team",
+    "i4": "Our References",
+    "i5": "News",
+    "i6": "Career"
+  },
   "yatirim": {
     "hero_title": "Keystone Invest",
-    "hero_subtitle": "Simplifying Real Estate Investment in Europe",
-    "sub_hero_text": "At Keystone Invest, we work with professional partners to make the dreams of those who want to own property at affordable prices in Europe a reality.",
-    "promo_title": "TURN YOUR REAL ESTATE DREAM INTO REALITY WITH KEYSTONE INVEST",
-    "consultation_title": "Get Your Free 15-Minute Consultation Appointment!",
-    "consultation_btn": "BOOK APPOINTMENT NOW",
-    "cta_btn": "CONTACT US"
+    "hero_subtitle": "Simplifying Real Estate Investment in Europe"
   },
   "common": {
-    "read_more": "Read more →",
-    "contact_us": "Contact",
-    "learn_more": "Learn More",
-    "get_started": "Get Started"
+    "read_more": "Read More →",
+    "contact_us": "Contact"
   }
 }

@@ -2,58 +2,140 @@
   "nav": {
     "home": "STARTSEITE",
     "company_formation": "UNTERNEHMENSGRÜNDUNG",
-    "consultancy": "BERATUNG",
+    "services": "LEISTUNGEN",
+    "tax": "STEUERN & BERATUNG",
     "investment": "INVESTITIONEN",
     "blog": "BLOG",
     "about": "ÜBER UNS",
-    "contact": "KONTAKT",
-    "services": "LEISTUNGEN",
-    "locations": "UNSERE STANDORTE"
+    "contact": "KONTAKT"
   },
   "hero": {
-    "title": "Ihr Geschäft international stärken",
-    "subtitle": "Internationales Rechts- und Beratungsbüro",
-    "cta": "Jetzt kontaktieren",
+    "title": "Keystone Partners ist spezialisiert auf die Begleitung und Unterstützung internationaler Projekte mit strategischer Expertise.",
+    "subtitle": "Internationale Rechts- und Beratungskanzlei",
+    "cta": "Kontaktieren Sie uns",
     "locations_btn": "Unsere Standorte"
   },
   "footer": {
-    "copyright": "Keystone Partners - 2026 | Alle Rechte vorbehalten.",
-    "description": "Bei Keystone Partners bieten wir integrierte Rechts-, Steuer- und Unternehmensberatung an.",
-    "services": "Leistungen",
-    "pages": "Seiten",
-    "contact_info": "Kontaktinformationen",
-    "follow_us": "Folgen Sie uns"
+    "locations": "Unsere Standorte",
+    "services": "Unsere Leistungen",
+    "description": "Bei Keystone Partners helfen wir Unternehmern, Investoren und Unternehmen, sich international zu etablieren und zu wachsen, durch integrierte Rechts-, Steuer- und Unternehmensberatungsleistungen.",
+    "copyright": "Keystone Partners - 2026 | Alle Rechte vorbehalten."
   },
   "home": {
-    "stats_intro_title": "Keystone Partners Internationales Rechts- und Beratungsbüro",
-    "process_title": "Unser Prozess",
     "offices_title": "Lokale Präsenz. Internationaler Zugang. Keystone Partners Büros",
-    "offices_desc": "Mit einem multinationalen und mehrsprachigen Team unterstützt Keystone Partners Unternehmer, Investoren und Unternehmen in verschiedenen Rechtsgebieten durch integrierte Rechts-, Steuer- und Unternehmensberatungslösungen.",
-    "reviews_title": "Was unsere Kunden sagen",
-    "partners_title": "Entdecken Sie unsere Erfahrung",
-    "partners_btn": "Entdecken Sie unsere Erfahrung",
-    "contact_title": "Unsere Erfahrung",
-    "cta_band_title": "Globaler Wachstum mit Keystone Partners",
-    "cta_band_text": "Bei Keystone Partners sind wir eine Beratungsfirma, die auf Unternehmensgründungen im Ausland spezialisiert ist."
+    "offices_desc": "Mit einem mehrsprachigen und internationalen Team unterstützt Keystone Partners Unternehmer, Investoren und Unternehmen in verschiedenen Rechtsgebieten durch integrierte Rechts-, Steuer- und Unternehmensberatungslösungen."
   },
   "offices": {
     "malta": "Malta",
     "valletta": "Valletta",
     "contact": "KONTAKT"
   },
+  "mega": {
+    "intl": {
+      "header": "INTERNATIONALE UNTERNEHMENSGRÜNDUNG",
+      "label": "Internationale Unternehmensgründung",
+      "i1": "Erste Schritte bei der internationalen Unternehmensgründung",
+      "i2": "Welches Land sollten Sie wählen?",
+      "i3": "Rechtliche Prozesse für ausländische Investoren",
+      "i4": "Steuerverabredungen und Doppelbesteuerung",
+      "i5": "Eröffnung eines internationalen Bankkontos"
+    },
+    "europe": {
+      "header": "UNTERNEHMENSGRÜNDUNG IN EUROPA",
+      "label": "Unternehmensgründung in Europa",
+      "i1": "Vorteile der Unternehmensgründung in Europa",
+      "i2": "Leitfaden zur Unternehmensgründung in EU-Mitgliedsländern",
+      "i3": "Europäische Steuersätze und Anreize",
+      "i4": "Europäische Bankkonto-Eröffnung",
+      "i5": "EU-Aufenthalts- und Arbeitserlaubnisse"
+    },
+    "germany": {
+      "header": "UNTERNEHMENSGRÜNDUNG IN DEUTSCHLAND",
+      "label": "Unternehmensgründung in Deutschland",
+      "i1": "Erforderliche Dokumente für die Unternehmensgründung in Deutschland",
+      "i2": "Deutschland GmbH Unternehmensgründung",
+      "i3": "Bankkonto in Deutschland eröffnen",
+      "i4": "Deutschland Virtuelles Büro und Adressservice",
+      "i5": "Deutschland Aufenthaltserlaubnis"
+    },
+    "serbia": {
+      "header": "UNTERNEHMENSGRÜNDUNG IN SERBIEN",
+      "label": "Unternehmensgründung in Serbien",
+      "i1": "Vorteile der Unternehmensgründung in Serbien",
+      "i2": "Serbien Bankkonto Eröffnung",
+      "i3": "Serbien Steuersystem und Befreiungen",
+      "i4": "Serbien Aufenthalts- und Arbeitserlaubnis"
+    },
+    "poland": {
+      "header": "UNTERNEHMENSGRÜNDUNG IN POLEN",
+      "label": "Unternehmensgründung in Polen",
+      "i1": "Erforderliche Dokumente für die Unternehmensgründung in Polen",
+      "i2": "Polen Sp. z o.o. Unternehmenstyp",
+      "i3": "Bankkonto in Polen eröffnen",
+      "i4": "Polen Steuersystem und MwSt.-Registrierung",
+      "i5": "Polen Aufenthaltserlaubnis"
+    },
+    "czech": {
+      "header": "UNTERNEHMENSGRÜNDUNG IN DER TSCHECHISCHEN REPUBLIK",
+      "label": "Unternehmensgründung in der Tschechischen Republik",
+      "i1": "Unternehmensgründungsphasen in der Tschechischen Republik",
+      "i2": "Bankkonto in der Tschechischen Republik eröffnen",
+      "i3": "Tschechische Republik Steuervorteile",
+      "i4": "Prag Virtuelle Bürodienste"
+    },
+    "estonia": {
+      "header": "UNTERNEHMENSGRÜNDUNG IN ESTLAND",
+      "label": "Unternehmensgründung in Estland",
+      "i1": "Unternehmensgründung in Estland mit E-Residency",
+      "i2": "Estland Unternehmensgründungskosten",
+      "i3": "Estland Steuerbefreiungen (0% Körperschaftsteuer)",
+      "i4": "Estland Online Bankkonto Eröffnung"
+    },
+    "hungary": {
+      "header": "UNTERNEHMENSGRÜNDUNG IN UNGARN",
+      "label": "Unternehmensgründung in Ungarn",
+      "i1": "Vorteile der Unternehmensgründung in Ungarn (9% Steuer)",
+      "i2": "Ungarn Kft Unternehmensgründung",
+      "i3": "Bankkonto in Ungarn eröffnen",
+      "i4": "Ungarn EU MwSt.-Nummer"
+    },
+    "dubai": {
+      "header": "UNTERNEHMENSGRÜNDUNG IN DUBAI",
+      "label": "Unternehmensgründung in Dubai",
+      "i1": "Erforderliche Dokumente für die Unternehmensgründung in Dubai",
+      "i2": "Dubai Freihafen Vorteile",
+      "i3": "Dubai Freihafen Liste",
+      "i4": "Bankkonto in Dubai eröffnen",
+      "i5": "Unternehmenstypen in Dubai"
+    }
+  },
+  "faaliyet": {
+    "header": "UNSERE LEISTUNGEN",
+    "i1": "Informationstechnologierecht",
+    "i2": "Fusionen & Übernahmen",
+    "i3": "Blockchain-Recht",
+    "i4": "Geistiges Eigentum Recht",
+    "i5": "Immobilienrecht",
+    "i6": "Einwanderungsrecht",
+    "i7": "Unternehmensmigration",
+    "i8": "Handels- & Gesellschaftsrecht",
+    "i9": "Internationale Steuerberatung"
+  },
+  "about_menu": {
+    "header": "ÜBER UNS",
+    "i1": "Über uns",
+    "i2": "Unsere Standorte",
+    "i3": "Unser Team",
+    "i4": "Unsere Referenzen",
+    "i5": "Neuigkeiten",
+    "i6": "Karriere"
+  },
   "yatirim": {
     "hero_title": "Keystone Invest",
-    "hero_subtitle": "Immobilieninvestitionen in Europa vereinfachen",
-    "sub_hero_text": "Bei Keystone Invest arbeiten wir mit professionellen Partnern zusammen, um die Träume derer wahr zu machen, die in Europa zu günstigen Preisen Immobilien erwerben möchten.",
-    "promo_title": "VERWIRKLICHEN SIE IHREN IMMOBILIENTRAUM MIT KEYSTONE INVEST",
-    "consultation_title": "Holen Sie sich Ihren kostenlosen 15-Minuten-Beratungstermin!",
-    "consultation_btn": "JETZT TERMIN BUCHEN",
-    "cta_btn": "KONTAKTIEREN SIE UNS"
+    "hero_subtitle": "Immobilieninvestitionen in Europa vereinfachen"
   },
   "common": {
     "read_more": "Weiterlesen →",
-    "contact_us": "Kontakt",
-    "learn_more": "Mehr erfahren",
-    "get_started": "Jetzt starten"
+    "contact_us": "Kontakt"
   }
 }

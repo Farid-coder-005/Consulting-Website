@@ -2,58 +2,140 @@
   "nav": {
     "home": "ANA SAYFA",
     "company_formation": "ŞİRKET KURULUŞU",
-    "consultancy": "DANIŞMANLIK",
+    "services": "FAALİYET ALANLARIMIZ",
+    "tax": "VERGİ VE DANIŞMANLIK",
     "investment": "YATIRIM",
     "blog": "BLOG",
     "about": "HAKKIMIZDA",
-    "contact": "İLETİŞİM",
-    "services": "HİZMETLER",
-    "locations": "HİZMET NOKTALARIMIZ"
+    "contact": "İLETİŞİM"
   },
   "hero": {
-    "title": "İşinizi Uluslararası Alanda Güçlendiriyoruz",
+    "title": "Keystone Partners, multi-milyon dolarlık uluslararası projelere stratejik uzmanlığıyla rehberlik etme ve destekleme konusunda uzmandır.",
     "subtitle": "Uluslararası Hukuk ve Danışmanlık Ofisi",
-    "cta": "Hemen Bize Ulaşın",
+    "cta": "İletişim",
     "locations_btn": "Hizmet Noktalarımız"
   },
   "footer": {
-    "copyright": "Keystone Partners - 2026 | Tüm Hakları Saklıdır.",
-    "description": "Keystone Partners olarak; entegre hukuk, vergi ve kurumsal danışmanlık hizmetleri sunuyoruz.",
-    "services": "Hizmetler",
-    "pages": "Sayfalar",
-    "contact_info": "İletişim Bilgileri",
-    "follow_us": "Bizi Takip Edin"
+    "locations": "Hizmet Noktalarımız",
+    "services": "Faaliyet Alanlarımız",
+    "description": "Keystone Partners olarak; entegre hukuk, vergi ve kurumsal danışmanlık hizmetlerimiz aracılığıyla girişimcilerin, yatırımcıların ve şirketlerin uluslararası alanda kurulmalarına ve büyümelerine yardımcı oluyoruz.",
+    "copyright": "Keystone Partners - 2026 | Tüm Hakları Saklıdır."
   },
   "home": {
-    "stats_intro_title": "Keystone Partners Uluslararası Hukuk ve Danışmanlık Ofisi",
-    "process_title": "Sürecimiz",
     "offices_title": "Yerel Varlık. Uluslararası Erişim. Keystone Partners Ofisleri",
-    "offices_desc": "Çok uluslu ve çok dilli bir ekibe sahip olan Keystone Partners; entegre hukuk, vergi, uyum ve kurumsal danışmanlık çözümleri aracılığıyla farklı hukuki yetki alanlarındaki girişimcileri, yatırımcıları ve şirketleri desteklemektedir.",
-    "reviews_title": "Müşterilerimiz Ne Diyor?",
-    "partners_title": "Tecrübelerimize Göz Atın",
-    "partners_btn": "Tecrübelerimize Göz Atın",
-    "contact_title": "Deneyimlerimiz",
-    "cta_band_title": "Keystone Partners ile Global Büyüme",
-    "cta_band_text": "Keystone Partners olarak, yurtdışında şirket kurma konusunda uzmanlaşmış bir danışmanlık firmasıyız."
+    "offices_desc": "Çok uluslu ve çok dilli bir ekibe sahip olan Keystone Partners; entegre hukuk, vergi, uyum ve kurumsal danışmanlık çözümleri aracılığıyla farklı hukuki yetki alanlarındaki girişimcileri, yatırımcıları ve şirketleri desteklemektedir."
   },
   "offices": {
     "malta": "Malta",
     "valletta": "Valletta",
     "contact": "İLETİŞİM"
   },
+  "mega": {
+    "intl": {
+      "header": "ULUSLARARASI ŞİRKETLEŞME",
+      "label": "Uluslararası Şirketleşme",
+      "i1": "Uluslararası Şirket Kuruluşunda İlk Adımlar",
+      "i2": "Hangi Ülkeyi Seçmelisiniz?",
+      "i3": "Yabancı Yatırımcılar İçin Yasal Süreçler",
+      "i4": "Vergi Anlaşmaları ve Çifte Vergilendirme",
+      "i5": "Uluslararası Banka Hesabı Açmak"
+    },
+    "europe": {
+      "header": "AVRUPA'DA ŞİRKET KURMAK",
+      "label": "Avrupa'da Şirket Kurmak",
+      "i1": "Avrupa'da Şirket Kurmanın Avantajları",
+      "i2": "AB Üye Ülkelerinde Şirket Kurma Rehberi",
+      "i3": "Avrupa'da Vergi Oranları ve Teşvikler",
+      "i4": "Avrupa Banka Hesabı Açılış Süreçleri",
+      "i5": "AB Oturum ve Çalışma İzinleri"
+    },
+    "germany": {
+      "header": "ALMANYA'DA ŞİRKET KURMAK",
+      "label": "Almanya'da Şirket Kurmak",
+      "i1": "Almanya'da Şirket Kurmak İçin Gerekli Belgeler",
+      "i2": "Almanya GmbH Şirket Kuruluşu",
+      "i3": "Almanya'da Banka Hesabı Açmak",
+      "i4": "Almanya Sanal Ofis ve Adres Temini",
+      "i5": "Almanya Oturum İzni"
+    },
+    "serbia": {
+      "header": "SIRBİSTAN'DA ŞİRKET KURMAK",
+      "label": "Sırbistan'da Şirket Kurmak",
+      "i1": "Sırbistan'da Şirket Kurma Avantajları",
+      "i2": "Sırbistan Banka Hesabı Açılışı",
+      "i3": "Sırbistan Vergi Sistemi ve Muafiyetler",
+      "i4": "Sırbistan Oturum ve Çalışma İzni"
+    },
+    "poland": {
+      "header": "POLONYA'DA ŞİRKET KURMAK",
+      "label": "Polonya'da Şirket Kurmak",
+      "i1": "Polonya'da Şirket Kurmak İçin Gerekli Belgeler",
+      "i2": "Polonya Sp. z o.o. Şirket Türü",
+      "i3": "Polonya'da Banka Hesabı Açmak",
+      "i4": "Polonya Vergi Sistemi ve KDV Kaydı",
+      "i5": "Polonya Oturum İzni"
+    },
+    "czech": {
+      "header": "ÇEK CUMHURİYETİ'NDE ŞİRKET KURMAK",
+      "label": "Çek Cumhuriyeti'nde Şirket Kurmak",
+      "i1": "Çekya'da Şirket Kuruluş Aşamaları",
+      "i2": "Çekya'da Banka Hesabı Açma",
+      "i3": "Çekya Vergi Avantajları",
+      "i4": "Prag Sanal Ofis Hizmetleri"
+    },
+    "estonia": {
+      "header": "ESTONYA'DA ŞİRKET KURMAK",
+      "label": "Estonya'da Şirket Kurmak",
+      "i1": "E-Residency İle Estonya'da Şirket Kurmak",
+      "i2": "Estonya Şirket Kurma Maliyeti",
+      "i3": "Estonya Vergi Muafiyetleri (%0 Kurumlar Vergisi)",
+      "i4": "Estonya Online Banka Hesabı Açılışı"
+    },
+    "hungary": {
+      "header": "MACARİSTAN'DA ŞİRKET KURMAK",
+      "label": "Macaristan'da Şirket Kurmak",
+      "i1": "Macaristan'da Şirket Kurma Avantajları (%9 Vergi)",
+      "i2": "Macaristan Kft Şirket Kuruluşu",
+      "i3": "Macaristan'da Banka Hesabı Açmak",
+      "i4": "Macaristan AB KDV (VAT) Numarası"
+    },
+    "dubai": {
+      "header": "DUBAİ'DE ŞİRKET KURMAK",
+      "label": "Dubai'de Şirket Kurmak",
+      "i1": "Dubai'de Şirket Kurmak İçin Gerekli Belgeler",
+      "i2": "Dubai Serbest Bölge Avantajları Nelerdir?",
+      "i3": "Dubai Serbest Bölge Listesi",
+      "i4": "Dubai'de Banka Hesabı Açmak",
+      "i5": "Dubai'de Şirket Türleri"
+    }
+  },
+  "faaliyet": {
+    "header": "FAALİYET ALANLARIMIZ",
+    "i1": "Bilişim Hukuku",
+    "i2": "Birleşme & Devralmalar",
+    "i3": "Blockchain Hukuku",
+    "i4": "Fikri Mülkiyet Hukuku",
+    "i5": "Gayrimenkul Hukuku",
+    "i6": "Göçmenlik Hukuku",
+    "i7": "Şirket Göçü",
+    "i8": "Ticaret & Şirketler Hukuku",
+    "i9": "Uluslararası Vergi Danışmanlığı"
+  },
+  "about_menu": {
+    "header": "HAKKIMIZDA",
+    "i1": "Hakkımızda",
+    "i2": "Hizmet Noktalarımız",
+    "i3": "Ekibimiz",
+    "i4": "Referanslarımız",
+    "i5": "Haberler",
+    "i6": "Kariyer"
+  },
   "yatirim": {
     "hero_title": "Keystone Invest",
-    "hero_subtitle": "Avrupa'da Gayrimenkul Yatırımını Kolaylaştırıyoruz",
-    "sub_hero_text": "Keystone Invest olarak Avrupa'da uygun fiyata mülk sahibi olmak isteyenlerin hayallerini gerçekleştirmek için profesyonel partnerlerimizle çalışıyoruz.",
-    "promo_title": "GAYRİMENKUL HAYALİNİZİ KEYSTONE INVEST İLE GERÇEĞE DÖNÜŞTÜRÜN",
-    "consultation_title": "Ücretsiz 15 Dakikalık Danışmanlık Randevunuzu Alın!",
-    "consultation_btn": "HEMEN RANDEVU ALIN",
-    "cta_btn": "BİZİMLE İLETİŞİME GEÇİN"
+    "hero_subtitle": "Simplifying Real Estate Investment in Europe"
   },
   "common": {
-    "read_more": "Devamını oku →",
-    "contact_us": "İletişim",
-    "learn_more": "Daha Fazla Bilgi",
-    "get_started": "Hemen Başlayın"
+    "read_more": "Devamını Oku →",
+    "contact_us": "İletişim"
   }
 }

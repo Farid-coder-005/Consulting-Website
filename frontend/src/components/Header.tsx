@@ -48,138 +48,138 @@ const dropdownItemClass =
   `h-[85px] flex items-center uppercase font-semibold text-[13px] tracking-wide whitespace-nowrap transition-colors duration-200 ease-in-out text-[${NAV_TEXT}] hover:text-[${NAV_ACTIVE}]`;
 
 type MegaCategory = {
-  label: string;
-  header: string;
+  labelKey: string;
+  headerKey: string;
   to: string;
-  items: { label: string; to: string }[];
+  items: { labelKey: string; to: string }[];
 };
 
 const sirketKurulusuMega: MegaCategory[] = [
   {
-    label: "Uluslararası Şirketleşme",
-    header: "ULUSLARARASI ŞİRKETLEŞME",
+    labelKey: "mega.intl.label",
+    headerKey: "mega.intl.header",
     to: "/sirket-kurulusu",
     items: [
-      { label: "Uluslararası Şirket Kuruluşunda İlk Adımlar", to: "/sirket-kurulusu" },
-      { label: "Hangi Ülkeyi Seçmelisiniz?", to: "/sirket-kurulusu" },
-      { label: "Yabancı Yatırımcılar İçin Yasal Süreçler", to: "/sirket-kurulusu" },
-      { label: "Vergi Anlaşmaları ve Çifte Vergilendirme", to: "/sirket-kurulusu" },
-      { label: "Uluslararası Banka Hesabı Açmak", to: "/sirket-kurulusu" },
+      { labelKey: "mega.intl.i1", to: "/sirket-kurulusu" },
+      { labelKey: "mega.intl.i2", to: "/sirket-kurulusu" },
+      { labelKey: "mega.intl.i3", to: "/sirket-kurulusu" },
+      { labelKey: "mega.intl.i4", to: "/sirket-kurulusu" },
+      { labelKey: "mega.intl.i5", to: "/sirket-kurulusu" },
     ],
   },
   {
-    label: "Avrupa'da Şirket Kurmak",
-    header: "AVRUPA'DA ŞİRKET KURMAK",
+    labelKey: "mega.europe.label",
+    headerKey: "mega.europe.header",
     to: "/sirket-kurulusu",
     items: [
-      { label: "Avrupa'da Şirket Kurmanın Avantajları", to: "/sirket-kurulusu" },
-      { label: "AB Üye Ülkelerinde Şirket Kurma Rehberi", to: "/sirket-kurulusu" },
-      { label: "Avrupa'da Vergi Oranları ve Teşvikler", to: "/sirket-kurulusu" },
-      { label: "Avrupa Banka Hesabı Açılış Süreçleri", to: "/sirket-kurulusu" },
-      { label: "AB Oturum ve Çalışma İzinleri", to: "/sirket-kurulusu" },
+      { labelKey: "mega.europe.i1", to: "/sirket-kurulusu" },
+      { labelKey: "mega.europe.i2", to: "/sirket-kurulusu" },
+      { labelKey: "mega.europe.i3", to: "/sirket-kurulusu" },
+      { labelKey: "mega.europe.i4", to: "/sirket-kurulusu" },
+      { labelKey: "mega.europe.i5", to: "/sirket-kurulusu" },
     ],
   },
   {
-    label: "Almanya'da Şirket Kurmak",
-    header: "ALMANYA'DA ŞİRKET KURMAK",
+    labelKey: "mega.germany.label",
+    headerKey: "mega.germany.header",
     to: "/sirket-kurulusu/almanya",
     items: [
-      { label: "Almanya'da Şirket Kurmak İçin Gerekli Belgeler", to: "/sirket-kurulusu/almanya" },
-      { label: "Almanya GmbH Şirket Kuruluşu", to: "/sirket-kurulusu/almanya" },
-      { label: "Almanya'da Banka Hesabı Açmak", to: "/sirket-kurulusu/almanya" },
-      { label: "Almanya Sanal Ofis ve Adres Temini", to: "/sirket-kurulusu/almanya" },
-      { label: "Almanya Oturum İzni", to: "/sirket-kurulusu/almanya" },
+      { labelKey: "mega.germany.i1", to: "/sirket-kurulusu/almanya" },
+      { labelKey: "mega.germany.i2", to: "/sirket-kurulusu/almanya" },
+      { labelKey: "mega.germany.i3", to: "/sirket-kurulusu/almanya" },
+      { labelKey: "mega.germany.i4", to: "/sirket-kurulusu/almanya" },
+      { labelKey: "mega.germany.i5", to: "/sirket-kurulusu/almanya" },
     ],
   },
   {
-    label: "Sırbistan'da Şirket Kurmak",
-    header: "SIRBİSTAN'DA ŞİRKET KURMAK",
+    labelKey: "mega.serbia.label",
+    headerKey: "mega.serbia.header",
     to: "/sirket-kurulusu/sirbistan",
     items: [
-      { label: "Sırbistan'da Şirket Kurma Avantajları", to: "/sirket-kurulusu/sirbistan" },
-      { label: "Sırbistan Banka Hesabı Açılışı", to: "/sirket-kurulusu/sirbistan" },
-      { label: "Sırbistan Vergi Sistemi ve Muafiyetler", to: "/sirket-kurulusu/sirbistan" },
-      { label: "Sırbistan Oturum ve Çalışma İzni", to: "/sirket-kurulusu/sirbistan" },
+      { labelKey: "mega.serbia.i1", to: "/sirket-kurulusu/sirbistan" },
+      { labelKey: "mega.serbia.i2", to: "/sirket-kurulusu/sirbistan" },
+      { labelKey: "mega.serbia.i3", to: "/sirket-kurulusu/sirbistan" },
+      { labelKey: "mega.serbia.i4", to: "/sirket-kurulusu/sirbistan" },
     ],
   },
   {
-    label: "Polonya'da Şirket Kurmak",
-    header: "POLONYA'DA ŞİRKET KURMAK",
+    labelKey: "mega.poland.label",
+    headerKey: "mega.poland.header",
     to: "/sirket-kurulusu/polonya",
     items: [
-      { label: "Polonya'da Şirket Kurmak İçin Gerekli Belgeler", to: "/sirket-kurulusu/polonya" },
-      { label: "Polonya Sp. z o.o. Şirket Türü", to: "/sirket-kurulusu/polonya" },
-      { label: "Polonya'da Banka Hesabı Açmak", to: "/sirket-kurulusu/polonya" },
-      { label: "Polonya Vergi Sistemi ve KDV Kaydı", to: "/sirket-kurulusu/polonya" },
-      { label: "Polonya Oturum İzni", to: "/sirket-kurulusu/polonya" },
+      { labelKey: "mega.poland.i1", to: "/sirket-kurulusu/polonya" },
+      { labelKey: "mega.poland.i2", to: "/sirket-kurulusu/polonya" },
+      { labelKey: "mega.poland.i3", to: "/sirket-kurulusu/polonya" },
+      { labelKey: "mega.poland.i4", to: "/sirket-kurulusu/polonya" },
+      { labelKey: "mega.poland.i5", to: "/sirket-kurulusu/polonya" },
     ],
   },
   {
-    label: "Çek Cumhuriyeti'nde Şirket Kurmak",
-    header: "ÇEK CUMHURİYETİ'NDE ŞİRKET KURMAK",
+    labelKey: "mega.czech.label",
+    headerKey: "mega.czech.header",
     to: "/sirket-kurulusu/cek-cumhuriyeti",
     items: [
-      { label: "Çekya'da Şirket Kuruluş Aşamaları", to: "/sirket-kurulusu/cek-cumhuriyeti" },
-      { label: "Çekya'da Banka Hesabı Açma", to: "/sirket-kurulusu/cek-cumhuriyeti" },
-      { label: "Çekya Vergi Avantajları", to: "/sirket-kurulusu/cek-cumhuriyeti" },
-      { label: "Prag Sanal Ofis Hizmetleri", to: "/sirket-kurulusu/cek-cumhuriyeti" },
+      { labelKey: "mega.czech.i1", to: "/sirket-kurulusu/cek-cumhuriyeti" },
+      { labelKey: "mega.czech.i2", to: "/sirket-kurulusu/cek-cumhuriyeti" },
+      { labelKey: "mega.czech.i3", to: "/sirket-kurulusu/cek-cumhuriyeti" },
+      { labelKey: "mega.czech.i4", to: "/sirket-kurulusu/cek-cumhuriyeti" },
     ],
   },
   {
-    label: "Estonya'da Şirket Kurmak",
-    header: "ESTONYA'DA ŞİRKET KURMAK",
+    labelKey: "mega.estonia.label",
+    headerKey: "mega.estonia.header",
     to: "/sirket-kurulusu/estonya",
     items: [
-      { label: "E-Residency İle Estonya'da Şirket Kurmak", to: "/sirket-kurulusu/estonya" },
-      { label: "Estonya Şirket Kurma Maliyeti", to: "/sirket-kurulusu/estonya" },
-      { label: "Estonya Vergi Muafiyetleri (%0 Kurumlar Vergisi)", to: "/sirket-kurulusu/estonya" },
-      { label: "Estonya Online Banka Hesabı Açılışı", to: "/sirket-kurulusu/estonya" },
+      { labelKey: "mega.estonia.i1", to: "/sirket-kurulusu/estonya" },
+      { labelKey: "mega.estonia.i2", to: "/sirket-kurulusu/estonya" },
+      { labelKey: "mega.estonia.i3", to: "/sirket-kurulusu/estonya" },
+      { labelKey: "mega.estonia.i4", to: "/sirket-kurulusu/estonya" },
     ],
   },
   {
-    label: "Macaristan'da Şirket Kurmak",
-    header: "MACARİSTAN'DA ŞİRKET KURMAK",
+    labelKey: "mega.hungary.label",
+    headerKey: "mega.hungary.header",
     to: "/sirket-kurulusu/macaristan",
     items: [
-      { label: "Macaristan'da Şirket Kurma Avantajları (%9 Vergi)", to: "/sirket-kurulusu/macaristan" },
-      { label: "Macaristan Kft Şirket Kuruluşu", to: "/sirket-kurulusu/macaristan" },
-      { label: "Macaristan'da Banka Hesabı Açmak", to: "/sirket-kurulusu/macaristan" },
-      { label: "Macaristan AB KDV (VAT) Numarası", to: "/sirket-kurulusu/macaristan" },
+      { labelKey: "mega.hungary.i1", to: "/sirket-kurulusu/macaristan" },
+      { labelKey: "mega.hungary.i2", to: "/sirket-kurulusu/macaristan" },
+      { labelKey: "mega.hungary.i3", to: "/sirket-kurulusu/macaristan" },
+      { labelKey: "mega.hungary.i4", to: "/sirket-kurulusu/macaristan" },
     ],
   },
   {
-    label: "Dubai'de Şirket Kurmak",
-    header: "DUBAİ'DE ŞİRKET KURMAK",
+    labelKey: "mega.dubai.label",
+    headerKey: "mega.dubai.header",
     to: "/sirket-kurulusu/dubai",
     items: [
-      { label: "Dubai'de Şirket Kurmak İçin Gerekli Belgeler", to: "/sirket-kurulusu/dubai" },
-      { label: "Dubai Serbest Bölge Avantajları Nelerdir?", to: "/sirket-kurulusu/dubai" },
-      { label: "Dubai Serbest Bölge Listesi", to: "/sirket-kurulusu/dubai" },
-      { label: "Dubai'de Banka Hesabı Açmak", to: "/sirket-kurulusu/dubai" },
-      { label: "Dubai'de Şirket Türleri", to: "/sirket-kurulusu/dubai" },
+      { labelKey: "mega.dubai.i1", to: "/sirket-kurulusu/dubai" },
+      { labelKey: "mega.dubai.i2", to: "/sirket-kurulusu/dubai" },
+      { labelKey: "mega.dubai.i3", to: "/sirket-kurulusu/dubai" },
+      { labelKey: "mega.dubai.i4", to: "/sirket-kurulusu/dubai" },
+      { labelKey: "mega.dubai.i5", to: "/sirket-kurulusu/dubai" },
     ],
   },
 ];
 
 const faaliyetDropdown = [
-  { label: "Bilişim Hukuku", to: "/faaliyet-alanlarimiz" },
-  { label: "Birleşme & Devralmalar", to: "/faaliyet-alanlarimiz" },
-  { label: "Blockchain Hukuku", to: "/faaliyet-alanlarimiz" },
-  { label: "Fikri Mülkiyet Hukuku", to: "/faaliyet-alanlarimiz" },
-  { label: "Gayrimenkul Hukuku", to: "/faaliyet-alanlarimiz" },
-  { label: "Göçmenlik Hukuku", to: "/faaliyet-alanlarimiz" },
-  { label: "Şirket Göçü", to: "/faaliyet-alanlarimiz" },
-  { label: "Ticaret & Şirketler Hukuku", to: "/faaliyet-alanlarimiz" },
-  { label: "Uluslararası Vergi Danışmanlığı", to: "/faaliyet-alanlarimiz" },
+  { labelKey: "faaliyet.i1", to: "/faaliyet-alanlarimiz" },
+  { labelKey: "faaliyet.i2", to: "/faaliyet-alanlarimiz" },
+  { labelKey: "faaliyet.i3", to: "/faaliyet-alanlarimiz" },
+  { labelKey: "faaliyet.i4", to: "/faaliyet-alanlarimiz" },
+  { labelKey: "faaliyet.i5", to: "/faaliyet-alanlarimiz" },
+  { labelKey: "faaliyet.i6", to: "/faaliyet-alanlarimiz" },
+  { labelKey: "faaliyet.i7", to: "/faaliyet-alanlarimiz" },
+  { labelKey: "faaliyet.i8", to: "/faaliyet-alanlarimiz" },
+  { labelKey: "faaliyet.i9", to: "/faaliyet-alanlarimiz" },
 ];
 
 const hakkimizdaDropdown = [
-  { label: "Hakkımızda", to: "/hakkimizda" },
-  { label: "Hizmet Noktalarımız", to: "/iletisim" },
-  { label: "Ekibimiz", to: "/hakkimizda" },
-  { label: "Referanslarımız", to: "/hakkimizda" },
-  { label: "Haberler", to: "/blog" },
-  { label: "Kariyer", to: "/hakkimizda" },
+  { labelKey: "about_menu.i1", to: "/hakkimizda" },
+  { labelKey: "about_menu.i2", to: "/iletisim" },
+  { labelKey: "about_menu.i3", to: "/hakkimizda" },
+  { labelKey: "about_menu.i4", to: "/hakkimizda" },
+  { labelKey: "about_menu.i5", to: "/blog" },
+  { labelKey: "about_menu.i6", to: "/hakkimizda" },
 ];
 
 /* ─── Desktop Dropdown ────────────────────────────────────────── */
@@ -194,11 +194,12 @@ function DesktopDropdown({
 }: {
   label: string;
   to: string;
-  items: { label: string; to: string }[];
+  items: { labelKey: string; to: string }[];
   widthClass?: string;
   onMouseEnter: () => void;
   itemRef: (el: HTMLAnchorElement | null) => void;
 }) {
+  const { t } = useTranslation();
   const [activeIdx, setActiveIdx] = useState<number | null>(null);
 
   return (
@@ -219,7 +220,7 @@ function DesktopDropdown({
         <div className="relative">
           {items.map((child, i) => (
             <Link
-              key={child.label}
+              key={child.labelKey}
               to={child.to}
               onMouseEnter={() => setActiveIdx(i)}
               onMouseLeave={() => setActiveIdx(null)}
@@ -229,7 +230,7 @@ function DesktopDropdown({
                   : "text-[#2C3E50] hover:text-[#0B1E3D]"
               }`}
             >
-              {child.label}
+              {t(child.labelKey)}
             </Link>
           ))}
         </div>
@@ -253,6 +254,7 @@ function DesktopMegaMenu({
   onMouseEnter: () => void;
   itemRef: (el: HTMLAnchorElement | null) => void;
 }) {
+  const { t } = useTranslation();
   const [activeIdx, setActiveIdx] = useState(0);
   const current = categories[activeIdx];
 
@@ -273,7 +275,7 @@ function DesktopMegaMenu({
           <div className="space-y-1">
             {categories.map((cat, i) => (
               <button
-                key={cat.label}
+                key={cat.labelKey}
                 type="button"
                 onMouseEnter={() => setActiveIdx(i)}
                 onClick={() => setActiveIdx(i)}
@@ -283,22 +285,22 @@ function DesktopMegaMenu({
                     : "text-[#2C3E50] hover:text-[#0B1E3D] hover:font-medium"
                 }`}
               >
-                {cat.label}
+                {t(cat.labelKey)}
               </button>
             ))}
           </div>
           <div className="pl-6">
             <h4 className="mb-3 text-sm font-bold uppercase tracking-wide text-[#0B1E3D]">
-              {current.header}
+              {t(current.headerKey)}
             </h4>
             <ul className="space-y-2">
               {current.items.map((it) => (
-                <li key={it.label}>
+                <li key={it.labelKey}>
                   <Link
                     to={it.to}
                     className="block text-sm text-[#4a5568] transition hover:font-medium hover:text-[#0B1E3D]"
                   >
-                    {it.label}
+                    {t(it.labelKey)}
                   </Link>
                 </li>
               ))}
@@ -313,6 +315,7 @@ function DesktopMegaMenu({
 /* ─── Mobile Nav ──────────────────────────────────────────────── */
 
 function MobileNav({ onClose }: { onClose: () => void }) {
+  const { t } = useTranslation();
   const { pathname } = useLocation();
   const active = (href: string) =>
     href === "/" ? pathname === "/" : pathname === href;
@@ -320,23 +323,23 @@ function MobileNav({ onClose }: { onClose: () => void }) {
   return (
     <nav className="flex-1 overflow-y-auto px-2 py-3" aria-label="Mobil menü">
       <Link to="/" onClick={onClose} className={mobileLinkClass(active("/"))}>
-        ANA SAYFA
+        {t("nav.home")}
       </Link>
 
       <details className="group">
         <summary className="flex items-center justify-between px-3 py-2 rounded hover:bg-slate-100 cursor-pointer list-none uppercase font-bold text-[13px] tracking-[0.6px]">
-          ŞİRKET KURULUŞU
+          {t("nav.company_formation")}
           <ChevronDownIcon className="w-4 h-4" />
         </summary>
         <div className="pl-4 py-1">
           {sirketKurulusuMega.map((c) => (
             <Link
-              key={c.label}
+              key={c.labelKey}
               to={c.to}
               onClick={onClose}
               className="block px-3 py-2 text-sm hover:bg-slate-100 hover:text-[#1A2B4C] transition"
             >
-              {c.label}
+              {t(c.labelKey)}
             </Link>
           ))}
         </div>
@@ -347,7 +350,7 @@ function MobileNav({ onClose }: { onClose: () => void }) {
         onClick={onClose}
         className={mobileLinkClass(active("/faaliyet-alanlarimiz"))}
       >
-        FAALİYET ALANLARIMIZ
+        {t("nav.services")}
       </Link>
 
       <Link
@@ -355,33 +358,33 @@ function MobileNav({ onClose }: { onClose: () => void }) {
         onClick={onClose}
         className={mobileLinkClass(active("/vergi-ve-danismanlik"))}
       >
-        VERGİ VE DANIŞMANLIK
+        {t("nav.tax")}
       </Link>
       <Link
         to="/yatirim"
         onClick={onClose}
         className={mobileLinkClass(active("/yatirim"))}
       >
-        YATIRIM
+        {t("nav.investment")}
       </Link>
       <Link to="/blog" onClick={onClose} className={mobileLinkClass(active("/blog"))}>
-        BLOG
+        {t("nav.blog")}
       </Link>
 
       <details className="group">
         <summary className="flex items-center justify-between px-3 py-2 rounded hover:bg-slate-100 cursor-pointer list-none uppercase font-bold text-[13px] tracking-[0.6px]">
-          HAKKIMIZDA
+          {t("nav.about")}
           <ChevronDownIcon className="w-4 h-4" />
         </summary>
         <div className="pl-4 py-1">
           {hakkimizdaDropdown.map((c) => (
             <Link
-              key={c.label}
+              key={c.labelKey}
               to={c.to}
               onClick={onClose}
               className="block px-3 py-2 text-sm hover:bg-slate-100 hover:text-[#1A2B4C] transition"
             >
-              {c.label}
+              {t(c.labelKey)}
             </Link>
           ))}
         </div>
@@ -392,7 +395,7 @@ function MobileNav({ onClose }: { onClose: () => void }) {
         onClick={onClose}
         className={mobileLinkClass(active("/iletisim"))}
       >
-        İLETİŞİM
+        {t("nav.contact")}
       </Link>
     </nav>
   );
@@ -401,7 +404,7 @@ function MobileNav({ onClose }: { onClose: () => void }) {
 /* ─── Header ──────────────────────────────────────────────────── */
 
 export default function Header() {
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
@@ -597,12 +600,12 @@ export default function Header() {
               onMouseEnter={() => setHoveredPath("/")}
               className={navLinkClass(activeHref === "/")}
             >
-              ANA SAYFA
+              {t("nav.home")}
             </Link>
 
             {/* 2. Şirket Kuruluşu (mega menu) */}
             <DesktopMegaMenu
-              label="ŞİRKET KURULUŞU"
+              label={t("nav.company_formation")}
               to="/sirket-kurulusu"
               categories={sirketKurulusuMega}
               onMouseEnter={() => setHoveredPath("/sirket-kurulusu")}
@@ -611,7 +614,7 @@ export default function Header() {
 
             {/* 3. Faaliyet Alanlarımız (dropdown) */}
             <DesktopDropdown
-              label="FAALİYET ALANLARIMIZ"
+              label={t("nav.services")}
               to="/faaliyet-alanlarimiz"
               widthClass="w-80"
               items={faaliyetDropdown}
@@ -626,7 +629,7 @@ export default function Header() {
               onMouseEnter={() => setHoveredPath("/vergi-ve-danismanlik")}
               className={navLinkClass(activeHref === "/vergi-ve-danismanlik")}
             >
-              VERGİ VE DANIŞMANLIK
+              {t("nav.tax")}
             </Link>
 
             {/* 5. Yatırım */}
@@ -636,7 +639,7 @@ export default function Header() {
               onMouseEnter={() => setHoveredPath("/yatirim")}
               className={navLinkClass(activeHref === "/yatirim")}
             >
-              YATIRIM
+              {t("nav.investment")}
             </Link>
 
             {/* 6. Blog */}
@@ -646,12 +649,12 @@ export default function Header() {
               onMouseEnter={() => setHoveredPath("/blog")}
               className={navLinkClass(activeHref === "/blog")}
             >
-              BLOG
+              {t("nav.blog")}
             </Link>
 
             {/* 7. Hakkımızda (dropdown) */}
             <DesktopDropdown
-              label="HAKKIMIZDA"
+              label={t("nav.about")}
               to="/hakkimizda"
               items={hakkimizdaDropdown}
               onMouseEnter={() => setHoveredPath("/hakkimizda")}
@@ -665,7 +668,7 @@ export default function Header() {
               onMouseEnter={() => setHoveredPath("/iletisim")}
               className={navLinkClass(activeHref === "/iletisim")}
             >
-              İLETİŞİM
+              {t("nav.contact")}
             </Link>
           </nav>
 
