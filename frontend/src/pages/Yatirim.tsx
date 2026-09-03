@@ -118,9 +118,9 @@ export default function Yatirim() {
           {/* Promo Banner */}
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
             <Img
-              src={UP + "projects-48.jpg"}
+              src="/Invest.jpg"
               alt="Keystone Invest Process"
-              className="w-full rounded-lg shadow-md"
+              className="w-full rounded-lg shadow-md object-cover"
             />
             <div className="text-center lg:text-left">
               <h2 className="font-title font-bold text-2xl md:text-3xl text-[#0c2044] leading-snug mb-8">
