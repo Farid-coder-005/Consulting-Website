@@ -15,6 +15,7 @@ import Iletisim from "./pages/Iletisim";
 import FaaliyetAlanlari from "./pages/FaaliyetAlanlari";
 import { ArrowUpIcon } from "./components/icons";
 import FloatingWidgets from "./components/FloatingWidgets";
+import { applyDirection } from "./components/GoogleTranslateBridge";
 
 function ScrollManager() {
   const { pathname, hash } = useLocation();
@@ -40,6 +41,62 @@ function ScrollManager() {
   return null;
 }
 
+/**
+ * Google Translate initialization component.
+ * Loads the Google Translate script and applies saved language on mount.
+ */
+function GoogleTranslateInit() {
+  useEffect(() => {
+    const savedLang = localStorage.getItem("user_lang");
+
+    // Apply RTL direction if needed
+    if (savedLang) {
+      applyDirection(savedLang);
+    }
+
+    // Initialize Google Translate element
+    window.googleTranslateElementInit = () => {
+      new window.google!.translate!.TranslateElement(
+        {
+          pageLanguage: "auto",
+          includedLanguages:
+            "en,tr,de,hu,pl,fr,pt,ar,cs,ru,et,zh-CN,sr",
+          layout: 0,
+          autoDisplay: false,
+          multilanguagePage: true,
+        },
+        "google_translate_element"
+      );
+    };
+
+    // Load the Google Translate script
+    const existingScript = document.querySelector(
+      `script[src*="translate.google.com/translate_a/element.js"]`
+    );
+    if (!existingScript) {
+      const s = document.createElement("script");
+      s.src =
+        "https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit";
+      s.async = true;
+      document.head.appendChild(s);
+    }
+  }, []);
+
+  return (
+    <div
+      id="google_translate_element"
+      style={{
+        position: "absolute",
+        left: "-9999px",
+        top: "-9999px",
+        visibility: "hidden",
+        height: 0,
+        overflow: "hidden",
+      }}
+    />
+  );
+}
+
 export default function App() {
   const { t } = useTranslation();
   const location = useLocation();
@@ -53,6 +110,7 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-white font-body text-slate-700">
+      <GoogleTranslateInit />
       <Header />
       <ScrollManager />
       <main>
