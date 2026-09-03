@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "home": "HOME",
+    "company_formation": "COMPANY FORMATION",
+    "consultancy": "CONSULTANCY",
+    "investment": "INVESTMENT",
+    "blog": "BLOG",
+    "about": "ABOUT US",
+    "contact": "CONTACT",
+    "services": "SERVICES",
+    "locations": "OUR LOCATIONS"
+  },
+  "hero": {
+    "title": "Empowering Your Business Internationally",
+    "subtitle": "International Law and Consulting Office",
+    "cta": "Contact Us Now",
+    "locations_btn": "Our Locations"
+  },
+  "footer": {
+    "copyright": "Keystone Partners - 2026 | All Rights Reserved.",
+    "description": "At Keystone Partners, we provide integrated legal, tax, and corporate consulting services.",
+    "services": "Services",
+    "pages": "Pages",
+    "contact_info": "Contact Information",
+    "follow_us": "Follow Us"
+  },
+  "home": {
+    "stats_intro_title": "Keystone Partners International Law and Consulting Office",
+    "process_title": "Our Process",
+    "offices_title": "Local Presence. International Access. Keystone Partners Offices",
+    "offices_desc": "With a multinational and multilingual team, Keystone Partners supports entrepreneurs, investors, and companies across different legal jurisdictions through integrated legal, tax, compliance, and corporate consulting solutions.",
+    "reviews_title": "What Our Clients Say",
+    "partners_title": "Explore Our Experience",
+    "partners_btn": "Explore Our Experience",
+    "contact_title": "Our Experience",
+    "cta_band_title": "Global Growth with Keystone Partners",
+    "cta_band_text": "At Keystone Partners, we are a consulting firm specialized in company formation abroad."
+  },
+  "offices": {
+    "malta": "Malta",
+    "valletta": "Valletta",
+    "contact": "CONTACT"
+  },
+  "yatirim": {
+    "hero_title": "Keystone Invest",
+    "hero_subtitle": "Simplifying Real Estate Investment in Europe",
+    "sub_hero_text": "At Keystone Invest, we work with professional partners to make the dreams of those who want to own property at affordable prices in Europe a reality.",
+    "promo_title": "TURN YOUR REAL ESTATE DREAM INTO REALITY WITH KEYSTONE INVEST",
+    "consultation_title": "Get Your Free 15-Minute Consultation Appointment!",
+    "consultation_btn": "BOOK APPOINTMENT NOW",
+    "cta_btn": "CONTACT US"
+  },
+  "common": {
+    "read_more": "Read more →",
+    "contact_us": "Contact",
+    "learn_more": "Learn More",
+    "get_started": "Get Started"
+  }
+}

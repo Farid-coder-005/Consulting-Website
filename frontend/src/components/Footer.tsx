@@ -1,14 +1,17 @@
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { footerOffices, footerServices } from "../content";
 
 export default function Footer() {
+  const { t } = useTranslation();
+
   return (
     <footer id="footer" className="scroll-mt-28 bg-[#0A192F] pt-20 pb-12 text-white">
       <div className="max-w-7xl mx-auto px-4 grid gap-10 md:grid-cols-3">
         {/* Hizmet Noktalarımız */}
         <div>
           <h3 className="text-white font-semibold text-lg mb-4">
-            Hizmet Noktalarımız
+            {t("footer.locations")}
           </h3>
           <ul className="space-y-0">
             {footerOffices.map((o) => (
@@ -28,7 +31,7 @@ export default function Footer() {
         {/* Faaliyet Alanlarımız */}
         <div>
           <h3 className="text-white font-semibold text-lg mb-4">
-            Faaliyet Alanlarımız
+            {t("footer.services")}
           </h3>
           <ul className="space-y-0">
             {footerServices.map((s) => (
@@ -48,27 +51,11 @@ export default function Footer() {
         {/* Description Block */}
         <div>
           <p className="italic text-white text-base font-medium mb-4 leading-relaxed block">
-            Uluslararası Şirket Kuruluşu Hizmetlerimizle İşinizi Küresel Ölçekte Büyütün
+            {t("home.offices_title")}
           </p>
           <div className="text-slate-300 text-sm leading-relaxed space-y-4">
             <p>
-              Keystone Partners olarak; entegre hukuk, vergi ve kurumsal danışmanlık
-              hizmetlerimiz aracılığıyla girişimcilerin, yatırımcıların ve şirketlerin
-              uluslararası alanda kurulmalarına ve büyümelerine yardımcı oluyoruz.
-            </p>
-            <p>
-              İster Avrupa'da şirket kuruluşu, BAE'de iş kurulumu, Türkiye'de şirket
-              tescili, Balkanlar'a genişleme, Asya pazarına giriş veya Amerika Birleşik
-              Devletleri'nde şirketleşme hizmetleri arıyor olun; ekibimiz tüm süreç
-              boyunca uçtan uca destek sağlar. İşinize uygun ülke seçiminden şirket
-              kuruluşuna, vergi ve mevzuata uyumdan sürekli hukuki desteğe kadar,
-              işletmelerin uluslararası büyüme için güçlü bir temel oluşturmalarına
-              yardımcı oluyoruz.
-            </p>
-            <p>
-              İşinizi küresel ölçekte büyütmek için gerekli tüm rehberlik ve desteği
-              almak üzere bizimle iletişime geçin. Avrupa'da şirket kuruluşu ve Dubai'de
-              şirket kuruluşu süreçlerinizi sorunsuz bir şekilde yönetmek için bize ulaşın.
+              {t("footer.description")}
             </p>
           </div>
         </div>
@@ -76,10 +63,7 @@ export default function Footer() {
 
       <div className="max-w-7xl mx-auto px-4 mt-12 pt-6 border-t border-blue-900/40">
         <div className="text-center text-xs text-white/50">
-          Keystone Partners - 2026 |{" "}
-          <a href="#" className="hover:text-white/80 transition">
-            Gizlilik Politikası
-          </a>
+          {t("footer.copyright")}
         </div>
       </div>
     </footer>

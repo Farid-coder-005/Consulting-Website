@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef, useMemo, useCallback } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import {
   ChevronDownIcon,
   SearchIcon,
@@ -400,10 +401,14 @@ function MobileNav({ onClose }: { onClose: () => void }) {
 /* ─── Header ──────────────────────────────────────────────────── */
 
 export default function Header() {
+  const { i18n } = useTranslation();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [langOpen, setLangOpen] = useState(false);
-  const [selectedLang, setSelectedLang] = useState<LanguageOption>(languages[1]);
+  const [selectedLang, setSelectedLang] = useState<LanguageOption>(() => {
+    const saved = localStorage.getItem("i18nextLng");
+    return languages.find((l) => l.locale === saved) || languages[1];
+  });
   const [hoveredPath, setHoveredPath] = useState<string | null>(null);
 
   const langRef = useRef<HTMLDivElement>(null);
@@ -534,6 +539,7 @@ export default function Header() {
                         type="button"
                         onClick={() => {
                           setSelectedLang(lang);
+                          i18n.changeLanguage(lang.locale);
                           setLangOpen(false);
                         }}
                         className={`block w-full text-left px-4 py-2 hover:bg-slate-100 transition flex items-center gap-2 ${

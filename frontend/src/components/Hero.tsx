@@ -1,45 +1,44 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
 type Slide = {
-  subtitle: string;
-  title: string;
-  buttons: { label: string; to: string }[];
+  subtitleKey: string;
+  titleKey: string;
+  buttons: { labelKey: string; to: string }[];
   bg: string;
   dark: boolean;
 };
 
 const slides: Slide[] = [
   {
-    subtitle: "Uluslararası Hukuk ve Danışmanlık Ofisi",
-    title:
-      "Keystone Partners, multi-milyon dolarlık uluslararası projelere stratejik uzmanlığıyla rehberlik etme ve destekleme konusunda uzmandır.",
+    subtitleKey: "hero.subtitle",
+    titleKey: "hero.title",
     buttons: [
-      { label: "Hizmet Noktalarımız", to: "/#offices" },
-      { label: "İletişim", to: "/#contact" },
+      { labelKey: "hero.locations_btn", to: "/#offices" },
+      { labelKey: "hero.cta", to: "/#contact" },
     ],
     bg: "https://gurcanpartners.com/wp-content/uploads/gurcan-partners-banner-home-page.png",
     dark: true,
   },
   {
-    subtitle: "Uluslararası Hukuk Ve Danışmanlık Ofisi",
-    title:
-      "İşinizi uluslararası alanda büyütmek için etkili ve kapsamlı çözümler sunuyoruz.",
+    subtitleKey: "hero.subtitle",
+    titleKey: "hero.title",
     buttons: [
-      { label: "Hizmet Noktalarımız", to: "/#offices" },
-      { label: "Ücretsiz Görüş", to: "/#contact" },
+      { labelKey: "hero.locations_btn", to: "/#offices" },
+      { labelKey: "hero.cta", to: "/#contact" },
     ],
     bg: "https://gurcanpartners.com/wp-content/uploads/gurcan-partners-homepage-banner.webp",
     dark: false,
   },
   {
-    subtitle: "Uluslararası Hukuk ve Danışmanlık Ofisi",
-    title: "Geleceğe, İş birliğine & İnovasyona İnanıyoruz.",
+    subtitleKey: "hero.subtitle",
+    titleKey: "hero.title",
     buttons: [
-      { label: "Hizmet Noktalarımız", to: "/#offices" },
-      { label: "Takımımız", to: "/hakkimizda" },
-      { label: "İletişim", to: "/#contact" },
+      { labelKey: "hero.locations_btn", to: "/#offices" },
+      { labelKey: "nav.about", to: "/hakkimizda" },
+      { labelKey: "hero.cta", to: "/#contact" },
     ],
     bg: "https://gurcanpartners.com/wp-content/uploads/homepage-banner-gurcan-partners.webp",
     dark: true,
@@ -47,6 +46,7 @@ const slides: Slide[] = [
 ];
 
 export default function Hero() {
+  const { t } = useTranslation();
   const [idx, setIdx] = useState(0);
 
   useEffect(() => {
@@ -82,19 +82,19 @@ export default function Hero() {
               slide.dark ? "text-slate-200" : "text-[#122352]/80"
             }`}
           >
-            {slide.subtitle}
+            {t(slide.subtitleKey)}
           </p>
           <h1
             className={`font-sans font-bold text-2xl lg:text-3xl leading-tight max-w-3xl ${
               slide.dark ? "text-white" : "text-[#122352]"
             }`}
           >
-            {slide.title}
+            {t(slide.titleKey)}
           </h1>
           <div className="mt-8 flex flex-wrap gap-8">
             {slide.buttons.map((b) => (
               <Link
-                key={b.label}
+                key={b.labelKey}
                 to={b.to}
                 className={`inline-flex items-center gap-1 font-sans font-semibold text-lg transition group ${
                   slide.dark
@@ -102,7 +102,7 @@ export default function Hero() {
                     : "text-[#122352] hover:text-[#2079be]"
                 }`}
               >
-                {b.label}
+                {t(b.labelKey)}
                 <span className="transition group-hover:translate-x-1">›</span>
               </Link>
             ))}

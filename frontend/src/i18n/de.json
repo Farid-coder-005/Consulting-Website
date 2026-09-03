@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "home": "STARTSEITE",
+    "company_formation": "UNTERNEHMENSGRÜNDUNG",
+    "consultancy": "BERATUNG",
+    "investment": "INVESTITIONEN",
+    "blog": "BLOG",
+    "about": "ÜBER UNS",
+    "contact": "KONTAKT",
+    "services": "LEISTUNGEN",
+    "locations": "UNSERE STANDORTE"
+  },
+  "hero": {
+    "title": "Ihr Geschäft international stärken",
+    "subtitle": "Internationales Rechts- und Beratungsbüro",
+    "cta": "Jetzt kontaktieren",
+    "locations_btn": "Unsere Standorte"
+  },
+  "footer": {
+    "copyright": "Keystone Partners - 2026 | Alle Rechte vorbehalten.",
+    "description": "Bei Keystone Partners bieten wir integrierte Rechts-, Steuer- und Unternehmensberatung an.",
+    "services": "Leistungen",
+    "pages": "Seiten",
+    "contact_info": "Kontaktinformationen",
+    "follow_us": "Folgen Sie uns"
+  },
+  "home": {
+    "stats_intro_title": "Keystone Partners Internationales Rechts- und Beratungsbüro",
+    "process_title": "Unser Prozess",
+    "offices_title": "Lokale Präsenz. Internationaler Zugang. Keystone Partners Büros",
+    "offices_desc": "Mit einem multinationalen und mehrsprachigen Team unterstützt Keystone Partners Unternehmer, Investoren und Unternehmen in verschiedenen Rechtsgebieten durch integrierte Rechts-, Steuer- und Unternehmensberatungslösungen.",
+    "reviews_title": "Was unsere Kunden sagen",
+    "partners_title": "Entdecken Sie unsere Erfahrung",
+    "partners_btn": "Entdecken Sie unsere Erfahrung",
+    "contact_title": "Unsere Erfahrung",
+    "cta_band_title": "Globaler Wachstum mit Keystone Partners",
+    "cta_band_text": "Bei Keystone Partners sind wir eine Beratungsfirma, die auf Unternehmensgründungen im Ausland spezialisiert ist."
+  },
+  "offices": {
+    "malta": "Malta",
+    "valletta": "Valletta",
+    "contact": "KONTAKT"
+  },
+  "yatirim": {
+    "hero_title": "Keystone Invest",
+    "hero_subtitle": "Immobilieninvestitionen in Europa vereinfachen",
+    "sub_hero_text": "Bei Keystone Invest arbeiten wir mit professionellen Partnern zusammen, um die Träume derer wahr zu machen, die in Europa zu günstigen Preisen Immobilien erwerben möchten.",
+    "promo_title": "VERWIRKLICHEN SIE IHREN IMMOBILIENTRAUM MIT KEYSTONE INVEST",
+    "consultation_title": "Holen Sie sich Ihren kostenlosen 15-Minuten-Beratungstermin!",
+    "consultation_btn": "JETZT TERMIN BUCHEN",
+    "cta_btn": "KONTAKTIEREN SIE UNS"
+  },
+  "common": {
+    "read_more": "Weiterlesen →",
+    "contact_us": "Kontakt",
+    "learn_more": "Mehr erfahren",
+    "get_started": "Jetzt starten"
+  }
+}

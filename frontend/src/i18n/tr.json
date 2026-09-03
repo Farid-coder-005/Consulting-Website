@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "home": "ANA SAYFA",
+    "company_formation": "ŞİRKET KURULUŞU",
+    "consultancy": "DANIŞMANLIK",
+    "investment": "YATIRIM",
+    "blog": "BLOG",
+    "about": "HAKKIMIZDA",
+    "contact": "İLETİŞİM",
+    "services": "HİZMETLER",
+    "locations": "HİZMET NOKTALARIMIZ"
+  },
+  "hero": {
+    "title": "İşinizi Uluslararası Alanda Güçlendiriyoruz",
+    "subtitle": "Uluslararası Hukuk ve Danışmanlık Ofisi",
+    "cta": "Hemen Bize Ulaşın",
+    "locations_btn": "Hizmet Noktalarımız"
+  },
+  "footer": {
+    "copyright": "Keystone Partners - 2026 | Tüm Hakları Saklıdır.",
+    "description": "Keystone Partners olarak; entegre hukuk, vergi ve kurumsal danışmanlık hizmetleri sunuyoruz.",
+    "services": "Hizmetler",
+    "pages": "Sayfalar",
+    "contact_info": "İletişim Bilgileri",
+    "follow_us": "Bizi Takip Edin"
+  },
+  "home": {
+    "stats_intro_title": "Keystone Partners Uluslararası Hukuk ve Danışmanlık Ofisi",
+    "process_title": "Sürecimiz",
+    "offices_title": "Yerel Varlık. Uluslararası Erişim. Keystone Partners Ofisleri",
+    "offices_desc": "Çok uluslu ve çok dilli bir ekibe sahip olan Keystone Partners; entegre hukuk, vergi, uyum ve kurumsal danışmanlık çözümleri aracılığıyla farklı hukuki yetki alanlarındaki girişimcileri, yatırımcıları ve şirketleri desteklemektedir.",
+    "reviews_title": "Müşterilerimiz Ne Diyor?",
+    "partners_title": "Tecrübelerimize Göz Atın",
+    "partners_btn": "Tecrübelerimize Göz Atın",
+    "contact_title": "Deneyimlerimiz",
+    "cta_band_title": "Keystone Partners ile Global Büyüme",
+    "cta_band_text": "Keystone Partners olarak, yurtdışında şirket kurma konusunda uzmanlaşmış bir danışmanlık firmasıyız."
+  },
+  "offices": {
+    "malta": "Malta",
+    "valletta": "Valletta",
+    "contact": "İLETİŞİM"
+  },
+  "yatirim": {
+    "hero_title": "Keystone Invest",
+    "hero_subtitle": "Avrupa'da Gayrimenkul Yatırımını Kolaylaştırıyoruz",
+    "sub_hero_text": "Keystone Invest olarak Avrupa'da uygun fiyata mülk sahibi olmak isteyenlerin hayallerini gerçekleştirmek için profesyonel partnerlerimizle çalışıyoruz.",
+    "promo_title": "GAYRİMENKUL HAYALİNİZİ KEYSTONE INVEST İLE GERÇEĞE DÖNÜŞTÜRÜN",
+    "consultation_title": "Ücretsiz 15 Dakikalık Danışmanlık Randevunuzu Alın!",
+    "consultation_btn": "HEMEN RANDEVU ALIN",
+    "cta_btn": "BİZİMLE İLETİŞİME GEÇİN"
+  },
+  "common": {
+    "read_more": "Devamını oku →",
+    "contact_us": "İletişim",
+    "learn_more": "Daha Fazla Bilgi",
+    "get_started": "Hemen Başlayın"
+  }
+}
