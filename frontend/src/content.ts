@@ -256,14 +256,14 @@ export const offices: Office[] = [
 ];
 
 export const memberships = [
-  { src: "https://gurcanpartners.com/wp-content/uploads/amcham-hungary.png", alt: "AmCham Hungary" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/ahk.png", alt: "AHK" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/ICC.png", alt: "ICC" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/canadian.png", alt: "Canadian Chamber" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/thomson-reuters-foundation.png", alt: "Thomson Reuters Foundation" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/bcch.png", alt: "BCCH" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/aea-1.png", alt: "AEA" },
-  { src: "https://gurcanpartners.com/wp-content/uploads/greenwill-3.png", alt: "Greenwill" },
+  { src: "/Partner.jpg", alt: "AmCham Hungary" },
+  { src: "/Partner.jpg", alt: "AHK" },
+  { src: "/Partner.jpg", alt: "ICC" },
+  { src: "/Partner.jpg", alt: "Canadian Chamber" },
+  { src: "/Partner.jpg", alt: "Thomson Reuters Foundation" },
+  { src: "/Partner.jpg", alt: "BCCH" },
+  { src: "/Partner.jpg", alt: "AEA" },
+  { src: "/Partner.jpg", alt: "Greenwill" },
 ];
 
 export type FaqItem = { q: string; a: string };
