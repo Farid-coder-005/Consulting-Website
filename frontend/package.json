@@ -6,9 +6,11 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node server.js"
   },
   "devDependencies": {
+    "@types/express": "^5.0.0",
     "@types/react": "^19.2.18",
     "@types/react-dom": "^19.2.4",
     "@vitejs/plugin-react": "^6.0.5",
@@ -17,6 +19,7 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
+    "express": "^5.1.0",
     "framer-motion": "^13.1.0",
     "i18next": "^26.4.1",
     "i18next-browser-languagedetector": "^8.2.1",
