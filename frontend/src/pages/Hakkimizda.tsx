@@ -22,10 +22,10 @@ export default function Hakkimizda() {
         <div className="absolute inset-0 bg-[#0F2B5C]/60" />
         <div className="relative max-w-7xl mx-auto px-4 w-full text-center">
           <p className="text-lg md:text-xl font-bold text-white mb-3">
-            About Keystone Partners
+            Hakkımızda
           </p>
           <h1 className="font-title text-3xl md:text-5xl text-white max-w-2xl mx-auto leading-tight font-medium">
-            15+ Years of Cross-Border Corporate Expertise
+            Keystone Partners Uluslararası Hukuk ve Danışmanlık
           </h1>
         </div>
       </section>
@@ -45,95 +45,94 @@ export default function Hakkimizda() {
             </div>
             <div className="lg:col-span-8">
               <h2 className="font-title text-2xl md:text-3xl text-gray-900 font-bold mb-4">
-                Your Gateway to Excellence in Global Business and Law
+                Küresel İş ve Hukuk Alanında Mükemmelliğe Açılan Kapınız
               </h2>
               <p className="text-slate-600 leading-relaxed">
-                Keystone Partners is a leading international law and consulting
-                firm with over 15 years of experience in cross-border corporate
-                structuring, tax optimization, and investment advisory. With a
-                team of attorneys from the USA, Hungary, Poland, Czech Republic,
-                Serbia, Germany, Malta, the UAE, and Estonia, we have mastered the
-                art of navigating complex legal matters across 10 jurisdictions.{" "}
+                Küresel hukuk ve danışmanlık hizmetlerinde yenilikçi ortağınız
+                Keystone Partners'a hoş geldiniz. ABD, Macaristan, Türkiye, Polonya,
+                Çek Cumhuriyeti, Sırbistan, Almanya, Arap ülkeleri, Malezya ve
+                Estonya'dan çeşitli avukatlardan oluşan bir ekiple, 10 ülkede
+                karmaşık yasal konuları ele alma sanatında ustalaştık.{" "}
                 <a
                   href="#offices"
                   className="text-accent hover:underline font-semibold"
                 >
-                  Visit our offices
+                  Lütfen ofislerimizi ziyaret edin.
                 </a>{" "}
-                to learn how our expertise — deep and broad — ensures your
-                business receives meticulous, confidential, and internationally
-                compliant counsel.
+                Uzmanlığımız sadece geniş değil, aynı zamanda derindir ve
+                uluslararası hukukun inceliklerini titizlik ve verimlilikle ele
+                almamızı sağlar.
               </p>
             </div>
           </div>
 
-          {/* Block 2: Confidentiality & Precision */}
+          {/* Block 2: İnovasyon */}
           <div>
             <h2 className="font-title text-2xl md:text-3xl text-gray-900 font-bold mb-4">
-              Confidentiality, Legal Precision & International Tax Standards — The Keystone Promise
+              Geleceğe İnanıyoruz – İnovasyon, Teknoloji ve Uzmanlık: Keystone Sözü
             </h2>
             <p className="text-slate-600 leading-relaxed">
-              At Keystone Partners, we go beyond traditional legal services. We
-              are a trusted advisor to entrepreneurs, investors, and multinational
-              enterprises seeking to establish or expand their global footprint.
-              Every engagement is handled with the highest standards of
-              confidentiality, legal precision, and adherence to international
-              tax regulations. Our commitment to protecting client information
-              and delivering structurally sound solutions has earned us the trust
-              of over 500 corporate clients across ten jurisdictions.
+              Keystone Partners olarak bir hukuk bürosundan çok daha fazlasıyız;
+              hukuk teknolojisi ve danışmanlığı alanında yenilikçiyiz ve
+              işletmenizin hızla gelişen dijital dünyada bir adım önde olmasını
+              sağlıyoruz. İnovasyon ve teknolojiye olan bağlılığımız, karmaşık
+              yasal zorluklar için stratejik çözümler sunma konusundaki
+              kararlılığımızla eşleşiyor ve bizi 21. yüzyılın hukuk endüstrisinde
+              bir öncü haline getiriyor.
             </p>
           </div>
 
-          {/* Block 3: Integrated Services */}
+          {/* Block 3: İşbirliği */}
           <div>
             <h2 className="font-title text-2xl md:text-3xl text-gray-900 font-bold mb-4">
-              Integrated Corporate, Tax & Legal Solutions — Your Strategic Partner for Global Growth
+              İşbirliğine İnanıyoruz – Şirketinizi Büyütüyor, Yasal İşlemleri Basitleştiriyoruz
             </h2>
             <p className="text-slate-600 leading-relaxed mb-4">
-              Our mission is to be more than a service provider — we are your
-              strategic partner for global expansion. Having helped over 500
-              companies take their businesses international, we understand the
-              nuances of market entry, operational setup, and ongoing compliance.
-              Through our affiliated consulting arm, Keystone Partners delivers
-              comprehensive tax and accounting services across 8 countries,
-              ensuring a seamless transition into new markets.
+              Görevimiz geleneksel hukuki hizmetlerin ötesine geçerek küresel
+              genişlemede stratejik ortağınız olmayı hedefliyoruz. 400'den fazla
+              şirketin işlerini uluslararası alana taşımalarına yardımcı olarak,
+              küresel pazara girişin ve operasyonun nüanslarını anlıyoruz. Keystone
+              Partners, yan şirketimiz Keystone Danışmanlık ile birlikte 8
+              ülkede kapsamlı vergi ve muhasebe hizmetleri sunarak yeni
+              pazarlara sorunsuz bir geçiş sağlıyor.
             </p>
             <p className="text-slate-600 leading-relaxed mb-6">
-              Choose Keystone Partners for a partnership that values
-              confidentiality, embraces innovation, and prioritizes your global
-              success. Let our expert legal and tax advisory services guide you
-              through the complexities of international expansion. With Keystone
-              Partners, global business is not just an option — it is your future.
+              Yeniliğe İnanıyoruz – Yeniliğe değer veren, teknolojiyi kucaklayan
+              ve küresel başarınıza öncelik veren bir ortaklık için Keystone
+              Partners'ı seçin. Uzman hukuk ve danışmanlık hizmetlerimizle
+              uluslararası genişlemenin karmaşıklıklarında size rehberlik
+              edelim. Keystone Partners ile küresel iş sadece bir seçenek değil;
+              sizin geleceğinizdir.
             </p>
             <p className="font-bold text-gray-900">
-              Discover the Keystone difference. Expand globally with confidence.
+              Keystone farkını keşfedin. Güvenle global olarak büyüyün.
             </p>
           </div>
 
           {/* Stats */}
           <div className="grid grid-cols-3 gap-4 max-w-3xl mx-auto text-center pt-8 border-t border-slate-200">
             <div>
-              <div className="font-heading font-extrabold text-3xl md:text-4xl text-gray-900">15+</div>
-              <div className="text-sm text-slate-500 mt-1">Years Experience</div>
-            </div>
-            <div>
               <div className="font-heading font-extrabold text-3xl md:text-4xl text-gray-900">10</div>
-              <div className="text-sm text-slate-500 mt-1">Jurisdictions</div>
+              <div className="text-sm text-slate-500 mt-1">Ülke</div>
             </div>
             <div>
-              <div className="font-heading font-extrabold text-3xl md:text-4xl text-gray-900">500+</div>
-              <div className="text-sm text-slate-500 mt-1">Corporate Clients</div>
+              <div className="font-heading font-extrabold text-3xl md:text-4xl text-gray-900">13</div>
+              <div className="text-sm text-slate-500 mt-1">Dil</div>
+            </div>
+            <div>
+              <div className="font-heading font-extrabold text-3xl md:text-4xl text-gray-900">400+</div>
+              <div className="text-sm text-slate-500 mt-1">Kurumsal Müşteri</div>
             </div>
           </div>
 
         </Reveal>
       </section>
 
-      {/* Member Organizations */}
+      {/* Üye Olduğumuz Kuruluşlar */}
       <section className="py-16 bg-slate-50">
         <Reveal className="max-w-6xl mx-auto px-4">
           <h2 className="font-title text-2xl md:text-3xl text-gray-900 font-bold text-center mb-10">
-            Member Organizations
+            Üye Olduğumuz Kuruluşlar
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {memberships.slice(0, 4).map((m) => (
@@ -157,8 +156,8 @@ export default function Hakkimizda() {
       <Contact logos={hakkimizdaReferences} />
 
       <CtaBand
-        title="Expand Your Business Internationally with Keystone Partners"
-        text="Keystone Partners specializes in international company formation, corporate structuring, and tax optimization. Whether you are establishing a presence in Europe, the UAE, or beyond, we provide the legal, tax, and corporate expertise to build a solid foundation for your global venture."
+        title="Yurt Dışında ve Avrupa'da Şirket Kurma Hizmetlerimizle İşinizi Globalleştirin"
+        text="Keystone Partners olarak, yurtdışında şirket kurma konusunda uzmanlaşmış bir danışmanlık firmasıyız. Avrupa’da ve Dubai’de şirket kurma sürecini hızlandıran ve kolaylaştıran çözümler sunuyoruz. Hedefiniz, Avrupa’da veya Dubai’de bir iş kurmaksa, size en uygun seçenekleri ve hukuki desteği sağlayarak başarılı bir girişim için sağlam bir temel oluşturmanıza yardımcı oluyoruz."
       />
     </PageTransition>
   );

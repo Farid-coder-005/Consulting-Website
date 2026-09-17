@@ -19,27 +19,28 @@ const slides: Slide[] = [
       { labelKey: "hero.locations_btn", to: "/#offices" },
       { labelKey: "hero.cta", to: "/#contact" },
     ],
-    bg: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80",
+    bg: "https://gurcanpartners.com/wp-content/uploads/gurcan-partners-banner-home-page.png",
     dark: true,
   },
   {
     subtitleKey: "hero.subtitle",
     titleKey: "hero.title",
     buttons: [
+      { labelKey: "hero.locations_btn", to: "/#offices" },
+      { labelKey: "hero.cta", to: "/#contact" },
+    ],
+    bg: "https://gurcanpartners.com/wp-content/uploads/gurcan-partners-homepage-banner.webp",
+    dark: false,
+  },
+  {
+    subtitleKey: "hero.subtitle",
+    titleKey: "hero.title",
+    buttons: [
+      { labelKey: "hero.locations_btn", to: "/#offices" },
       { labelKey: "nav.about", to: "/hakkimizda" },
       { labelKey: "hero.cta", to: "/#contact" },
     ],
-    bg: "https://images.unsplash.com/photo-1520333789090-1afc82db536a?w=1920&q=80",
-    dark: true,
-  },
-  {
-    subtitleKey: "hero.subtitle",
-    titleKey: "hero.title",
-    buttons: [
-      { labelKey: "nav.services", to: "/#services" },
-      { labelKey: "hero.cta", to: "/#contact" },
-    ],
-    bg: "https://images.unsplash.com/photo-1541354329998-f4d9a9b36b4f?w=1920&q=80",
+    bg: "https://gurcanpartners.com/wp-content/uploads/homepage-banner-gurcan-partners.webp",
     dark: true,
   },
 ];
@@ -84,7 +85,7 @@ export default function Hero() {
             {t(slide.subtitleKey)}
           </p>
           <h1
-            className={`font-sans font-bold text-xl md:text-2xl lg:text-3xl leading-tight max-w-3xl ${
+            className={`font-sans font-bold text-2xl lg:text-3xl leading-tight max-w-3xl ${
               slide.dark ? "text-white" : "text-[#122352]"
             }`}
           >

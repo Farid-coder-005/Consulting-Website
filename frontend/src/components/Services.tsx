@@ -22,6 +22,25 @@ const serviceIcons: Record<string, React.ReactNode> = {
       <line x1="16" y1="34" x2="26" y2="34" />
     </svg>
   ),
+  accounting: (
+    <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
+      <rect x="10" y="6" width="28" height="36" rx="2" />
+      <line x1="16" y1="14" x2="32" y2="14" />
+      <line x1="16" y1="20" x2="32" y2="20" />
+      <line x1="16" y1="26" x2="28" y2="26" />
+      <line x1="16" y1="32" x2="24" y2="32" />
+    </svg>
+  ),
+  legal: (
+    <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
+      <path d="M24 6L6 18h36L24 6z" />
+      <rect x="8" y="18" width="32" height="4" />
+      <line x1="14" y1="22" x2="14" y2="38" />
+      <line x1="24" y1="22" x2="24" y2="38" />
+      <line x1="34" y1="22" x2="34" y2="38" />
+      <rect x="6" y="38" width="36" height="4" />
+    </svg>
+  ),
   immigration: (
     <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
       <rect x="6" y="8" width="36" height="32" rx="2" />
@@ -29,13 +48,11 @@ const serviceIcons: Record<string, React.ReactNode> = {
       <path d="M14 36c0-5.5 4.5-10 10-10s10 4.5 10 10" />
     </svg>
   ),
-  "corporate-ma": (
+  "real-estate": (
     <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
-      <rect x="4" y="12" width="14" height="24" rx="1" />
-      <rect x="22" y="6" width="10" height="30" rx="1" />
-      <rect x="34" y="16" width="10" height="20" rx="1" />
-      <path d="M18 24h4" />
-      <path d="M32 24h2" />
+      <path d="M6 24l18-14 18 14" />
+      <rect x="10" y="24" width="28" height="18" rx="1" />
+      <rect x="18" y="30" width="12" height="12" rx="1" />
     </svg>
   ),
 };

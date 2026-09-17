@@ -10,8 +10,8 @@
     "contact": "CONTACT"
   },
   "hero": {
-    "title": "International Corporate Structuring, Investment & Tax Optimization",
-    "subtitle": "Empower your cross-border business with strategic legal, financial, and corporate solutions tailored for global expansion.",
+    "title": "Keystone Partners specializes in guiding and supporting multi-million dollar international projects with strategic expertise.",
+    "subtitle": "International Law and Consulting Office",
     "cta": "Contact Us",
     "locations_btn": "Our Locations",
     "prev_slide": "Previous slide",
@@ -20,25 +20,25 @@
   "footer": {
     "locations": "Our Locations",
     "services": "Our Services",
-    "description": "Keystone Partners delivers integrated legal, tax, and corporate structuring services for entrepreneurs, investors, and multinational enterprises operating across borders.",
+    "description": "At Keystone Partners, we help entrepreneurs, investors, and companies establish and grow internationally through integrated legal, tax, and corporate consulting services.",
     "copyright": "Keystone Partners - 2026 | All Rights Reserved.",
     "privacy": "Privacy Policy"
   },
   "home": {
-    "offices_title": "Local Presence. Global Reach. Trusted by Leading Enterprises.",
-    "offices_desc": "With offices in key jurisdictions across Europe, the Middle East, and beyond, Keystone Partners delivers localized expertise backed by 15+ years of cross-border corporate experience.",
-    "stats_title": "15+ Years of Cross-Border Corporate Expertise",
-    "stats_subtitle": "Company Formation, International Tax Planning, Corporate Structuring & Investment Advisory",
-    "stats_quote": "Keystone Partners — where legal precision meets international tax strategy for seamless global business expansion.",
+    "offices_title": "Local Presence. International Access. Keystone Partners Offices",
+    "offices_desc": "With a multinational and multilingual team, Keystone Partners supports entrepreneurs, investors, and companies across different legal jurisdictions through integrated legal, tax, compliance, and corporate consulting solutions.",
+    "stats_title": "Keystone Partners International Law and Consulting Office",
+    "stats_subtitle": "Company Formation, International Company Formation, International Tax Consulting and More",
+    "stats_quote": "Keystone Partners is an innovative international law and consulting company.",
     "services_eyebrow": "Our Services",
-    "services_title": "Comprehensive Corporate & Tax Solutions for Global Business",
-    "services_desc": "We deliver end-to-end corporate structuring, tax optimization, and legal advisory services designed to empower your cross-border operations.",
-    "blog_desc": "Stay ahead with expert insights on international company formation, tax planning, corporate compliance, and cross-border investment strategies.",
+    "services_title": "International Law and Consulting Office - Our Services",
+    "services_desc": "We grow your business globally with end-to-end services in international law, tax, and consulting.",
+    "blog_desc": "Stay ahead with the latest articles, guides, and expert insights from the world of international company formation, tax, and law.",
     "blog_btn": "Explore All Blogs",
-    "memberships_desc": "Trusted by leading enterprises worldwide. Our affiliations with international chambers, legal networks, and regulatory bodies ensure the highest standards of service.",
+    "memberships_desc": "Our trusted solution partners worldwide and international organizations we are members of.",
     "locations_eyebrow": "Global Network",
-    "locations_title": "International Service Points",
-    "locations_desc": "Serving global clients with localized expertise through offices in ten strategic jurisdictions."
+    "locations_title": "International Law and Consulting Service Points",
+    "locations_desc": "We serve our international clients with local expertise through our offices in ten countries."
   },
   "offices": {
     "malta": "Malta",
@@ -128,12 +128,15 @@
   },
   "faaliyet": {
     "header": "OUR SERVICES",
-    "i1": "Company Formation & Structuring",
-    "i2": "Tax & Financial Planning",
-    "i3": "Residence & Citizenship Solutions",
-    "i4": "Corporate Support & M&A",
-    "i5": "Legal Advisory",
-    "i6": "Accounting & Bookkeeping"
+    "i1": "Information Technology Law",
+    "i2": "Mergers & Acquisitions",
+    "i3": "Blockchain Law",
+    "i4": "Intellectual Property Law",
+    "i5": "Real Estate Law",
+    "i6": "Immigration Law",
+    "i7": "Company Migration",
+    "i8": "Trade & Corporate Law",
+    "i9": "International Tax Consulting"
   },
   "about_menu": {
     "header": "ABOUT US",
@@ -146,18 +149,18 @@
   },
   "contact": {
     "hero_title": "Contact Us",
-    "hero_subtitle": "Schedule a Confidential Consultation",
-    "hero_desc": "Keystone Partners provides discreet, professional consultations for corporate structuring, tax planning, and investment advisory. Reach us anytime at",
+    "hero_subtitle": "Appointment Scheduling at Keystone Partners",
+    "hero_desc": "At Keystone Partners, we offer both in-person and online consultations. For your questions and consulting requests, you can reach us anytime at",
     "hero_desc_end": ".",
-    "card_email_title": "Send Us a Confidential Inquiry",
+    "card_email_title": "Send Us an Email Now",
     "card_video_title": "Schedule a Free 15-Minute Consultation",
     "card_video_desc": "Online video meeting",
-    "card_whatsapp_title": "Reach Us on WhatsApp",
+    "card_whatsapp_title": "Send Us a Message Now",
     "card_whatsapp_desc": "Via WhatsApp",
-    "cta_title": "Get Started — Request a confidential preliminary consultation!",
+    "cta_title": "Let's Get Started - Request a free preliminary consultation!",
     "cta_btn": "Schedule Now ›",
-    "form_title": "Please fill out the form below. Our team will respond within 24 hours.",
-    "form_success": "Your inquiry has been received. Our team will contact you as soon as possible.",
+    "form_title": "Please fill out the form below. We will get back to you within 24 hours.",
+    "form_success": "Your message has been received. Our team will contact you as soon as possible.",
     "form_name": "Name",
     "form_name_placeholder": "Your Full Name",
     "form_phone": "Phone",
@@ -178,16 +181,16 @@
     "message": "Message",
     "recaptcha": "I'm not a robot",
     "submit": "SUBMIT",
-    "privacy": "Your information is kept strictly confidential and used solely to respond to your request.",
-    "experiences_eyebrow": "Our Track Record",
-    "experiences_title": "Trusted by 500+ Corporate Clients",
-    "experiences_desc": "Keystone Partners has supported over 500 corporate clients across 10 jurisdictions with integrated legal, tax, and corporate advisory services. Our reputation is built on confidentiality, precision, and results.",
-    "references_eyebrow": "Trusted by Leading Enterprises",
-    "references_title": "Our Clients"
+    "privacy": "Your form information is kept confidential and used only to respond to your request.",
+    "experiences_eyebrow": "Our Experiences",
+    "experiences_title": "Our Experiences",
+    "experiences_desc": "We continue to be the address of trust with the services we offer to our corporate clients on a global scale. We are the solution partner of respected brands from various sectors.",
+    "references_eyebrow": "Trusted Solution Partner",
+    "references_title": "Our References"
   },
   "faq": {
     "eyebrow": "Frequently Asked Questions",
-    "title": "FAQ About Company Formation & Corporate Structuring"
+    "title": "FAQ About Company Formation"
   },
   "blog": {
     "latest_posts": "Latest Posts",
@@ -197,22 +200,22 @@
   },
   "services": {
     "eyebrow": "Our Services",
-    "title": "Comprehensive Corporate & Tax Solutions",
-    "desc": "End-to-end corporate structuring, tax optimization, and legal advisory services for businesses operating across borders."
+    "title": "International Law and Consulting Office - Our Services",
+    "desc": "We grow your business globally with end-to-end services in international law, tax, and consulting."
   },
   "memberships": {
-    "desc": "Trusted by leading enterprises worldwide. Our affiliations with international chambers, legal networks, and regulatory bodies ensure the highest standards of service."
+    "desc": "Our trusted solution partners worldwide and international organizations we are members of."
   },
   "company_formation": {
     "eyebrow": "Company Formation",
-    "title": "Company Formation & Structuring",
+    "title": "Company Formation",
     "coming_soon": "services will be detailed soon.",
     "coming_soon_default": "Our international company formation services will be live soon."
   },
   "inner": {
-    "references_eyebrow": "Trusted by Leading Enterprises",
-    "references_title": "Our Clients",
-    "cta_title": "Get Started — Request a confidential preliminary consultation!",
+    "references_eyebrow": "Trusted Solution Partner",
+    "references_title": "Our References",
+    "cta_title": "Let's Get Started - Request a free preliminary consultation!",
     "cta_plan": "SCHEDULE NOW ›",
     "cta_whatsapp": "CONTACT VIA WHATSAPP ›"
   },
@@ -231,7 +234,7 @@
   },
   "yatirim": {
     "hero_title": "Keystone Invest",
-    "hero_subtitle": "Cross-Border Real Estate Investment Advisory"
+    "hero_subtitle": "Simplifying Real Estate Investment in Europe"
   },
   "floating": {
     "contact_us": "Contact Us",

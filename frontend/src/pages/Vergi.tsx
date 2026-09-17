@@ -8,9 +8,9 @@ const HERO_BG =
   "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80";
 
 const whyItems = [
-  "Professional international expert team",
-  "Comprehensive solutions tailored to your business",
-  "We are always here to answer your questions and help you grow",
+  "Profesyonel uluslararası uzman kadro",
+  "Kapsamlı ve size özel çözümler",
+  "Sorularınızı yanıtlamak ve işinizi büyütmenize yardımcı olmak için her zaman buradayız",
 ];
 
 export default function Vergi() {
@@ -27,10 +27,10 @@ export default function Vergi() {
         <div className="absolute inset-0 bg-[#0c2044]/60" />
         <div className="relative max-w-7xl mx-auto px-4 w-full text-center">
           <p className="text-sm font-medium text-slate-200 tracking-wider mb-2 uppercase">
-            Tax & Advisory
+            Vergi ve Daha Fazlası
           </p>
           <h1 className="font-heading text-3xl md:text-5xl font-bold text-white max-w-2xl mx-auto leading-tight">
-            Keystone Partners — Tax & Corporate Consulting
+            Keystone Consultancy Vergi ve Danışmanlık
           </h1>
         </div>
       </section>
@@ -42,44 +42,43 @@ export default function Vergi() {
             <div className="lg:col-span-4 flex justify-center lg:justify-start">
               <img
                 src={LOGO_URL}
-                alt="Keystone Partners"
+                alt="Keystone Consultancy"
                 className="w-48 md:w-56 lg:w-64 h-auto"
               />
             </div>
             <div className="lg:col-span-8">
               <p className="text-slate-600 leading-relaxed">
-                Keystone Partners is a professional consulting firm operating in
-                Germany, Hungary, Poland, Czech Republic, Turkey, Serbia, the UAE,
-                and Estonia. Working in partnership with the international law firm
-                Keystone Partners, we deliver comprehensive advisory services
-                from corporate accounting to tax filing — serving as your trusted
-                growth partner.
+                Almanya, Macaristan, Polonya, Çek Cumhuriyeti, Türkiye, Sırbistan, BAE ve
+                Estonya'da faaliyet gösteren profesyonel bir danışmanlık firmasıdır. Keystone
+                Consultancy, uluslararası hukuk firması Keystone Partners ile ortaklık
+                yapmaktadır. Kurumsal muhasebeden vergi beyannamelerine kadar büyüme
+                ortağınız olmak için kapsamlı danışmanlık hizmetleri sunuyoruz.
               </p>
             </div>
           </div>
 
           <div className="grid grid-cols-3 gap-4 max-w-3xl mx-auto text-center mt-12 pt-8 border-t border-slate-200">
             <div>
-              <div className="font-heading font-extrabold text-3xl md:text-4xl text-gray-900">15+</div>
-              <div className="text-sm text-slate-500 mt-1">Years Experience</div>
-            </div>
-            <div>
               <div className="font-heading font-extrabold text-3xl md:text-4xl text-gray-900">10</div>
-              <div className="text-sm text-slate-500 mt-1">Jurisdictions</div>
+              <div className="text-sm text-slate-500 mt-1">Ülke</div>
             </div>
             <div>
-              <div className="font-heading font-extrabold text-3xl md:text-4xl text-gray-900">500+</div>
-              <div className="text-sm text-slate-500 mt-1">Corporate Clients</div>
+              <div className="font-heading font-extrabold text-3xl md:text-4xl text-gray-900">13</div>
+              <div className="text-sm text-slate-500 mt-1">Dil</div>
+            </div>
+            <div>
+              <div className="font-heading font-extrabold text-3xl md:text-4xl text-gray-900">400+</div>
+              <div className="text-sm text-slate-500 mt-1">Kurumsal Müşteri</div>
             </div>
           </div>
         </Reveal>
       </section>
 
-      {/* Why Keystone Partners */}
+      {/* Neden Keystone Consultancy */}
       <section className="py-16 md:py-24 bg-[#f4f7fa]">
         <Reveal className="max-w-6xl mx-auto px-4">
           <h2 className="font-title text-3xl md:text-4xl text-[#0c2044] text-center mb-10">
-            Why Keystone Partners?
+            Neden Keystone Consultancy?
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-0">
             {whyItems.map((item, i) => (
@@ -100,17 +99,17 @@ export default function Vergi() {
               rel="noopener noreferrer"
               className="inline-block bg-white border border-[#0c2044] text-[#0c2044] rounded-full px-8 py-3 text-sm font-medium hover:bg-[#0c2044] hover:text-white transition shadow-sm"
             >
-              Schedule a Free Consultation
+              Ücretsiz Bir Ön Görüşme Planlayın
             </a>
           </div>
         </Reveal>
       </section>
 
-      {/* Our Offices */}
+      {/* Ofislerimiz */}
       <section className="py-16 md:py-24 bg-white">
         <Reveal className="max-w-7xl mx-auto px-4">
           <h2 className="font-title text-3xl md:text-4xl text-[#0c2044] text-center mb-10">
-            Our Offices
+            Ofislerimiz
           </h2>
           <div className="flex justify-center">
             <a
@@ -128,7 +127,7 @@ export default function Vergi() {
                 <h3 className="font-heading font-bold text-white text-2xl md:text-3xl">Malta</h3>
                 <p className="text-white/70 text-base mb-5">Valletta</p>
                 <span className="bg-[#0f2042] text-white text-sm font-semibold uppercase tracking-wide px-8 py-3 rounded-full group-hover:bg-[#1a3260] transition-colors duration-300">
-                  CONTACT
+                  İLETİŞİM
                 </span>
               </div>
             </a>
@@ -141,8 +140,8 @@ export default function Vergi() {
       <Contact logos={vergiReferences} />
 
       <CtaBand
-        title="Expand Your Business Internationally with Keystone Partners"
-        text="Keystone Partners specializes in international company formation, corporate structuring, and tax optimization. Whether you are establishing a presence in Europe, the UAE, or beyond, we provide the legal, tax, and corporate expertise to build a solid foundation for your global venture."
+        title="Yurt Dışında ve Avrupa'da Şirket Kurma Hizmetlerimizle İşinizi Globalleştirin"
+        text="Keystone Partners olarak, yurtdışında şirket kurma konusunda uzmanlaşmış bir danışmanlık firmasıyız. Avrupa'da ve Dubai'de şirket kurma sürecini hızlandıran ve kolaylaştıran çözümler sunuyoruz. Hedefiniz, Avrupa'da veya Dubai'de bir iş kurmaksa, size en uygun seçenekleri ve hukuki desteği sağlayarak başarılı bir girişim için sağlam bir temel oluşturmanıza yardımcı oluyoruz."
       />
     </PageTransition>
   );
