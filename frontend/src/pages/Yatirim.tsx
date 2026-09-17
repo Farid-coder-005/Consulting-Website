@@ -2,46 +2,45 @@ import { PageTransition, Reveal } from "../components/motion";
 import Img from "../components/Img";
 import { CheckIcon } from "../components/icons";
 import { yatirimReferences, countries } from "../content";
-const UP = "https://gurcanpartners.com/wp-content/uploads/";
 
 const features = [
   {
-    title: "Güvenli Yatırım",
-    desc: "AB ülkelerinde mülk alımı birçok açıdan diğer ülkelere göre çok daha güvenlidir.",
-    icon: UP + "1-4.png",
+    title: "Secure Investment",
+    desc: "Property acquisition in EU countries is significantly safer and more regulated than in many other jurisdictions.",
+    icon: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=200&q=80",
   },
   {
-    title: "Profesyonel Takım",
-    desc: "Keystone Partners'ın deneyimli ekibi işbirliğiyle",
-    icon: UP + "2-4.png",
+    title: "Expert Team",
+    desc: "Backed by the experienced team at Keystone Partners for end-to-end support.",
+    icon: "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=200&q=80",
   },
   {
-    title: "AB Vatandaşı Olup Olmaması Fark Etmiyor",
-    desc: "Yabancıların satın almasına uygun emlak listelerimiz arasından seçim yapabilirsiniz.",
-    icon: UP + "3-3.png",
+    title: "Open to All Nationalities",
+    desc: "Select from our curated property listings available to both EU and non-EU buyers.",
+    icon: "https://images.unsplash.com/photo-1523217582562-09d0def993a6?w=200&q=80",
   },
   {
-    title: "Tüm Yasal İşlemleri Gerçekleştiriyoruz",
-    desc: "Gelmenize gerek kalmadan tüm hukuki işlemleri sizin adınıza gerçekleştiriyoruz.",
-    icon: UP + "4-3.png",
+    title: "Full Legal Processing",
+    desc: "We handle all legal procedures on your behalf — no need to travel.",
+    icon: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=200&q=80",
   },
   {
-    title: "Komisyonsuz",
-    desc: "Emlak komisyonu ödemeden tapunuzu alın.",
-    icon: UP + "5-3.png",
+    title: "Commission-Free",
+    desc: "Receive your title deed without paying real estate commission.",
+    icon: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=200&q=80",
   },
   {
-    title: "Gayrimenkul Sahibi Olmak Vize Sürecini Kolaylaştırır",
-    desc: "AB Sınırları İçerisinde Tapu Sahibi Olmak Seyahat Kolaylığı Sağlıyor",
-    icon: UP + "6-2.png",
+    title: "Property Ownership Simplifies Visas",
+    desc: "Owning property within the EU facilitates travel and residency applications.",
+    icon: "https://images.unsplash.com/photo-1436491865332-7a61a109db05?w=200&q=80",
   },
 ];
 
 const checklist = [
-  "Bugün görüşmenizi planlayın, doğru hukuki çözüme giden ilk adımı atın!",
-  "Ticaret ve Şirketler Hukuku",
-  "Vergi ve Muhasebe Danışmanlığı",
-  "Şirket Kuruluşu ve Tasfiyesi",
+  "Schedule your consultation today — take the first step toward the right legal solution!",
+  "Trade & Corporate Law",
+  "Tax & Accounting Advisory",
+  "Company Formation & Liquidation",
 ];
 
 export default function Yatirim() {
@@ -50,7 +49,7 @@ export default function Yatirim() {
       {/* 1. Hero Banner */}
       <section className="relative h-[420px] md:h-[520px] flex items-center overflow-hidden">
         <img
-          src={UP + "macaristan.webp"}
+          src="https://images.unsplash.com/photo-1549923746-c502d488b3ea?w=1920&q=80"
           alt=""
           className="absolute inset-0 w-full h-full object-cover"
           aria-hidden="true"
@@ -81,7 +80,7 @@ export default function Yatirim() {
             rel="noopener noreferrer"
             className="block w-fit px-10 py-3.5 bg-[#0B1E3D] hover:bg-[#162d54] text-white font-heading font-semibold rounded-full mx-auto mt-6 shadow-md transition text-sm tracking-wider text-center"
           >
-            BİZİMLE İLETİŞİME GEÇİN
+            CONTACT US
           </a>
         </Reveal>
       </section>
@@ -141,7 +140,7 @@ export default function Yatirim() {
             {/* Left Card - Dark Blue */}
             <div className="relative rounded-2xl overflow-hidden bg-[#0c2044] text-white p-8 md:p-10">
               <Img
-                src={UP + "banner1.jpg"}
+                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80"
                 alt=""
                 className="absolute inset-0 w-full h-full object-cover opacity-15"
                 aria-hidden="true"
@@ -196,7 +195,7 @@ export default function Yatirim() {
       <section className="py-16 md:py-24 bg-[#f4f7fa]">
         <Reveal className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <span className="inline-block border border-[#0B1E3D] text-[#0B1E3D] px-6 py-2 rounded-full font-medium text-sm mx-auto block w-fit mb-8">
-            Tecrübelerimize Göz Atın
+            Our Track Record
           </span>
 
           <div className="bg-white rounded-xl shadow-sm p-8">
@@ -219,7 +218,7 @@ export default function Yatirim() {
 
           {/* Bottom Headline */}
           <h3 className="text-center font-serif text-2xl md:text-3xl text-[#0B1E3D] mt-12 mb-3">
-            İş Birliği Temelli. <span className="text-[#3B82F6]">Yenilikçilikle Güçlenen.</span> Geleceğe Odaklı.
+            Partnership-Driven. <span className="text-[#3B82F6]">Powered by Innovation.</span> Focused on the Future.
           </h3>
           <p className="text-center text-gray-800 font-semibold text-base max-w-3xl mx-auto">
             İşletmeleri hukuki uzmanlık, stratejik danışmanlık ve gelişen teknolojilerle destekliyoruz.
@@ -232,7 +231,7 @@ export default function Yatirim() {
         <Reveal className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-3xl shadow-2xl p-8 md:p-12">
             <h2 className="font-title font-bold text-2xl md:text-3xl text-[#0c2044] mb-1">
-              İletişime Geçin
+              Contact Us
             </h2>
             <p className="text-slate-500 mb-6 text-sm">
               Lütfen formu doldurun, 24 saat içinde size geri dönüş yapacağız.
@@ -241,7 +240,7 @@ export default function Yatirim() {
               <div className="grid sm:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-semibold text-slate-700 mb-1" htmlFor="y-name">
-                    İsim
+                    Name
                   </label>
                   <input
                     id="y-name"
@@ -251,7 +250,7 @@ export default function Yatirim() {
                 </div>
                 <div>
                   <label className="block text-sm font-semibold text-slate-700 mb-1" htmlFor="y-phone">
-                    Telefon
+                    Phone
                   </label>
                   <input
                     id="y-phone"
@@ -263,7 +262,7 @@ export default function Yatirim() {
               <div className="grid sm:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-semibold text-slate-700 mb-1" htmlFor="y-country">
-                    Ülke:
+                    Country
                   </label>
                   <select
                     id="y-country"
@@ -288,7 +287,7 @@ export default function Yatirim() {
               </div>
               <div>
                 <label className="block text-sm font-semibold text-slate-700 mb-1" htmlFor="y-message">
-                  Mesaj
+                  Message
                 </label>
                 <textarea
                   id="y-message"
@@ -301,7 +300,7 @@ export default function Yatirim() {
               <div className="flex items-center gap-3 border border-slate-300 rounded px-3 py-3 bg-[#f9f9f9]">
                 <input type="checkbox" id="y-recaptcha" className="w-5 h-5 accent-accent" />
                 <label htmlFor="y-recaptcha" className="text-sm text-slate-600 flex-1 select-none">
-                  Ben robot değilim
+                  I'm not a robot
                 </label>
                 <span className="flex items-center gap-1 text-[11px] text-slate-400">
                   <span className="w-5 h-5 rounded-full border border-slate-300 bg-white flex items-center justify-center">
@@ -315,7 +314,7 @@ export default function Yatirim() {
                 type="submit"
                 className="bg-[#0B1E3D] hover:bg-[#162d54] text-white font-heading font-semibold px-7 py-3 rounded-full transition text-sm"
               >
-                GÖNDER
+                SUBMIT
               </button>
             </form>
           </div>

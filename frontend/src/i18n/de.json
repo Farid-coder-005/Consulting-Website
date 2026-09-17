@@ -10,8 +10,8 @@
     "contact": "KONTAKT"
   },
   "hero": {
-    "title": "Keystone Partners ist spezialisiert auf die Begleitung und Unterstützung internationaler Projekte mit strategischer Expertise.",
-    "subtitle": "Internationale Rechts- und Beratungskanzlei",
+    "title": "Internationale Unternehmensstrukturierung, Investition & Steueroptimierung",
+    "subtitle": "Stärken Sie Ihr grenzüberschreitendes Geschäft mit strategischen rechtlichen, finanziellen und unternehmerischen Lösungen für die globale Expansion.",
     "cta": "Kontaktieren Sie uns",
     "locations_btn": "Unsere Standorte",
     "prev_slide": "Vorherige Folie",
@@ -20,25 +20,25 @@
   "footer": {
     "locations": "Unsere Standorte",
     "services": "Unsere Leistungen",
-    "description": "Bei Keystone Partners helfen wir Unternehmern, Investoren und Unternehmen, sich international zu etablieren und zu wachsen, durch integrierte Rechts-, Steuer- und Unternehmensberatungsleistungen.",
+    "description": "Keystone Partners bietet integrierte Rechts-, Steuer- und Unternehmensstrukturierungsdienstleistungen für Unternehmer, Investoren und multinationale Unternehmen im grenzüberschreitenden Geschäft.",
     "copyright": "Keystone Partners - 2026 | Alle Rechte vorbehalten.",
     "privacy": "Datenschutzrichtlinie"
   },
   "home": {
-    "offices_title": "Lokale Präsenz. Internationaler Zugang. Keystone Partners Büros",
-    "offices_desc": "Mit einem mehrsprachigen und internationalen Team unterstützt Keystone Partners Unternehmer, Investoren und Unternehmen in verschiedenen Rechtsgebieten durch integrierte Rechts-, Steuer- und Unternehmensberatungslösungen.",
-    "stats_title": "Keystone Partners Internationale Rechts- und Beratungskanzlei",
-    "stats_subtitle": "Unternehmensgründung, Internationale Unternehmensgründung, Internationale Steuerberatung und mehr",
-    "stats_quote": "Keystone Partners ist eine innovative internationale Rechts- und Beratungsgesellschaft.",
+    "offices_title": "Lokale Präsenz. Globaler Zugang. Vertraut von führenden Unternehmen.",
+    "offices_desc": "Mit Büros in strategischen Rechtsgebieten in Europa, Nahost und darüber hinaus bieten wir lokale Expertise mit über 15 Jahren grenzüberschreitender Unternehmenserfahrung.",
+    "stats_title": "15+ Jahre grenzüberschreitende Unternehmensexpertise",
+    "stats_subtitle": "Unternehmensgründung, Internationale Steuerplanung, Unternehmensstrukturierung & Investitionsberatung",
+    "stats_quote": "Keystone Partners — wo rechtliche Präzision auf internationale Steuerstrategie trifft für nahtlose globale Geschäftsexpansion.",
     "services_eyebrow": "Unsere Leistungen",
-    "services_title": "Internationale Rechts- und Beratungskanzlei - Unsere Leistungen",
-    "services_desc": "Wir entwickeln Ihr Geschäft global mit End-to-End-Leistungen im internationalen Recht, Steuerwesen und Consulting.",
-    "blog_desc": "Bleiben Sie auf dem Laufenden mit den neuesten Artikeln, Leitfäden und Experteneinblicken aus der Welt der internationalen Unternehmensgründung, Steuern und des Rechts.",
+    "services_title": "Umfassende Unternehmens- & Steuerlösungen für globales Geschäft",
+    "services_desc": "Wir bieten End-to-End-Unternehmensstrukturierung, Steueroptimierung und Rechtsberatung für grenzüberschreitende Operationen.",
+    "blog_desc": "Bleiben Sie auf dem Laufenden mit Experteneinblicken zur internationalen Unternehmensgründung, Steuerplanung, Unternehmenscompliance und grenzüberschreitenden Investitionsstrategien.",
     "blog_btn": "Alle Blogs entdecken",
-    "memberships_desc": "Unsere vertrauenswürdigen Lösungspartner weltweit und internationale Organisationen, denen wir angehören.",
+    "memberships_desc": "Vertraut von führenden Unternehmen weltweit. Unsere Mitgliedschaften in internationalen Kammern, Rechtsnetzwerken und Aufsichtsbehörden gewährleisten höchste Servicestandards.",
     "locations_eyebrow": "Globales Netzwerk",
-    "locations_title": "Internationale Rechts- und Beratungsstandorte",
-    "locations_desc": "Wir betreuen unsere internationalen Kunden mit lokaler Expertise durch unsere Büros in zehn Ländern."
+    "locations_title": "Internationale Servicestandorte",
+    "locations_desc": "Betreuen Sie globale Kunden mit lokaler Expertise through unsere Büros in zehn strategischen Rechtsgebieten."
   },
   "offices": {
     "malta": "Malta",
@@ -128,15 +128,12 @@
   },
   "faaliyet": {
     "header": "UNSERE LEISTUNGEN",
-    "i1": "Informationstechnologierecht",
-    "i2": "Fusionen & Übernahmen",
-    "i3": "Blockchain-Recht",
-    "i4": "Geistiges Eigentum Recht",
-    "i5": "Immobilienrecht",
-    "i6": "Einwanderungsrecht",
-    "i7": "Unternehmensmigration",
-    "i8": "Handels- & Gesellschaftsrecht",
-    "i9": "Internationale Steuerberatung"
+    "i1": "Unternehmensgründung & Strukturierung",
+    "i2": "Steuer- & Finanzplanung",
+    "i3": "Aufenthalts- & Staatsbürgerschaftslösungen",
+    "i4": "Unternehmenssupport & Fusionen & Übernahmen",
+    "i5": "Rechtsberatung",
+    "i6": "Buchhaltung & Buchführung"
   },
   "about_menu": {
     "header": "ÜBER UNS",
@@ -149,18 +146,18 @@
   },
   "contact": {
     "hero_title": "Kontaktieren Sie uns",
-    "hero_subtitle": "Terminvereinbarung bei Keystone Partners",
-    "hero_desc": "Bei Keystone Partners bieten wir sowohl persönliche als auch Online-Beratungen an. Für Ihre Fragen und Beratungsanfragen können Sie uns jederzeit erreichen unter",
+    "hero_subtitle": "Vereinbaren Sie eine vertrauliche Beratung",
+    "hero_desc": "Keystone Partners bietet diskrete, professionelle Beratungen für Unternehmensstrukturierung, Steuerplanung und Investitionsberatung an. Sie können uns jederzeit erreichen unter",
     "hero_desc_end": ".",
-    "card_email_title": "Senden Sie uns jetzt eine E-Mail",
-    "card_video_title": "Vereinbaren Sie eine kostenlose 15-minütige Beratung",
+    "card_email_title": "Senden Sie uns eine vertrauliche Anfrage",
+    "card_video_title": "Kostenlose 15-minütige Beratung vereinbaren",
     "card_video_desc": "Online-Videobesprechung",
-    "card_whatsapp_title": "Senden Sie uns jetzt eine Nachricht",
+    "card_whatsapp_title": "Erreichen Sie uns über WhatsApp",
     "card_whatsapp_desc": "Über WhatsApp",
-    "cta_title": "Lassen Sie uns anfangen - Fordern Sie eine kostenlose Vorgespräch an!",
+    "cta_title": "Jetzt starten — Fordern Sie eine vertrauliche Erstberatung an!",
     "cta_btn": "Jetzt planen ›",
-    "form_title": "Bitte füllen Sie das untenstehende Formular aus. Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
-    "form_success": "Ihre Nachricht wurde erhalten. Unser Team wird sich so bald wie möglich mit Ihnen in Verbindung setzen.",
+    "form_title": "Bitte füllen Sie das untenstehende Formular aus. Unser Team meldet sich innerhalb von 24 Stunden.",
+    "form_success": "Ihre Anfrage wurde erhalten. Unser Team wird sich so bald wie möglich mit Ihnen in Verbindung setzen.",
     "form_name": "Name",
     "form_name_placeholder": "Ihr vollständiger Name",
     "form_phone": "Telefon",
@@ -181,16 +178,16 @@
     "message": "Nachricht",
     "recaptcha": "Ich bin kein Roboter",
     "submit": "ABSENDEN",
-    "privacy": "Ihre Formularinformationen werden vertraulich behandelt und nur zur Beantwortung Ihrer Anfrage verwendet.",
-    "experiences_eyebrow": "Unsere Erfahrungen",
-    "experiences_title": "Unsere Erfahrungen",
-    "experiences_desc": "Wir sind weiterhin die Adresse des Vertrauens mit den Dienstleistungen, die wir unseren Firmenkunden weltweit anbieten. Wir sind der Lösungspartner renommierter Marken aus verschiedenen Branchen.",
-    "references_eyebrow": "Vertrauenswürdiger Lösungspartner",
-    "references_title": "Unsere Referenzen"
+    "privacy": "Ihre Informationen werden streng vertraulich behandelt und nur zur Beantwortung Ihrer Anfrage verwendet.",
+    "experiences_eyebrow": "Unsere Bilanz",
+    "experiences_title": "Vertraut von 500+ Firmenkunden",
+    "experiences_desc": "Keystone Partners hat über 500 Firmenkunden in 10 Rechtsgebieten mit integrierten Rechts-, Steuer- und Unternehmensberatungsdienstleistungen betreut. Unser Ruf basiert auf Vertraulichkeit, Präzision und Ergebnissen.",
+    "references_eyebrow": "Vertraut von führenden Unternehmen",
+    "references_title": "Unsere Kunden"
   },
   "faq": {
     "eyebrow": "Häufig gestellte Fragen",
-    "title": "FAQ zur Unternehmensgründung"
+    "title": "FAQ zur Unternehmensgründung & Unternehmensstrukturierung"
   },
   "blog": {
     "latest_posts": "Neueste Beiträge",
@@ -200,22 +197,22 @@
   },
   "services": {
     "eyebrow": "Unsere Leistungen",
-    "title": "Internationale Rechts- und Beratungskanzlei - Unsere Leistungen",
-    "desc": "Wir entwickeln Ihr Geschäft global mit End-to-End-Leistungen im internationalen Recht, Steuerwesen und Consulting."
+    "title": "Umfassende Unternehmens- & Steuerlösungen",
+    "desc": "End-to-End-Unternehmensstrukturierung, Steueroptimierung und Rechtsberatung für grenzüberschreitend tätige Unternehmen."
   },
   "memberships": {
-    "desc": "Unsere vertrauenswürdigen Lösungspartner weltweit und internationale Organisationen, denen wir angehören."
+    "desc": "Vertraut von führenden Unternehmen weltweit. Unsere Mitgliedschaften in internationalen Kammern, Rechtsnetzwerken und Aufsichtsbehörden gewährleisten höchste Servicestandards."
   },
   "company_formation": {
     "eyebrow": "Unternehmensgründung",
-    "title": "Unternehmensgründung",
+    "title": "Unternehmensgründung & Strukturierung",
     "coming_soon": "Dienstleistungen werden bald detailliert.",
     "coming_soon_default": "Unsere internationalen Unternehmensgründungsdienstleistungen werden bald verfügbar sein."
   },
   "inner": {
-    "references_eyebrow": "Vertrauenswürdiger Lösungspartner",
-    "references_title": "Unsere Referenzen",
-    "cta_title": "Lassen Sie uns anfangen - Fordern Sie eine kostenlose Vorgespräch an!",
+    "references_eyebrow": "Vertraut von führenden Unternehmen",
+    "references_title": "Unsere Kunden",
+    "cta_title": "Jetzt starten — Fordern Sie eine vertrauliche Erstberatung an!",
     "cta_plan": "JETZT PLANEN ›",
     "cta_whatsapp": "ÜBER WHATSAPP KONTAKTIEREN ›"
   },
@@ -234,7 +231,7 @@
   },
   "yatirim": {
     "hero_title": "Keystone Invest",
-    "hero_subtitle": "Immobilieninvestitionen in Europa vereinfachen"
+    "hero_subtitle": "Grenzüberschreitende Immobilieninvestitionsberatung"
   },
   "floating": {
     "contact_us": "Kontaktieren Sie uns",

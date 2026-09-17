@@ -10,8 +10,8 @@
     "contact": "İLETİŞİM"
   },
   "hero": {
-    "title": "Keystone Partners, multi-milyon dolarlık uluslararası projelere stratejik uzmanlığıyla rehberlik etme ve destekleme konusunda uzmandır.",
-    "subtitle": "Uluslararası Hukuk ve Danışmanlık Ofisi",
+    "title": "Uluslararası Kurumsal Yapılandırma, Yatırım ve Vergi Optimizasyonu",
+    "subtitle": "Sınır ötesi işlerinizi küresel genişlemeye yönelik stratejik hukuki, mali ve kurumsal çözümlerle güçlendirin.",
     "cta": "İletişim",
     "locations_btn": "Hizmet Noktalarımız",
     "prev_slide": "Önceki slide",
@@ -20,25 +20,25 @@
   "footer": {
     "locations": "Hizmet Noktalarımız",
     "services": "Faaliyet Alanlarımız",
-    "description": "Keystone Partners olarak; entegre hukuk, vergi ve kurumsal danışmanlık hizmetlerimiz aracılığıyla girişimcilerin, yatırımcıların ve şirketlerin uluslararası alanda kurulmalarına ve büyümelerine yardımcı oluyoruz.",
+    "description": "Keystone Partners, sınırlar ötesinde faaliyet gösteren girişimcilere, yatırımcılara ve çok uluslu şirketlere entegre hukuk, vergi ve kurumsal yapılandırma hizmetleri sunmaktadır.",
     "copyright": "Keystone Partners - 2026 | Tüm Hakları Saklıdır.",
     "privacy": "Gizlilik Politikası"
   },
   "home": {
-    "offices_title": "Yerel Varlık. Uluslararası Erişim. Keystone Partners Ofisleri",
-    "offices_desc": "Çok uluslu ve çok dilli bir ekibe sahip olan Keystone Partners; entegre hukuk, vergi, uyum ve kurumsal danışmanlık çözümleri aracılığıyla farklı hukuki yetki alanlarındaki girişimcileri, yatırımcıları ve şirketleri desteklemektedir.",
-    "stats_title": "Keystone Partners Uluslararası Hukuk ve Danışmanlık Ofisi",
-    "stats_subtitle": "Şirket Kuruluşu, Uluslararası Şirketleşme, Uluslararası Vergi Danışmanlığı ve Daha Fazlası",
-    "stats_quote": "Keystone Partners uluslararası, inovatif bir Uluslararası hukuk ve danışmanlık şirketidir.",
+    "offices_title": "Yerel Varlık. Küresel Erişim. Lider Şirketlerin Güvendiği Adres.",
+    "offices_desc": "Avrupa, Orta Doğu ve ötesinde stratejik yargı bölgelerindeki ofislerimizle, 15 yılı aşkın sınır ötesi kurumsal tecrübemizi yerel uzmanlıkla sunuyoruz.",
+    "stats_title": "15 Yılı aşkın Sınır Ötesi Kurumsal Uzmanlık",
+    "stats_subtitle": "Şirket Kuruluşu, Uluslararası Vergi Planlaması, Kurumsal Yapılandırma ve Yatırım Danışmanlığı",
+    "stats_quote": "Keystone Partners — hukuki hassasiyet ile uluslararası vergi stratejisini bir araya getirerek sorunsuz küresel iş genişlemesi sağlıyor.",
     "services_eyebrow": "Faaliyet Alanlarımız",
-    "services_title": "Uluslararası Hukuk ve Danışmanlık Bürosu Faaliyet Alanlarımız",
-    "services_desc": "Uluslararası hukuk, vergi ve danışmanlık alanında uçtan uca hizmetlerle işinizi global ölçekte büyütüyoruz.",
-    "blog_desc": "Uluslararası şirketleşme, vergi ve hukuk dünyasından en güncel makaleler, rehberler ve uzman görüşleriyle bilgiye bir adım önde olun.",
+    "services_title": "Küresel İş İçin Kapsamlı Kurumsal ve Vergi Çözümleri",
+    "services_desc": "Sınır ötesi operasyonlarınızı güçlendirmek üzere tasarlanmış uçtan uca kurumsal yapılandırma, vergi optimizasyonu ve hukuki danışmanlık hizmetleri sunuyoruz.",
+    "blog_desc": "Uluslararası şirketleşme, vergi planlaması, kurumsal uyum ve sınır ötesi yatırım stratejileri hakkında uzman görüşleriyle bilgiye bir adım önde olun.",
     "blog_btn": "Tüm Blogları Keşfet",
-    "memberships_desc": "Global ölçekte güvenilir çözüm ortaklarımız ve üye olduğumuz uluslararası kuruluşlar.",
+    "memberships_desc": "Dünya genelinde lider şirketlerin güvendiği adres. Uluslararası odalar, hukuk ağları ve düzenleyici kurumlarla olan üyeliklerimiz en yüksek hizmet standartlarını garanti eder.",
     "locations_eyebrow": "Global Ağ",
-    "locations_title": "Uluslararası Hukuk ve Danışmanlık Hizmet Noktalarımız",
-    "locations_desc": "On ülkede yer alan ofislerimizle uluslararası müvekkillerimize yerel uzmanlıkla hizmet veriyoruz."
+    "locations_title": "Uluslararası Hizmet Noktalarımız",
+    "locations_desc": "On stratejik yargı bölgesindeki ofislerimizle yerel uzmanlıkla küresel müşterilerimize hizmet veriyoruz."
   },
   "offices": {
     "malta": "Malta",
@@ -128,15 +128,12 @@
   },
   "faaliyet": {
     "header": "FAALİYET ALANLARIMIZ",
-    "i1": "Bilişim Hukuku",
-    "i2": "Birleşme & Devralmalar",
-    "i3": "Blockchain Hukuku",
-    "i4": "Fikri Mülkiyet Hukuku",
-    "i5": "Gayrimenkul Hukuku",
-    "i6": "Göçmenlik Hukuku",
-    "i7": "Şirket Göçü",
-    "i8": "Ticaret & Şirketler Hukuku",
-    "i9": "Uluslararası Vergi Danışmanlığı"
+    "i1": "Şirket Kuruluşu & Yapılandırma",
+    "i2": "Vergi ve Finansal Planlama",
+    "i3": "Oturum ve Vatandaşlık Çözümleri",
+    "i4": "Kurumsal Destek ve Birleşme & Devralmalar",
+    "i5": "Hukuki Danışmanlık",
+    "i6": "Muhasebe ve Defter Tutma"
   },
   "about_menu": {
     "header": "HAKKIMIZDA",
@@ -149,18 +146,18 @@
   },
   "contact": {
     "hero_title": "Bize Ulaşın",
-    "hero_subtitle": "Keystone Partners'te Görüşme Randevuları",
-    "hero_desc": "Keystone Partners olarak hem yüz yüze hem de online görüşmeler gerçekleştirebilirsiniz. Sorularınız ve danışmanlık talepleriniz için bizimle",
-    "hero_desc_end": "adresinden dilediğiniz zaman iletişime geçebilirsiniz.",
-    "card_email_title": "Hemen Bize Bir Mail Gönderin",
+    "hero_subtitle": "Gizli Bir Görüşme Planlayın",
+    "hero_desc": "Keystone Partners, kurumsal yapılandırma, vergi planlaması ve yatırım danışmanlığı konularında gizli ve profesyonel görüşmeler sunmaktadır. Bize dilediğiniz zaman ulaşabilirsiniz",
+    "hero_desc_end": ".",
+    "card_email_title": "Gizli Bir Talep Gönderin",
     "card_video_title": "15 Dakikalık Ücretsiz Görüşme Planlayın",
     "card_video_desc": "Online video görüşmesi",
-    "card_whatsapp_title": "Hemen Bize Bir Mesaj Gönderin",
+    "card_whatsapp_title": "WhatsApp'tan Ulaşın",
     "card_whatsapp_desc": "WhatsApp üzerinden",
-    "cta_title": "Hadi Başlayalım - Ücretsiz bir ön görüşme talep edin!",
+    "cta_title": "Hemen Başlayın - Gizli bir ön görüşme talep edin!",
     "cta_btn": "Şimdi Planla ›",
-    "form_title": "Lütfen aşağıdaki formu doldurunuz. Size 24 saat içerisinde dönüş yapılacaktır.",
-    "form_success": "Mesajınız alınmıştır. Ekibimiz en kısa sürede sizinle iletişime geçecektir.",
+    "form_title": "Lütfen aşağıdaki formu doldurunuz. Ekibimiz 24 saat içinde dönüş yapacaktır.",
+    "form_success": "Talebiniz alınmıştır. Ekibimiz en kısa sürede sizinle iletişime geçecektir.",
     "form_name": "İsim",
     "form_name_placeholder": "Adınız Soyadınız",
     "form_phone": "Telefon",
@@ -181,41 +178,41 @@
     "message": "Mesaj",
     "recaptcha": "Ben robot değilim",
     "submit": "GÖNDER",
-    "privacy": "Form bilgileriniz gizli tutulur ve yalnızca talebinizi yanıtlamak için kullanılır.",
-    "experiences_eyebrow": "Deneyimlerimiz",
-    "experiences_title": "Deneyimlerimiz",
-    "experiences_desc": "Global ölçekte kurumsal müvekkillerimize sunduğumuz hizmetlerle güvenin adresi olmaya devam ediyoruz. Çeşitli sektörlerden saygın markaların çözüm ortağıyız.",
-    "references_eyebrow": "Güvenilir Çözüm Ortağı",
-    "references_title": "Referanslarımız"
+    "privacy": "Bilgileriniz kesinlikle gizli tutulur ve yalnızca talebinizi yanıtlamak için kullanılır.",
+    "experiences_eyebrow": "Tecrübemiz",
+    "experiences_title": "500'den Fazla Kurumsal Müvekkilin Güvendiği Adres",
+    "experiences_desc": "Keystone Partners, 10 yargı bölgesinde 500'den fazla kurumsal müşteriye entegre hukuk, vergi ve kurumsal danışmanlık hizmeti sunmuştur. İtibarımız gizlilik, hassasiyet ve sonuçlara dayanır.",
+    "references_eyebrow": "Lider Şirketlerin Güvendiği Adres",
+    "references_title": "Müvekkillerimiz"
   },
   "faq": {
     "eyebrow": "Sıkça Sorulan Sorular",
-    "title": "Şirket Kuruluşu Hakkında SSS"
+    "title": "Şirket Kuruluşu ve Kurumsal Yapılandırma Hakkında SSS"
   },
   "blog": {
     "latest_posts": "Son Yazılar",
     "most_popular_eyebrow": "En Çok Okunanlar",
-    "most_popular_title": "Most Popular",
+    "most_popular_title": "En Çok Okunanlar",
     "read_more": "Devamını oku →"
   },
   "services": {
     "eyebrow": "Faaliyet Alanlarımız",
-    "title": "Uluslararası Hukuk ve Danışmanlık Bürosu Faaliyet Alanlarımız",
-    "desc": "Uluslararası hukuk, vergi ve danışmanlık alanında uçtan uca hizmetlerle işinizi global ölçekte büyütüyoruz."
+    "title": "Kapsamlı Kurumsal ve Vergi Çözümleri",
+    "desc": "Sınır ötesi faaliyet gösteren işletmeler için uçtan uca kurumsal yapılandırma, vergi optimizasyonu ve hukuki danışmanlık hizmetleri."
   },
   "memberships": {
-    "desc": "Global ölçekte güvenilir çözüm ortaklarımız ve üye olduğumuz uluslararası kuruluşlar."
+    "desc": "Dünya genelinde lider şirketlerin güvendiği adres. Uluslararası odalar, hukuk ağları ve düzenleyici kurumlarla olan üyeliklerimiz en yüksek hizmet standartlarını garanti eder."
   },
   "company_formation": {
     "eyebrow": "Şirket Kuruluşu",
-    "title": "Şirket Kuruluşu",
+    "title": "Şirket Kuruluşu & Yapılandırma",
     "coming_soon": "hizmetleri yakında detaylandırılacaktır.",
     "coming_soon_default": "Uluslararası şirket kuruluşu hizmetlerimiz yakında yayına alınacaktır."
   },
   "inner": {
-    "references_eyebrow": "Güvenilir Çözüm Ortağı",
-    "references_title": "Referanslarımız",
-    "cta_title": "Hadi Başlayalım - Ücretsiz bir ön görüşme talep edin!",
+    "references_eyebrow": "Lider Şirketlerin Güvendiği Adres",
+    "references_title": "Müvekkillerimiz",
+    "cta_title": "Hemen Başlayın - Gizli bir ön görüşme talep edin!",
     "cta_plan": "ŞİMDİ PLANLA ›",
     "cta_whatsapp": "WHATSAPP'TAN ULAŞIN ›"
   },
@@ -234,10 +231,10 @@
   },
   "yatirim": {
     "hero_title": "Keystone Invest",
-    "hero_subtitle": "Simplifying Real Estate Investment in Europe"
+    "hero_subtitle": "Sınır Ötesi Gayrimenkul Yatırım Danışmanlığı"
   },
   "floating": {
-    "contact_us": "Contact Us",
+    "contact_us": "Bize Ulaşın",
     "recaptcha": "Ben robot değilim"
   }
 }

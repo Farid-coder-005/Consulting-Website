@@ -162,9 +162,9 @@ export const companyFormationFeatures: CompanyFormationFeature[] = [
 ];
 
 export const stats = [
-  { label: "Ülke", value: "10" },
-  { label: "Dil", value: "13" },
-  { label: "Kurumsal Müşteri", value: "500+" },
+  { label: "Years Experience", value: "15+" },
+  { label: "Jurisdictions", value: "10" },
+  { label: "Corporate Clients", value: "500+" },
 ];
 
 export const featuredPost = {
@@ -368,18 +368,14 @@ export const footerOffices = [
 ];
 
 export const footerServices = [
-  "Bilişim Hukuku",
-  "Birleşme & Devralmalar",
-  "Blockchain Hukuku",
-  "Fikri Mülkiyet Hukuku",
-  "Gayrimenkul Hukuku",
-  "Göçmenlik Hukuku",
-  "Şirket Göçü",
-  "Ticaret & Şirketler Hukuku",
-  "Uluslararası Şirketleşme",
-  "Uluslararası Vergi Danışmanlığı",
-  "Avrupa'da Marka Tescili",
-  "Avrupa'da Şirket Kuruluşu",
-  "Keystone Yapay Zeka",
-  "Dubai'de Şirket Kuruluşu",
+  "Company Formation & Structuring",
+  "Tax & Financial Planning",
+  "Residence & Citizenship Solutions",
+  "Corporate Support & M&A",
+  "Legal Advisory",
+  "Accounting & Bookkeeping",
+  "International Bank Account Opening",
+  "Double Taxation Avoidance",
+  "Corporate Tax Optimization",
+  "GDPR & Data Protection Compliance",
 ];

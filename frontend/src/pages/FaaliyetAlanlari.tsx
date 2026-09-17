@@ -26,25 +26,6 @@ const faaliyetIcons: Record<string, React.ReactNode> = {
       <line x1="16" y1="34" x2="26" y2="34" />
     </svg>
   ),
-  accounting: (
-    <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
-      <rect x="10" y="6" width="28" height="36" rx="2" />
-      <line x1="16" y1="14" x2="32" y2="14" />
-      <line x1="16" y1="20" x2="32" y2="20" />
-      <line x1="16" y1="26" x2="28" y2="26" />
-      <line x1="16" y1="32" x2="24" y2="32" />
-    </svg>
-  ),
-  legal: (
-    <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
-      <path d="M24 6L6 18h36L24 6z" />
-      <rect x="8" y="18" width="32" height="4" />
-      <line x1="14" y1="22" x2="14" y2="38" />
-      <line x1="24" y1="22" x2="24" y2="38" />
-      <line x1="34" y1="22" x2="34" y2="38" />
-      <rect x="6" y="38" width="36" height="4" />
-    </svg>
-  ),
   immigration: (
     <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
       <rect x="6" y="8" width="36" height="32" rx="2" />
@@ -52,11 +33,13 @@ const faaliyetIcons: Record<string, React.ReactNode> = {
       <path d="M14 36c0-5.5 4.5-10 10-10s10 4.5 10 10" />
     </svg>
   ),
-  "real-estate": (
+  "corporate-ma": (
     <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
-      <path d="M6 24l18-14 18 14" />
-      <rect x="10" y="24" width="28" height="18" rx="1" />
-      <rect x="18" y="30" width="12" height="12" rx="1" />
+      <rect x="4" y="12" width="14" height="24" rx="1" />
+      <rect x="22" y="6" width="10" height="30" rx="1" />
+      <rect x="34" y="16" width="10" height="20" rx="1" />
+      <path d="M18 24h4" />
+      <path d="M32 24h2" />
     </svg>
   ),
 };
@@ -84,20 +67,20 @@ const faaliyetReferanslari = [
 ];
 
 const faaliyetFaqItems = [
-  "Türk vatandaşı Avrupa'da şirket kurabilir mi?",
-  "Avrupa'da en kolay hangi ülkede şirket kurulur?",
-  "Avrupa'da şirket kurmanın avantajları nelerdir?",
-  "Yurtdışında şirket kurmak için ne gereklidir?",
-  "Almanya'da şirket kurmak kaç gün sürer?",
-  "Almanya'da GmbH ile ana şirket açılır mı?",
-  "Macaristan'da şirket kurmak ne kadara mal olur?",
-  "Şahıs şirketi yurtdışında da açılabilir mi?",
-  "Hangi ülkede şirket kurmak kolay?",
-  "En az vergi hangi ülkede?",
-  "Yurt dışında şirket açmanın avantajları nelerdir?",
-  "Yurt dışında şirket açmak yasal mı?",
-  "Yabancı vatandaşlar şirket kurabilir mi?",
-  "Almanya'da şirket açmak için ne gerekir?",
+  "Can a foreigner own 100% of a company in Hungary?",
+  "Which European country is the easiest to form a company in?",
+  "What are the advantages of company formation in Europe?",
+  "What is required to set up a company abroad?",
+  "How long does it take to form a company in Germany?",
+  "Can I open a branch office with a GmbH in Germany?",
+  "How much does it cost to form a company in Hungary?",
+  "Can a sole proprietorship be established abroad?",
+  "Which country offers the easiest company formation?",
+  "Which country has the lowest corporate tax rate?",
+  "What are the advantages of opening a company abroad?",
+  "Is it legal to open a company abroad?",
+  "Can foreign nationals form a company in Europe?",
+  "What do I need to open a company in Germany?",
   "Hangi ülkede diğer şirketler kurulabiliyor?",
   "Memurlar yurtdışında şirket kurabilir mi?",
   "Almanya'da Türk vatandaşı şirket kurabilir mi?",
@@ -138,7 +121,7 @@ function FaqItem({ question }: { question: string }) {
       </button>
       {open && (
         <div className="pb-4 pl-7 text-sm text-slate-500 leading-relaxed">
-          Bu konuda detaylı bilgi için lütfen bizimle iletişime geçin. Uzman ekibimiz tüm sorularınızı yanıtlamaktan memnuniyet duyacaktır.
+          For detailed information about this topic, please contact us directly. Our expert team will be happy to answer all your questions regarding company formation, tax planning, and corporate structuring.
         </div>
       )}
     </div>
@@ -162,10 +145,10 @@ export default function FaaliyetAlanlari() {
         <div className="absolute inset-0 bg-[#0c2044]/70" />
         <div className="relative max-w-7xl mx-auto px-4 w-full text-center">
           <h1 className="font-title text-3xl md:text-5xl font-bold text-white mb-4">
-            Faaliyet Alanlarımız
+            Our Services
           </h1>
           <p className="text-slate-300 text-lg md:text-xl max-w-2xl mx-auto">
-            Şirket Kurulumu & Hukuk Hizmetleri Keystone Ortakları Çalışma Alanları
+            Company Formation, Tax Planning & Corporate Structuring — Keystone Partners
           </p>
         </div>
       </section>
@@ -174,7 +157,7 @@ export default function FaaliyetAlanlari() {
       <section className="py-16 md:py-24 bg-[#f4f7fa]">
         <Reveal className="max-w-7xl mx-auto px-4">
           <h2 className="font-title text-3xl md:text-4xl text-[#0c2044] text-center mb-12">
-            Uygulama Alanlarımız
+            Our Practice Areas
           </h2>
           <div className="space-y-6">
             {practiceAreas.map((area) => {
@@ -253,11 +236,11 @@ export default function FaaliyetAlanlari() {
         </Reveal>
       </section>
 
-      {/* Ofislerimiz */}
+      {/* Our Offices */}
       <section className="py-16 md:py-24 bg-white">
         <Reveal className="max-w-7xl mx-auto px-4">
           <h2 className="font-title text-3xl md:text-4xl text-[#0c2044] text-center mb-10">
-            Ofislerimiz
+            Our Offices
           </h2>
           <div className="flex justify-center">
             <a
@@ -275,7 +258,7 @@ export default function FaaliyetAlanlari() {
                 <h3 className="font-heading font-bold text-white text-2xl md:text-3xl">Malta</h3>
                 <p className="text-white/70 text-base mb-5">Valletta</p>
                 <span className="bg-[#0f2042] text-white text-sm font-semibold uppercase tracking-wide px-8 py-3 rounded-full group-hover:bg-[#1a3260] transition-colors duration-300">
-                  İLETİŞİM
+                  CONTACT
                 </span>
               </div>
             </a>
@@ -283,11 +266,11 @@ export default function FaaliyetAlanlari() {
         </Reveal>
       </section>
 
-      {/* Üyeliklerimiz */}
+      {/* Our Memberships */}
       <section className="py-16 md:py-24 bg-[#f4f7fa]">
         <Reveal className="max-w-6xl mx-auto px-4">
           <h2 className="font-title text-3xl md:text-4xl text-[#0c2044] text-center mb-10">
-            Üyeliklerimiz
+            Our Memberships
           </h2>
           <div className="bg-white rounded-xl shadow-sm p-8">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
@@ -308,16 +291,16 @@ export default function FaaliyetAlanlari() {
         </Reveal>
       </section>
 
-      {/* Şirket Kuruluşu Hakkında SSS */}
+      {/* Company Formation FAQ */}
       <section className="py-16 md:py-24 bg-white">
         <Reveal className="max-w-4xl mx-auto px-4">
           <h2 className="font-title text-3xl md:text-4xl text-[#0c2044] text-center mb-4">
-            Şirket Kuruluşu Hakkında SSS
+            Frequently Asked Questions
           </h2>
           <p className="text-slate-600 text-center mb-10 max-w-3xl mx-auto">
-            Keystone Partners, müşterilerine 10 ülkede ve 13 dilde kapsamlı Şirket Kurma
-            hizmetleri sunmaktadır ve aşağıda uygulama alanlarımızın tüm yönleriyle ilgili
-            SSS&apos;leri bulacaksınız.
+            Keystone Partners provides comprehensive company formation services
+            across 10 jurisdictions and 13 languages. Below you will find
+            frequently asked questions about all aspects of our practice areas.
           </p>
           <div className="divide-y divide-slate-200">
             {faaliyetFaqItems.map((q) => (
@@ -331,7 +314,7 @@ export default function FaaliyetAlanlari() {
               rel="noopener noreferrer"
               className="inline-block bg-[#0B1E3D] text-white px-10 py-3 rounded-full hover:bg-blue-900 transition"
             >
-              Hemen Bize Ulaşın
+              Contact Us Now
             </a>
           </div>
         </Reveal>
@@ -340,15 +323,15 @@ export default function FaaliyetAlanlari() {
       {/* Bottom: Referanslarımız + İletişime Geçin */}
       <section className="py-16 md:py-24 bg-[#f4f7fa]">
         <Reveal className="max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-12">
-          {/* Referanslarımız */}
+          {/* Our Clients */}
           <div>
             <h2 className="font-title text-2xl md:text-3xl text-[#0c2044] mb-4">
-              Referanslarımız
+              Our Clients
             </h2>
             <p className="text-slate-600 text-sm leading-relaxed mb-6">
-              Müvekkillerimizin %51'i startup ve teknoloji firmalarıdır, hukuk
-              teknolojisine yakından uyum sağlamış uluslararası deneyimli bir ekibe
-              sahibiz ve aşağıdaki gibi çeşitli şirketlerle ortaklık kurduk.
+              51% of our clients are startups and technology companies. We have
+              an internationally experienced team closely aligned with legal
+              technology and have established partnerships with leading enterprises.
             </p>
             <div className="grid grid-cols-3 gap-4">
               {faaliyetReferanslari.map((r) => (
@@ -366,25 +349,25 @@ export default function FaaliyetAlanlari() {
             </div>
           </div>
 
-          {/* İletişime Geçin */}
+          {/* Contact Us */}
           <div>
             <h2 className="font-title text-2xl md:text-3xl text-[#0c2044] mb-6">
-              İletişime Geçin
+              Contact Us
             </h2>
             <form className="space-y-4" onSubmit={(e) => e.preventDefault()}>
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-sm text-slate-600 mb-1">İsim</label>
+                  <label className="block text-sm text-slate-600 mb-1">Name</label>
                   <input type="text" className="w-full border border-slate-300 rounded px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-accent" />
                 </div>
                 <div>
-                  <label className="block text-sm text-slate-600 mb-1">Telefon</label>
+                  <label className="block text-sm text-slate-600 mb-1">Phone</label>
                   <input type="tel" className="w-full border border-slate-300 rounded px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-accent" />
                 </div>
               </div>
               <div className="grid grid-cols-2 gap-4">
                 <div>
-                  <label className="block text-sm text-slate-600 mb-1">Ülke:</label>
+                  <label className="block text-sm text-slate-600 mb-1">Country</label>
                   <select className="w-full border border-slate-300 rounded px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-accent bg-white">
                     {ulkeler.map((u) => (
                       <option key={u}>{u}</option>
@@ -397,13 +380,13 @@ export default function FaaliyetAlanlari() {
                 </div>
               </div>
               <div>
-                <label className="block text-sm text-slate-600 mb-1">Mesaj</label>
+                <label className="block text-sm text-slate-600 mb-1">Message</label>
                 <textarea rows={4} className="w-full border border-slate-300 rounded px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-accent" />
               </div>
               <div className="bg-slate-50 border border-slate-200 rounded p-3 flex items-center justify-between">
                 <label className="flex items-center gap-2 text-sm text-slate-600">
                   <input type="checkbox" className="w-5 h-5 rounded border-slate-300" />
-                  Ben robot değilim
+                  I'm not a robot
                 </label>
                 <span className="text-xs text-slate-400">reCAPTCHA</span>
               </div>
@@ -411,7 +394,7 @@ export default function FaaliyetAlanlari() {
                 type="submit"
                 className="bg-[#0B1E3D] text-white px-8 py-3 rounded-full text-sm font-semibold hover:bg-blue-900 transition"
               >
-                GÖNDER
+                SUBMIT
               </button>
             </form>
           </div>
