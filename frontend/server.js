@@ -6,7 +6,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
+const HOST = "0.0.0.0";
 
 app.use(express.static(join(__dirname, "dist")));
 
@@ -14,6 +15,6 @@ app.get("/{*splat}", (_req, res) => {
   res.sendFile(join(__dirname, "dist", "index.html"));
 });
 
-app.listen(PORT, "0.0.0.0", () => {
-  console.log("Server running on port " + PORT);
+app.listen(PORT, HOST, () => {
+  console.log(`Server strictly listening on http://${HOST}:${PORT}`);
 });
