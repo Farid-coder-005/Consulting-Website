@@ -1,95 +1,75 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { PageTransition, Reveal } from "../components/motion";
 import { CtaBand } from "../components/inner";
 import { memberships, WHATSAPP_URL } from "../content";
+import { serviceDetails } from "../content/services";
 
 const HERO_BG =
   "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&q=80";
 
-const practiceAreas = [
-  {
-    title: "BT & Blockchain Hukuku",
-    desc: "Blockchain Law Lab, Keystone Partners'ın ana şirketidir. Bir blok zinciri şirketi için yasal hizmet sağlayıcılarının öncüsüyüz. Çok uluslu ekibimiz, dünya çapında blockchain ve diğer BT Şirketlerine danışmanlık yapmaktadır.",
-    icon: (
-      <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <rect x="14" y="14" width="20" height="20" rx="2" />
-        <rect x="6" y="6" width="12" height="12" rx="1" />
-        <rect x="30" y="6" width="12" height="12" rx="1" />
-        <rect x="6" y="30" width="12" height="12" rx="1" />
-        <rect x="30" y="30" width="12" height="12" rx="1" />
-        <line x1="18" y1="12" x2="30" y2="12" />
-        <line x1="18" y1="36" x2="30" y2="36" />
-        <line x1="12" y1="18" x2="12" y2="30" />
-        <line x1="36" y1="18" x2="36" y2="30" />
-      </svg>
-    ),
-  },
-  {
-    title: "Uluslararası Ticaret Hukuku ve Sözleşmeler",
-    desc: "Keystone Partners dünya çapında 400'den fazla uluslararası şirketi temsil etmektedir. Çok uluslu ekibimiz, uluslararası ticarette yasal uyum ve risk yönetimi konularında kayda değer bir deneyime sahiptir.",
-    icon: (
-      <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <path d="M8 28c0 0 4-8 16-8s16 8 16 8" />
-        <path d="M14 20l4 4-4 4" />
-        <path d="M34 20l-4 4 4 4" />
-        <line x1="18" y1="24" x2="30" y2="24" />
-      </svg>
-    ),
-  },
-  {
-    title: "Şirket Birleşmeleri ve Satın Almalar",
-    desc: "Keystone Partners, 10 ülkede birleşme ve satın alma süreçlerinde önemli bir deneyime sahiptir.",
-    icon: (
-      <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <rect x="4" y="12" width="14" height="24" rx="1" />
-        <rect x="22" y="6" width="10" height="30" rx="1" />
-        <rect x="34" y="16" width="10" height="20" rx="1" />
-        <path d="M18 24h4" />
-        <path d="M32 24h2" />
-      </svg>
-    ),
-  },
-  {
-    title: "Uluslararası Şirketleşme & Kuruluş",
-    desc: "Keystone Partners, 10'dan fazla ülkede şirket kuruluşu, vergi danışmanlığı ve hukuki hizmetler sunarak müşterilerinin uluslararası büyümesini destekler.",
-    icon: (
-      <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <circle cx="24" cy="24" r="16" />
-        <ellipse cx="24" cy="24" rx="8" ry="16" />
-        <line x1="8" y1="24" x2="40" y2="24" />
-        <line x1="24" y1="8" x2="24" y2="40" />
-      </svg>
-    ),
-  },
-  {
-    title: "Gayrimenkul Hukuku ve Yatırım",
-    desc: "Gayrimenkul yatırımlarında hukuki danışmanlık, tapu işlemleri, kira sözleşmeleri ve yatırım süreçlerinde uçtan uca destek sağlıyoruz.",
-    icon: (
-      <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <path d="M6 22l18-14 18 14" />
-        <rect x="10" y="22" width="28" height="18" rx="1" />
-        <rect x="18" y="30" width="12" height="10" rx="1" />
-      </svg>
-    ),
-  },
-  {
-    title: "Kurumsal Hizmetler",
-    desc: "Keystone Partners'ın ana şirketi olan Keystone Danışmanlık ile muhasebe, defter tutma, raporlama ve vergi uyumu hizmetleri sunuyoruz.",
-    icon: (
-      <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <circle cx="24" cy="12" r="5" />
-        <circle cx="10" cy="20" r="4" />
-        <circle cx="38" cy="20" r="4" />
-        <circle cx="16" cy="34" r="4" />
-        <circle cx="32" cy="34" r="4" />
-        <line x1="24" y1="17" x2="14" y2="20" />
-        <line x1="24" y1="17" x2="34" y2="20" />
-        <line x1="14" y1="24" x2="16" y2="30" />
-        <line x1="34" y1="24" x2="32" y2="30" />
-      </svg>
-    ),
-  },
-];
+const faaliyetIcons: Record<string, React.ReactNode> = {
+  "company-formation": (
+    <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
+      <circle cx="24" cy="24" r="16" />
+      <ellipse cx="24" cy="24" rx="8" ry="16" />
+      <line x1="8" y1="24" x2="40" y2="24" />
+      <line x1="24" y1="8" x2="24" y2="40" />
+    </svg>
+  ),
+  "tax-consulting": (
+    <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
+      <rect x="8" y="12" width="32" height="28" rx="2" />
+      <path d="M16 12V8h16v4" />
+      <line x1="8" y1="20" x2="40" y2="20" />
+      <line x1="16" y1="28" x2="32" y2="28" />
+      <line x1="16" y1="34" x2="26" y2="34" />
+    </svg>
+  ),
+  accounting: (
+    <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
+      <rect x="10" y="6" width="28" height="36" rx="2" />
+      <line x1="16" y1="14" x2="32" y2="14" />
+      <line x1="16" y1="20" x2="32" y2="20" />
+      <line x1="16" y1="26" x2="28" y2="26" />
+      <line x1="16" y1="32" x2="24" y2="32" />
+    </svg>
+  ),
+  legal: (
+    <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
+      <path d="M24 6L6 18h36L24 6z" />
+      <rect x="8" y="18" width="32" height="4" />
+      <line x1="14" y1="22" x2="14" y2="38" />
+      <line x1="24" y1="22" x2="24" y2="38" />
+      <line x1="34" y1="22" x2="34" y2="38" />
+      <rect x="6" y="38" width="36" height="4" />
+    </svg>
+  ),
+  immigration: (
+    <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
+      <rect x="6" y="8" width="36" height="32" rx="2" />
+      <circle cx="24" cy="22" r="6" />
+      <path d="M14 36c0-5.5 4.5-10 10-10s10 4.5 10 10" />
+    </svg>
+  ),
+  "real-estate": (
+    <svg className="w-12 h-12" viewBox="0 0 48 48" fill="none" stroke="currentColor" strokeWidth="1.5">
+      <path d="M6 24l18-14 18 14" />
+      <rect x="10" y="24" width="28" height="18" rx="1" />
+      <rect x="18" y="30" width="12" height="12" rx="1" />
+    </svg>
+  ),
+};
+
+const practiceAreas = serviceDetails.map((s) => ({
+  title: s.title,
+  desc: s.shortDesc,
+  fullDesc: s.fullDesc,
+  benefits: s.benefits,
+  countries: s.countries,
+  slug: s.slug,
+  icon: faaliyetIcons[s.slug] || faaliyetIcons["company-formation"],
+}));
 
 const faaliyetReferanslari = [
   { src: "/Partner.jpg", alt: "Doğuş Group" },
@@ -166,6 +146,9 @@ function FaqItem({ question }: { question: string }) {
 }
 
 export default function FaaliyetAlanlari() {
+  const { t } = useTranslation();
+  const [expandedSlug, setExpandedSlug] = useState<string | null>(null);
+
   return (
     <PageTransition>
       {/* Hero banner */}
@@ -193,19 +176,79 @@ export default function FaaliyetAlanlari() {
           <h2 className="font-title text-3xl md:text-4xl text-[#0c2044] text-center mb-12">
             Uygulama Alanlarımız
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-0">
-            {practiceAreas.map((area, i) => (
-              <div
-                key={area.title}
-                className={`text-center px-8 py-10 ${
-                  i % 3 !== 2 ? "md:border-r border-slate-300" : ""
-                } ${i < 3 ? "border-b border-slate-300 md:border-b-0" : ""}`}
-              >
-                <div className="flex justify-center text-[#0c2044] mb-5">{area.icon}</div>
-                <h3 className="font-title text-xl font-bold text-[#0c2044] mb-4">{area.title}</h3>
-                <p className="text-slate-600 text-sm leading-relaxed">{area.desc}</p>
-              </div>
-            ))}
+          <div className="space-y-6">
+            {practiceAreas.map((area) => {
+              const isExpanded = expandedSlug === area.slug;
+              return (
+                <div
+                  key={area.slug}
+                  className={`bg-white rounded-xl shadow-sm overflow-hidden transition-shadow ${
+                    isExpanded ? "shadow-lg" : ""
+                  }`}
+                >
+                  <div className="flex items-start gap-6 p-8">
+                    <div className="text-[#0c2044] shrink-0">{area.icon}</div>
+                    <div className="flex-1">
+                      <h3 className="font-title text-xl font-bold text-[#0c2044] mb-3">
+                        {area.title}
+                      </h3>
+                      <p className="text-slate-600 text-sm leading-relaxed">
+                        {area.desc}
+                      </p>
+                      <button
+                        type="button"
+                        onClick={() =>
+                          setExpandedSlug(isExpanded ? null : area.slug)
+                        }
+                        className="mt-3 text-[#0c2044] text-sm font-semibold hover:underline"
+                      >
+                        {isExpanded
+                          ? t("common.close")
+                          : t("common.read_more")}
+                      </button>
+                      {isExpanded && (
+                        <div className="mt-6 space-y-6 border-t border-slate-200 pt-6">
+                          <p className="text-slate-600 text-sm leading-relaxed">
+                            {area.fullDesc}
+                          </p>
+                          <div>
+                            <h4 className="font-heading font-semibold text-[#0c2044] mb-3">
+                              Key Benefits
+                            </h4>
+                            <ul className="grid sm:grid-cols-2 gap-2">
+                              {area.benefits.map((b) => (
+                                <li
+                                  key={b}
+                                  className="flex items-start gap-2 text-sm text-slate-600"
+                                >
+                                  <span className="text-accent mt-1">✓</span>
+                                  {b}
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                          <div>
+                            <h4 className="font-heading font-semibold text-[#0c2044] mb-2">
+                              Available In
+                            </h4>
+                            <div className="flex flex-wrap gap-2">
+                              {area.countries.map((c) => (
+                                <span
+                                  key={c}
+                                  className="bg-slate-100 text-slate-600 text-xs px-3 py-1 rounded-full"
+                                >
+                                  {c}
+                                </span>
+                              ))}
+                            </div>
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
           </div>
         </Reveal>
       </section>
